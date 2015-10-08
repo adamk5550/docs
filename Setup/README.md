@@ -14,4 +14,4 @@ Where relevant, the instructions will also include:
 
 Complete the steps outlined in the following documents:
 
-* 1: Git
+1. [Git](1 Git.md)
