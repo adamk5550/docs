@@ -2,6 +2,19 @@
 
 [git]: http://git-scm.com/
 
+## Contents
+
+- [Overview](#overview)
+- [Installing Git](#installing-git)
+  - [Apple OSX](#apple-osx)
+    - [With Xcode](#with-xcode)
+    - [Without Xcode](#without-xcode)
+  - [Microsoft Windows](#microsoft-windows)
+- [Accessing Command Line Git](#accessing-command-line-git)
+  - [Apple OSX](#apple-osx-1)
+  - [Microsoft Windows](#microsoft-windows-1)
+- [Git Configuration](#git-configuration)
+
 ## Overview
 
 Git is a distributed version control system used by the Newcastle Mobility team to manage code, during and after development. It provides the following benefits:
