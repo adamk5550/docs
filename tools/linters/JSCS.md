@@ -2,7 +2,7 @@
 
 > JSCS — JavaScript Code Style is a code style linter which checks your code against your chosen preset coding standard. See [mdevils/node-jscs](https://github.com/mdevils/node-jscs) for more informations about JSCS.
 
-We recommend that you use this with Atom however it is available on a range of other tools.
+We recommend that you use this with Atom however it is available on a range of other tools. I will be looking into using JSCS with Gulp which will allow everyone to use the tool.
 
 
 The following installation and setup is for Atom and the Airbnb ES5 coding standards.
