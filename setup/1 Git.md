@@ -30,13 +30,13 @@ This page will guide you through installing Git, using SSH keys to authenticate 
 Git is a piece of software that needs installing on your computer to be used. First use the command line to check if Git is already installed.
 
 - **Apple OSX:** *Terminal*
-- **Microsoft Windows:** Command Prompt
+- **Microsoft Windows:** *Command Prompt*
 
 ```bash
 git --version
 ```
 
-If a version number is returned, Git is installed and ready to use and you may skip to the next step.
+If a version number is returned, Git is installed and ready to use and you may [skip](#accessing-command-line-git) to the next step.
 
 ### Apple OSX
 
@@ -77,7 +77,7 @@ Open a new *Terminal* window. If need be *Terminal* can be found via Spotlight, 
 
 If the Git installation instructions above were followed correctly, Git can now be accessed via the *Git Bash* application.
 
-This is built on Command Prompt and allows access to the UNIX Bash shell, allowing you to use basic UNIX commands on your computer.
+This is built on *Command Prompt* and allows access to the UNIX Bash shell, allowing you to use basic UNIX commands on your computer.
 
 ## Git Configuration
 
