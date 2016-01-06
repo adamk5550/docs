@@ -37,12 +37,14 @@ ES6 introduces two new variable types, `let` and `const`. Both of these are *blo
 
 ```javascript
 // ES5 - Before
-var name = 'John';
-var sum  = price + vat;
+var name  = 'Tomatoes';
+var price = 0.4;
+price = 0.45;
 
 // ES6 - After
-const name = 'John';
-let sum = price + vat;
+const name  = 'Tomatoes';
+let price = 0.4;
+price = 0.45;
 ```
 
 ### Object Property Shorthands
@@ -65,8 +67,8 @@ var person = {
 };
 
 // ES6 - After
-let name = 'John';
-let person = {
+const name = 'John';
+const person = {
   name,
   function talk() {
     console.log('Hello!');
@@ -77,3 +79,37 @@ let person = {
 ## New Patterns for ES6
 
 In this section you'll find new design patterns that have been introduced with ES6. They allow new ways of solving problems and should be considered going forward.
+
+### Array Spreads
+
+When declaring a function it is now possible to capture a variable number of arguments as an array. This is particularly useful when you're not sure how many arguments to expect, or want to allow the function to work with any number of arguments.
+
+There are ways of achieving this in ES5 but they're not pretty: the `arguments` object can be converted into an array of values, or an array can be directly passed to the function. Array spreads are much more elegant:
+
+```javascript
+const printLines = function printLines(...lines) {
+  lines.forEach(line => {
+    console.log(line);
+  });
+}
+
+printLines('Hello world!');
+printLines('Carrots', 'Broccoli', 'Tomatoes');
+```
+```
+Hello World!
+Carrots
+Broccoli
+Tomatoes
+```
+
+Array spreads can also be used for concatenating multiple arrays together in more complex ways than `Array.concat()` allows (although this should always be used where practical):
+
+```javascript
+const small = [1, 2, 3];
+const large = [5, 6, 7];
+const all = [...small, 4, ...large];
+```
+```javascript
+[ 1, 2, 3, 4, 5, 6, 7 ]
+```
