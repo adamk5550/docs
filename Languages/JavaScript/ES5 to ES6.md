@@ -25,6 +25,8 @@ This is particularly important as the big web libraries: AngularJS, ReactJS and 
 
 This guide is designed to show you exactly how coding with ES6 is different to ES5 and highlight how your coding habits will change as a result.
 
+As before, Newcastle Mobility will be following the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), but no longer specifically following the ES5 variation.
+
 ## ES6 Patterns Replacing ES5 Patterns
 
 In this section you'll find all of the ES5 design patterns you're currently using that have changed in ES6.
@@ -39,7 +41,7 @@ ES6 introduces two new variable types, `let` and `const`. Both of these are *blo
 
 `const` is to be used for any variable declaration that is not expected to change, such as an IP address. Although it will not complain when you try, the value of a `const` cannot be changed.
 
-**Usage:** Use `const` for variables that won't change, otherwise use `let`. Only use `var` when a variable absolutely needs to be *function scoped*.
+**Usage:** Use `const` for variables that won't change, otherwise use `let`. Only use `var` when a variable absolutely needs to be *function scoped*. Group `const` and `let` declarations for readability.
 
 ```javascript
 // ES5 - Before
@@ -201,12 +203,12 @@ ES6 brings with it support for default arguments for functions. This allows a fu
 ```javascript
 // ES5 - Before
 var outputMessage = function outputMessage(message) {
-  var message = message || 'No message :(';
+  var message = message || 'No message!';
   console.log(message);
 };
 
 // ES6 - After
-const outputMessage = function outputMessage(message = 'No message :(') {
+const outputMessage = function outputMessage(message = 'No message!') {
   console.log(message);
 };
 ```
