@@ -31,9 +31,9 @@ In ES5 using `var` before variables is encouraged as it makes the variable *func
 
 ES6 introduces two new variable types, `let` and `const`. Both of these are *block scoped*. This means that when declared inside a block, the variable will cease to exist when the block terminates.
 
-`const` is to be used for any variable declaration that is not expected to change, such as an IP address. Although it will not complain when you try, changing the value of a `const` is impossible.
+`const` is to be used for any variable declaration that is not expected to change, such as an IP address. Although it will not complain when you try, the value of a `const` cannot be changed.
 
-**Usage:** Use `const` for variables that won't change, otherwise use `let`. Only use `var` when a variable absolutely needs to be *function-scoped*.
+**Usage:** Use `const` for variables that won't change, otherwise use `let`. Only use `var` when a variable absolutely needs to be *function scoped*.
 
 ```javascript
 // ES5 - Before
