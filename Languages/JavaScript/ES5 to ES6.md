@@ -82,6 +82,8 @@ In this section you'll find new design patterns that have been introduced with E
 
 ### Array Spreads
 
+*As of Node.js 5.3.0 the `--harmony` option is required to use this feature.*
+
 When declaring a function it is now possible to capture a variable number of arguments as an array. This is particularly useful when you're not sure how many arguments to expect, or want to allow the function to work with any number of arguments.
 
 There are ways of achieving this in ES5 but they're not pretty: the `arguments` object can be converted into an array of values, or an array can be directly passed to the function. Array spreads are much more elegant:
@@ -112,4 +114,35 @@ const all = [...small, 4, ...large];
 ```
 ```javascript
 [ 1, 2, 3, 4, 5, 6, 7 ]
+```
+
+Array spreads are now also the standard way of making a copy of an array, remembering that arrays are normally *pass by reference*:
+
+```javascript
+const arrayCopy = [...originalArray];
+```
+
+### Object and Array Destructuring
+
+*As of Node.js 5.3.0 the `--harmony_destructuring` option is required to use this feature.*
+
+ES6 provides a new way of extracting variables from objects and arrays called destructuring. This is much more elegant than writing a variable assignment line per variable, and considerably more readable.
+
+For objects this works by specifying the properties to turn into variables (the key becomes the variable name). For arrays new variable names are specified and the array values are assigned in order.
+
+Note that the variable scope is still defined.
+
+```javascript
+const array = ['meow', 'purr', 'hiss'];
+const object = { animal: 'cat', colour: 'black', name: 'Whiskers' };
+
+// ES5 - Before
+var first = array[0];
+var second = array[1];
+var name = object.name;
+var colour = object.colour;
+
+// Es6 - After
+const [ first, second ] = array;
+const { name, colour } = object;
 ```
