@@ -45,6 +45,35 @@ const name = 'John';
 let sum = price + vat;
 ```
 
+### Object Property Shorthands
+
+In ES5 you have to be explicit when naming object properties when creating a new object. This includes properties created from variables of the same name, and function properties.
+
+ES6 introduces some readable shortcuts for both of these property declarations:
+
+* If a property and variable share the same name, omit the property name. Group these at the top of the object.
+* When defining a function property, name the function and omit the property name.
+
+```javascript
+// ES5 - Before
+var name = 'John';
+var person = {
+  name: name,
+  talk: function() {
+    console.log('Hello!');
+  }
+};
+
+// ES6 - After
+let name = 'John';
+let person = {
+  name,
+  function talk() {
+    console.log('Hello!');
+  }
+};
+```
+
 ## New Patterns for ES6
 
 In this section you'll find new design patterns that have been introduced with ES6. They allow new ways of solving problems and should be considered going forward.
