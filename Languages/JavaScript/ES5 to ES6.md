@@ -12,7 +12,8 @@
   - [Arrow Functions](#arrow-functions)
 - [New Patterns for ES6](#new-patterns-for-es6)
   - [Array Spreads](#array-spreads)
-  - [Object and Array Destructuring](#object-and-array-destructuring
+  - [Object and Array Destructuring](#object-and-array-destructuring)
+  - [Default Arguments](#default-arguments)
 
 ## Introduction
 
@@ -191,4 +192,21 @@ var colour = object.colour;
 // Es6 - After
 const [ first, second ] = array;
 const { name, colour } = object;
+```
+
+### Default Arguments
+
+ES6 brings with it support for default arguments for functions. This allows a function to have a defined value that is used only when the function call does not specify another value. This is a long awaited feature as it means we can stop using silly workarounds to use this functionality:
+
+```javascript
+// ES5 - Before
+var outputMessage = function outputMessage(message) {
+  var message = message || 'No message :(';
+  console.log(message);
+};
+
+// ES6 - After
+const outputMessage = function outputMessage(message = 'No message :(') {
+  console.log(message);
+};
 ```
