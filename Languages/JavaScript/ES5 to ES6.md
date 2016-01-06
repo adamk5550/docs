@@ -9,9 +9,10 @@
   - [Variable Scope](#variable-scope)
   - [Object Property Shorthands](#object-property-shorthands)
   - [Template Strings](#template-strings)
+  - [Arrow Functions](#arrow-functions)
 - [New Patterns for ES6](#new-patterns-for-es6)
   - [Array Spreads](#array-spreads)
-  - [Object and Array Destructuring](#object-and-array-destructuring)
+  - [Object and Array Destructuring](#object-and-array-destructuring
 
 ## Introduction
 
@@ -98,6 +99,28 @@ const sentence = `My cat is called ${name}. ${name} likes ${food}!`;
 ```
 
 It should be noted that anything inside of the braces in a template string is evaluated as normal JavaScript, so anything such as object/array references and operators can be used.
+
+### Arrow Functions
+
+The usual way of defining anonymous functions in ES5 is changing dramatically in favour of ES6's more succinct format. Arrow functions do away with the word `function` appearing frequently, but also have the added benefit of executing the function in the context of `this`, which can be useful depending on what you're doing.
+
+Arrow functions start by defining the function arguments in the usual round brackets, followed by an arrow (or rocket) `=>` and the usual function block:
+
+```javascript
+const breeds = ['siamese', 'persian', 'bengal', 'manx'];
+
+// ES6 - Before
+breeds.sort(function(a, b) { ... });
+
+// ES6 - After
+breeds.sort((a, b) => { ... });
+```
+
+When the arrow function only has one argument, omit the surrounding brackets:
+
+```javascript
+breeds.forEach(breed => { console.log(breed); });
+```
 
 ## New Patterns for ES6
 
