@@ -7,7 +7,11 @@
 - [Introduction](#introduction)
 - [ES6 Patterns Replacing ES5 Patterns](#es6-patterns-replacing-es5-patterns)
   - [Variable Scope](#variable-scope)
+  - [Object Property Shorthands](#object-property-shorthands)
+  - [Template Strings](#template-strings)
 - [New Patterns for ES6](#new-patterns-for-es6)
+  - [Array Spreads](#array-spreads)
+  - [Object and Array Destructuring](#object-and-array-destructuring)
 
 ## Introduction
 
@@ -75,6 +79,25 @@ const person = {
   }
 };
 ```
+
+### Template Strings
+
+Concatenating (joning together) strings in ES5 can be a chore, usually involving lots of `+` operators. Occasionally you'll come across some code where someone has got sick of this and instead assembled an array and used `Array.join()` on it, or worse, used `Array.concat()`. It can get messy.
+
+Thankfully ES6 has came to our rescue and provided a much simpler (and shorter) way of constructing strings. Template strings use interpolation to achieve the same goal in a much more elegant way:
+
+```javascript
+const name = 'Fluffy';
+const food = 'fish';
+
+// ES5 - Before
+var sentence = 'My cat is called ' + name + '. ' + name + ' likes ' + food + '!';
+
+// ES6 - After
+const sentence = `My cat is called ${name}. ${name} likes ${food}!`;
+```
+
+It should be noted that anything inside of the braces in a template string is evaluated as normal JavaScript, so anything such as object/array references and operators can be used.
 
 ## New Patterns for ES6
 
