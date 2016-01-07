@@ -148,7 +148,7 @@ printLines('Hello world!');
 printLines('Carrots', 'Broccoli', 'Tomatoes');
 ```
 ```
-Hello World!
+Hello world!
 Carrots
 Broccoli
 Tomatoes
