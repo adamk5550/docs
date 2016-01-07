@@ -31,7 +31,7 @@ As before, Newcastle Mobility will be following the [Airbnb JavaScript Style Gui
 
 In this section you'll find all of the ES5 design patterns you're currently using that have changed in ES6.
 
-**Note:** Failure to adopt to these changes will see your code fail code review!
+**Note:** Failure to adapt to these changes will see your code fail code review!
 
 ### Variable Scope
 
@@ -86,9 +86,9 @@ const person = {
 
 ### Template Strings
 
-Concatenating (joning together) strings in ES5 can be a chore, usually involving lots of `+` operators. Occasionally you'll come across some code where someone has got sick of this and instead assembled an array and used `Array.join()` on it, or worse, used `Array.concat()`. It can get messy.
+Concatenating (joining together) strings in ES5 can be a chore, usually involving lots of `+` operators. Occasionally you'll come across some code where someone has got sick of this and instead assembled an array and used `Array.join()` on it, or worse, used `Array.concat()`. It can get messy.
 
-Thankfully ES6 has came to our rescue and provided a much simpler (and shorter) way of constructing strings. Template strings use interpolation to achieve the same goal in a much more elegant way:
+Thankfully ES6 has came to our rescue and provided a much simpler (and shorter) way of constructing strings; template strings use interpolation to achieve the same goal in a much more elegant way, and are surrounded by backticks `` ` `` instead of apostrophes.
 
 ```javascript
 const name = 'Fluffy';
@@ -112,7 +112,7 @@ Arrow functions start by defining the function arguments in the usual round brac
 ```javascript
 const breeds = ['siamese', 'persian', 'bengal', 'manx'];
 
-// ES6 - Before
+// ES5 - Before
 breeds.sort(function(a, b) { ... });
 
 // ES6 - After
@@ -133,25 +133,46 @@ In this section you'll find new design patterns that have been introduced with E
 
 *As of Node.js 5.3.0 the `--harmony` option is required to use this feature.*
 
-When declaring a function it is now possible to capture a variable number of arguments as an array. This is particularly useful when you're not sure how many arguments to expect, or want to allow the function to work with any number of arguments.
+With ES6 it is now possible to create a function that can easily handle an unknown quantity of arguments. This can occasionally be useful when you want a function to be flexible and cater to differing scenarios.
 
 There are ways of achieving this in ES5 but they're not pretty: the `arguments` object can be converted into an array of values, or an array can be directly passed to the function. Array spreads are much more elegant:
 
 ```javascript
-const printLines = function printLines(...lines) {
-  lines.forEach(line => {
-    console.log(line);
-  });
-}
+// ES5 - arguments object
+var sumNumbers = function sumNumbers() {
+  var total = 0;
 
-printLines('Hello world!');
-printLines('Carrots', 'Broccoli', 'Tomatoes');
+  for (index in arguments) {
+    total += arguments[index];
+  }
+
+  return total;
+};
+
+sumNumbers(5, 15);
+sumNumbers(1, 3, 5);
 ```
+```javascript
+// ES5 - pass by array
+var sumNumbers = function sumNumbers(numbers) {
+  return numbers.reduce(function(prev, cur) {
+    return prev + cur;
+  });
+};
+
+sumNumbers([5, 15]);
+sumNumbers([1, 3, 5]);
 ```
-Hello world!
-Carrots
-Broccoli
-Tomatoes
+```javascript
+// ES6 - array spreads
+const sumNumbers = function sumNumbers(...numbers) {
+  return numbers.reduce((prev, cur) => {
+    return prev + cur;
+  });
+};
+
+sumNumbers(5, 15);
+sumNumbers(1, 3, 5);
 ```
 
 Array spreads can also be used for concatenating multiple arrays together in more complex ways than `Array.concat()` allows (although this should always be used where practical):
@@ -191,7 +212,7 @@ var second = array[1];
 var name = object.name;
 var colour = object.colour;
 
-// Es6 - After
+// ES6 - After
 const [ first, second ] = array;
 const { name, colour } = object;
 ```
