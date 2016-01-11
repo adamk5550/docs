@@ -45,12 +45,12 @@ ES6 introduces two new variable types, `let` and `const`. Both of these are *blo
 
 ```javascript
 // ES5 - Before
-var name  = 'Tomatoes';
+var name = 'Tomatoes';
 var price = 0.4;
 price = 0.45;
 
 // ES6 - After
-const name  = 'Tomatoes';
+const name = 'Tomatoes';
 let price = 0.4;
 price = 0.45;
 ```
@@ -135,7 +135,7 @@ In this section you'll find new design patterns that have been introduced with E
 
 With ES6 it is now possible to create a function that can easily handle an unknown quantity of arguments. This can occasionally be useful when you want a function to be flexible and cater to differing scenarios.
 
-There are ways of achieving this in ES5 but they're not pretty: the `arguments` object can be converted into an array of values, or an array can be directly passed to the function. Array spreads are much more elegant:
+There are ways of achieving this in ES5 but they're not pretty: the `arguments` object can be converted into an array of values, or an array can be directly passed to the function. Array spreads `...` are much more elegant:
 
 ```javascript
 // ES5 - arguments object
@@ -224,7 +224,7 @@ ES6 brings with it support for default arguments for functions. This allows a fu
 ```javascript
 // ES5 - Before
 var outputMessage = function outputMessage(message) {
-  var message = message || 'No message!';
+  message = message || 'No message!';
   console.log(message);
 };
 
