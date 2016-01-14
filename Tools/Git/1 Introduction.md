@@ -4,6 +4,9 @@
 
 - [Overview](#overview)
 - [Advantages](#advantages)
+- [Concepts](#concepts)
+  - [Repositories](#repositories)
+  - [Remote vs. Local](#remote-vs-local)
 
 ## Overview
 
@@ -21,3 +24,11 @@ Git stores updates as references to the previous update. This ensures projects d
 
 - **Concurrent collaboration**  
 Git allows multiple developers to modify the same code at once through branching changes and intelligent merging.
+
+## Concepts
+
+This section will cover the most important concepts in Git which are key to understanding how Git works. If you are not using Git yourself but are working with developers who are, this section will give you an insight into the terms they use and what it means.
+
+### Repositories
+
+### Remote vs. Local
