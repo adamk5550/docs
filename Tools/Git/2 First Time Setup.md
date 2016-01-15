@@ -10,6 +10,7 @@
   - [OS X](#os-x-1)
   - [Microsoft Windows](#microsoft-windows-1)
 - [Configuration](#configuration)
+  - [Microsoft Windows](#microsoft-windows-2)
 - [SSH Key Generation](#ssh-key-generation)
   - [Checking for an Existing Key](#checking-for-an existing-key)
   - [Generating a New Key](#generating-a-new-key)
@@ -48,3 +49,38 @@ Run the Git installer file `.exe` and carefully consider each option presented o
 
 - **Configuring the line ending conversions**  
   Select *Checkout Windows-style, commit Unix-style line endings* (top option).
+
+## Using Command Line Git
+
+Once you have an operating system specific command line tool open, run the following command to verify that Git has been installed:
+
+```bash
+git --version
+```
+
+### OS X
+
+As OS X is a Unix-based operating system, no special software is required. Git can be accessed by opening **Terminal** via **Spotlight**.
+
+### Microsoft Windows
+
+Open **Git Bash** from the **Start menu**, either via *All Programs* or the search box.
+
+Using the Windows installation options provided above, Git will *not* work via **Windows Command Processor** / `cmd.exe`.
+
+## Configuration
+
+In order to use Git, particularly with enterprise managed repositories and Gerrit, it is necessary to run the following commands:
+
+```bash
+git config --global user.name enterprise.id
+git config --global user.email enterprise.id@company.com
+```
+
+### Microsoft Windows
+
+Windows users also need to run the following command to ensure that Git handles line endings correctly:
+
+```bash
+git config --global core.autocrlf true
+```
