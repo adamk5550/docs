@@ -126,12 +126,16 @@ Navigate to the Gerrit *SSH Public Keys* settings page. Settings can be found by
 
 Click the *Add Key ...* button, paste your public key part in the box and click *Add*.
 
+[!Gerrit SSH Public Keys, Add Key](https://github.com/adamkelsall/documentation/blob/git/Tools/Git/Images/first-time-setup-ssh-add.png?raw=true)
+
 ### Adding Gerrit Keys to Known Hosts
 
 Now that Gerrit has your public key, you need to do the opposite and add Gerrit's public keys to your `known_hosts` file.
 
 This file might not exist yet; if not, create `known_hosts` inside `.ssh/`.
 
-Still on the Gerrit *SSH Public Keys* settings page, each key is listed as *Server Host Key* at the bottom of the page. Clicking the small icon at the end of the keyu will copy it to your clipboard.
+Still on the Gerrit *SSH Public Keys* settings page, each key is listed as *Server Host Key* at the bottom of the page. Clicking the small icon at the end of the key will copy it to your clipboard.
+
+[!Gerrit SSH Public Keys, Server Host Keys](https://github.com/adamkelsall/documentation/blob/git/Tools/Git/Images/first-time-setup-ssh-keys.png?raw=true)
 
 Add each public key to `known_hosts`, one line per key with no trailing whitespace; this includes trailing newline characters, which some text editors such as Atom may automatically insert.
