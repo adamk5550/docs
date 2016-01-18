@@ -4,6 +4,7 @@
 
 - [git add](#git-add)
 - [git branch](#git-branch)
+- [git checkout](#git-checkout)
 - [git commit](#git-commit)
 - [git fetch](#git-fetch)
 - [git log](#git-log)
@@ -35,6 +36,75 @@ When the `--all` option is not used, `git add` requires a *pathspec* option to s
 |`Images/`    |directory|All files in the directory and below subdirectories.|
 |`*`          |wildcard |All files in or below the current directory.        |
 |`*.js`       |wildcard |All files ending in `.js` (JavaScript files).       |
+
+## git branch
+
+Primarily used for listing all of the branches present in the repository. Can also create and delete branches.
+
+Running `git branch` without arguments lists all local repo branches, one line each, with the currently checked out branch preceded with an asterisk `*`:
+
+```
+$ git branch
+  feature/ID-1234
+  feature/ID-1235
+* development
+  master
+```
+
+Running `git branch` proceeded with a unused branch name will branch from the HEAD (latest commit in the current branch) and create it, but not check it out. See [git checkout](#git-checkout) for more info about checking out branches.
+
+### Options
+
+#### -d, -D, --delete
+
+Deletes the branch specified after the option flag. `-D` is a forceful version of `-d` which can be used to delete branches not up to date with the remote repo.
+
+#### -v, -vv, --verbose
+
+Displays more information about the branches listed. `-v` shows the last commit message and SHA, `-vv` additionally shows upstream (linked remote) branches when present:
+
+```
+  feature/ID-1234 ba3c79b ID-1234: Corrected off-by-1 error in calculator
+  feature/ID-1235 2d68a63 ID-1235: Sass boilerplate
+* development     17b9f25 [origin/development] ID-1230: Added login screen
+  master          f4bdc1d [origin/master] Initial commit
+```
+
+## git checkout
+
+Checks out another branch in the local repository. This means changing the contents of the workspace to reflect the commits present in the targeted branch.
+
+```
+$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+```
+
+### Options
+
+#### -b
+
+Running `git branch -b` proceeded with an unused branch name will branch from the HEAD (latest commit in the current branch), create it and check it out immediately. See [git checkout](#git-checkout) for more info about checking out branches.
+
+## git commit
+
+Creates a new commit from the staged changes. See [git add](#git-add) for more info about the staging area and adding changes to it.
+
+`git commit` requires your name and email to be pre-configured - this is covered in [First Time Setup](../2%20First%20Time%20etup.md). Additionally Git will use your system's default command line text editor, which can be changed by running `git config --global core.editor vi`, replacing `vi` with your desired editor.
+
+When your text editor opens, several pre-populated, commented out (`#`) lines of configuration and [git status](#git-status) will be present. Write your commit message on one or more un-commented lines before save and exiting your editor. This will finalise the new commit.
+
+### Options
+
+#### -m, --message
+
+Enter the commit message as part of the `git commit` command instead of opening a command line text editor. Ensure that the string proceeding `-m` is surrounded with double-quotes `"` if spaces are present.
+
+#### --amend
+
+Amends the staged changes to the latest commit instead of creating a new commit. This will open your command line text editor to provide an opportunity to modify the commit message; as a result `-m` can be combined with `--amend`.
+
+`--amend` without any staged changes can be used to simply re-enter the latest commit's message.
 
 ## git reset
 
