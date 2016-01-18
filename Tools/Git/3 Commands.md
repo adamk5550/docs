@@ -90,7 +90,7 @@ Running `git branch -b` proceeded with an unused branch name will branch from th
 
 Creates a new commit from the staged changes. See [git add](#git-add) for more info about the staging area and adding changes to it.
 
-`git commit` requires your name and email to be pre-configured - this is covered in [First Time Setup](../2%20First%20Time%20etup.md). Additionally Git will use your system's default command line text editor, which can be changed by running `git config --global core.editor vi`, replacing `vi` with your desired editor.
+`git commit` requires your name and email to be pre-configured - this is covered in [First Time Setup](./2%20First%20Time%20Setup.md#configuration). Additionally Git will use your system's default command line text editor, which can be changed by running `git config --global core.editor vi`, replacing `vi` with your desired editor.
 
 When your text editor opens, several pre-populated, commented out (`#`) lines of configuration and [git status](#git-status) will be present. Write your commit message on one or more un-commented lines before save and exiting your editor. This will finalise the new commit.
 
