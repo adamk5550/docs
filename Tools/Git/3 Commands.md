@@ -55,6 +55,10 @@ Running `git branch` proceeded with a unused branch name will branch from the HE
 
 ### Options
 
+#### -a, --all
+
+Shows both local and remote branches, colour-coded green and red respectively. Useful for showing remote branches not yet tracked locally.
+
 #### -d, -D, --delete
 
 Deletes the branch specified after the option flag. `-D` is a forceful version of `-d` which can be used to delete branches not up to date with the remote repo.
@@ -105,6 +109,59 @@ Enter the commit message as part of the `git commit` command instead of opening 
 Amends the staged changes to the latest commit instead of creating a new commit. This will open your command line text editor to provide an opportunity to modify the commit message; as a result `-m` can be combined with `--amend`.
 
 `--amend` without any staged changes can be used to simply re-enter the latest commit's message.
+
+## git fetch
+
+Fetches objects from the remote repo that are currently being tracked in the local repo. This has the effect of getting the latest code for branches you are currently tracking, without applying the new changes to the branches immediately.
+
+### Options
+
+#### --all
+
+Fetches all remotes, even those not currently being tracked. For example if a branch has recently been created in the remote repo which is not in your local repo, it will still fetch these changes.
+
+## git log
+
+Displays a log of Git commits that exist in the current branch, sorted from most to least recent. For more info about commits, see [git commit](#git-commit).
+
+By default each commit is included in the log, with each showing about 4 lines of info. If the commit log is too long to fit on the current screen it is opened in a command line pager program such as `less`, which allows navigation through the log. `less` can be exited by pressing `q`.
+
+```
+$ git log
+commit 1ecc1f1688d23aae9feaa7d8cf4cf054cb3446c0
+Author: joe.bloggs <joe.bloggs@company.com>
+Date:   Wed Jan 20 09:56:10 2016 +0000
+
+    ID-1230: Added login screen
+
+commit 2f78a38e571a4382cc2689f4dfecf731669e505c
+Author: joe.bloggs <joe.bloggs@company.com>
+Date:   Tue Jan 19 16:27:53 2016 +0000
+
+    ID-1230: Configured user authentication controller
+
+commit 5de443519a20ef260368cda1bfbf28d0e4d84dbf
+Author: joe.bloggs <joe.bloggs@company.com>
+Date:   Tue Jan 19 15:46:39 2016 +0000
+
+    ID-1230: Angular.js boilerplate
+```
+
+### Options
+
+#### -n
+
+Limit the amount of recent commits shown to a specific number. This can be represented as `-n 5` or shortened to `-5`.
+
+#### --oneline
+
+Output one line per commit. Only the shortened commit SHA and message are displayed. Useful for checking large quantities of commits when only the commit message is needed.
+
+```
+1ecc1f1 ID-1230: Added login screen
+2f78a38 ID-1230: Configured user authentication controller
+5de4435 ID-1230: Angular.js boilerplate
+```
 
 ## git reset
 
