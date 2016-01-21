@@ -5,6 +5,7 @@
 - [git add](#git-add)
 - [git branch](#git-branch)
 - [git checkout](#git-checkout)
+- [git clone](#git-clone)
 - [git commit](#git-commit)
 - [git fetch](#git-fetch)
 - [git log](#git-log)
@@ -15,9 +16,7 @@
 
 ## git add
 
-Add a selection of changed files to the staging area. Files in the staging area will be part of the next commit, meaning commits don't have to include all changed files.
-
-See [git commit](#git-commit) for more info about commits.
+Add a selection of changed files to the staging area. Files in the staging area will be part of the next [commit](#git-commit); this allows commits that don't include all changes to be made.
 
 ### Options
 
@@ -89,6 +88,15 @@ Your branch is up-to-date with 'origin/master'.
 #### -b
 
 Running `git branch -b` proceeded with an unused branch name will branch from the HEAD (latest commit in the current branch), create it and check it out immediately. See [git checkout](#git-checkout) for more info about checking out branches.
+
+## git clone
+
+Create a new local repo by cloning the contents of a remote repo. A new directory for the repo will be created within the current directory.
+
+`git clone [url] [directory]`
+
+- **url:** A valid Git URL. Typically this is HTTP, HTTPS or SSH.
+- **directory:** Optional. The name of the new repo directory. If omitted, the remote repo's name is used.
 
 ## git commit
 
@@ -163,13 +171,77 @@ Output one line per commit. Only the shortened commit SHA and message are displa
 5de4435 ID-1230: Angular.js boilerplate
 ```
 
+## git pull/push
+
+- `git pull` applies a remote branch's changes to the current local branch.
+- `git push` applies the current local branch's changes to a remote branch.
+
+Both of these commands are responsible for synchronising changes between the local and remote repo, allowing code to be contributed to a project and propagated to other users. There are 4 parts to these commands:
+
+```
+git [action] [repository] [refspec]
+```
+
+- **action:** `pull` or `push`.
+- **repository:** a reference to the remote repo. When the local repo is [cloned](#git-clone) this us typically stored as `origin` which works like an alias for the remote repo URL.
+- **refspec:** usually a remote repo branch name, but can also be another reference.
+
+Pushing and pulling may fail if there are merge conflicts, permission issues (Gerrit) or the remote refspec is invalid.
+
+### Refspecs
+
+The table below shows some example refspecs and what running the command would do:
+
+|Example|Explanation|
+|-------|-----------|
+|`master`|Pull/push between the current local and the `master` remote branches.|
+|`development:master`|Pull/push between the local `development` and remote `master` branches.|
+|`:development`|When pushing, this pushes *nothing* to the `development` branch, destroying it permanently.|
+|`HEAD:refs/for/development`|When pushing, push changes into the Gerrit review area for the `development` branch.|
+
+## git remote
+
+Shows information about the remote repositories being tracked by the local repository. By default shows a list of the remotes.
+
+If the local repo has been cloned and no further remotes have been added, by default this will unhelpfully show very little:
+
+```
+$ git remote
+origin
+```
+
+### Options
+
+#### -v, --verbose
+
+Display remote URLs as well as separating remotes into `fetch` and `push` remotes:
+
+```
+$ git remote -v
+origin https://git.company.com/repos/example.git (fetch)
+origin https://git.company.com/repos/example.git (push)
+```
+
 ## git reset
 
 Removes a selection of changed files from the staging area. See [git add](#git-add) for more info about staging.
 
 ### Pathspecs
 
-`git reset` requires a *pathspec* option to specify which files to remove. This works in the same way as [git add](#git-add), see its pathspec section for examples.
+Without options, `git reset` requires a *pathspec* option to specify which files to remove. This works in the same way as [git add](#git-add), see its pathspec section for examples.
+
+### Options
+
+#### --soft
+
+Reset the branch to the given *refspec*, potentially changing the commits present in the current branch. The contents of the working directory however do not change; any previously committed differences are preserved and added to the staging area.
+
+- `git reset --soft master`: Reset to the same state as the local master branch.
+- `git reset --soft origin/master`: Reset to the same state as the local repo's stored remote master branch. This can be updated using [git fetch](#git-fetch).
+
+#### --hard
+
+Similar to `--soft` but permanently destroys any changes that would remain staged or unstaged. Do not use lightly.
 
 ## git status
 
