@@ -1,46 +1,46 @@
 # Git: Commands
 
+*Please note that command output color is not present in this document due to limitations with the Markdown file format.*
+
 ## Contents
 
-- [git add](#git-add)
-- [git branch](#git-branch)
-- [git checkout](#git-checkout)
-- [git clone](#git-clone)
-- [git commit](#git-commit)
-- [git fetch](#git-fetch)
-- [git log](#git-log)
-- [git pull/push](#git-pull-push)
-- [git remote](#git-remote)
-- [git reset](#git-reset)
-- [git status](#git-status)
+- Commands
+  - [git add](#git-add)
+  - [git branch](#git-branch)
+  - [git checkout](#git-checkout)
+  - [git clone](#git-clone)
+  - [git commit](#git-commit)
+  - [git fetch](#git-fetch)
+  - [git log](#git-log)
+  - [git pull/push](#git-pull-push)
+  - [git remote](#git-remote)
+  - [git reset](#git-reset)
+  - [git status](#git-status)
+- Patterns
+  - [pathspec](#pathspec)
+  - [refspec](#refspec)
 
 ## git add
 
-Add a selection of changed files to the staging area. Files in the staging area will be part of the next [commit](#git-commit); this allows commits that don't include all changes to be made.
+`git add [options] [pathspec]`
+
+Add a selection of changed files to the staging area. Files in the staging area will be part of the next [commit](#git-commit) - this allows commits that don't include all changes to be made.
+
+A *[pathspec](#pathspec)* is only required when `--all` is not present.
 
 ### Options
 
 #### -A, --all
 
-Adds all changed files in the workspace, regardless of the current directory.
-
-### Pathspecs
-
-When the `--all` option is not used, `git add` requires a *pathspec* option to specify which files to add:
-
-|Example      |Type     |What is Added                                       |
-|-------------|---------|----------------------------------------------------|
-|`file.txt`   |file     |The specific file.                                  |
-|`a.txt b.txt`|files    |The specific files.                                 |
-|`Images/`    |directory|All files in the directory and below subdirectories.|
-|`*`          |wildcard |All files in or below the current directory.        |
-|`*.js`       |wildcard |All files ending in `.js` (JavaScript files).       |
+Add all changed files in the workspace, regardless of the current directory.
 
 ## git branch
 
-Primarily used for listing all of the branches present in the repository. Can also create and delete branches.
+`git branch [options] [branch]`
 
-Running `git branch` without arguments lists all local repo branches, one line each, with the currently checked out branch preceded with an asterisk `*`:
+List all branches that exist in the local repository. Further options can be used to create and delete branches.
+
+By default and without providing a *branch* each line displays the branch name. The currently checked out branch is coloured green and preceded with an asterisk `*`:
 
 ```
 $ git branch
@@ -50,21 +50,21 @@ $ git branch
   master
 ```
 
-Running `git branch` proceeded with a unused branch name will branch from the HEAD (latest commit in the current branch) and create it, but not check it out. See [git checkout](#git-checkout) for more info about checking out branches.
+Providing a *branch* creates a new branch providing the branch name is unique and unused. The branch is created from the HEAD (latest commit in the current branch), but is not automatically [checked out](#git-checkout).
 
 ### Options
 
 #### -a, --all
 
-Shows both local and remote branches, colour-coded green and red respectively. Useful for showing remote branches not yet tracked locally.
+List both local and remote branches, coloured green and red respectively. Useful for showing remote branches not yet tracked locally.
 
 #### -d, -D, --delete
 
-Deletes the branch specified after the option flag. `-D` is a forceful version of `-d` which can be used to delete branches not up to date with the remote repo.
+Delete the provided *branch*. `-d` will refuse to delete branches not up to date with the remote repository, use `-D` to force delete.
 
 #### -v, -vv, --verbose
 
-Displays more information about the branches listed. `-v` shows the last commit message and SHA, `-vv` additionally shows upstream (linked remote) branches when present:
+Display more information when listing branches. `-v` adds the last commit message and shortened SHA, `-vv` additionally adds upstream (linked remote) branches when present:
 
 ```
   feature/ID-1234 ba3c79b ID-1234: Corrected off-by-1 error in calculator
@@ -75,7 +75,9 @@ Displays more information about the branches listed. `-v` shows the last commit 
 
 ## git checkout
 
-Checks out another branch in the local repository. This means changing the contents of the workspace to reflect the commits present in the targeted branch.
+`git checkout [options] [branch]`
+
+Check out another *[branch](#git-branch)* in the local repository. This effectively changes the contents of the workspace to reflect the commits present in the targeted branch:
 
 ```
 $ git checkout master
@@ -87,52 +89,55 @@ Your branch is up-to-date with 'origin/master'.
 
 #### -b
 
-Running `git branch -b` proceeded with an unused branch name will branch from the HEAD (latest commit in the current branch), create it and check it out immediately. See [git checkout](#git-checkout) for more info about checking out branches.
+Create a new *[branch](#git-branch)* providing the branch name is unique and unused. The branch is created from the HEAD (latest commit in the current branch) and is automatically [checked out](#git-checkout).
 
 ## git clone
 
-Create a new local repo by cloning the contents of a remote repo. A new directory for the repo will be created within the current directory.
+`git clone [URL] [name]`
 
-`git clone [url] [directory]`
+Create a new local repository by cloning the contents of a remote repository accessible by the provided *URL*. The new local repository is stored in a new relative subdirectory.
 
-- **url:** A valid Git URL. Typically this is HTTP, HTTPS or SSH.
-- **directory:** Optional. The name of the new repo directory. If omitted, the remote repo's name is used.
+By default the subdirectory name is the name of the remote repository, or a *name* can be provided instead. Either way, the subdirectory can be freely renamed without affecting its contents.
 
 ## git commit
 
-Creates a new commit from the staged changes. See [git add](#git-add) for more info about the staging area and adding changes to it.
+`git commit [options]`
 
-`git commit` requires your name and email to be pre-configured - this is covered in [First Time Setup](./2%20First%20Time%20Setup.md#configuration). Additionally Git will use your system's default command line text editor, which can be changed by running `git config --global core.editor vi`, replacing `vi` with your desired editor.
+Package changed files in the [staging area](#git-add) as a new commit.
 
-When your text editor opens, several pre-populated, commented out (`#`) lines of configuration and [git status](#git-status) will be present. Write your commit message on one or more un-commented lines before save and exiting your editor. This will finalise the new commit.
+As a commit contains your name and email address, these variables must be pre-configured in Git - this is covered in [First Time Setup](./2%20First%20Time%20Setup.md#configuration). Git also uses your system's default command line text editor for commit message entry - this can be changed by running `git config --global core.editor vi`, replacing `vi` with your desired editor.
+
+When this command opens your command line text editor, review the staged changes and enter a commit message on a new line (commented out lines begin with `#`). Multiple lines can be entered though it is advised that single-line commit messages are used for brevity. Once done, save and close your editor to finalise the new commit.
 
 ### Options
 
 #### -m, --message
 
-Enter the commit message as part of the `git commit` command instead of opening a command line text editor. Ensure that the string proceeding `-m` is surrounded with double-quotes `"` if spaces are present.
+Enter the commit message directly on the command line instead of via your command line text editor. Follow `-m` with a text string surrounded by double-quotes `"` to use as the commit message.
 
 #### --amend
 
-Amends the staged changes to the latest commit instead of creating a new commit. This will open your command line text editor to provide an opportunity to modify the commit message; as a result `-m` can be combined with `--amend`.
-
-`--amend` without any staged changes can be used to simply re-enter the latest commit's message.
+Amend the staged changes to the HEAD (latest commit in the current branch) instead of creating a new commit. This will open the existing commit message with your command line text editor for editing, or `-m` can be used to replace the existing message.
 
 ## git fetch
 
-Fetches objects from the remote repo that are currently being tracked in the local repo. This has the effect of getting the latest code for branches you are currently tracking, without applying the new changes to the branches immediately.
+`git fetch [options]`
+
+Fetch objects from the remote repository that are currently being tracked by the local repository. This effectively downloads the latest [commits](#git-commit) for [branches](#git-branch) the local repository is tracking, without applying new commits to branches immediately.
 
 ### Options
 
 #### --all
 
-Fetches all remotes, even those not currently being tracked. For example if a branch has recently been created in the remote repo which is not in your local repo, it will still fetch these changes.
+Fetch all objects regardless of whether they are being tracked. This is useful for fetching branches that are new to the remote repository and do not exist in the local repository.
 
 ## git log
 
-Displays a log of Git commits that exist in the current branch, sorted from most to least recent. For more info about commits, see [git commit](#git-commit).
+`git log [options]`
 
-By default each commit is included in the log, with each showing about 4 lines of info. If the commit log is too long to fit on the current screen it is opened in a command line pager program such as `less`, which allows navigation through the log. `less` can be exited by pressing `q`.
+List all [commits](#git-commit) in the current branch, sorted from most to least recent.
+
+Without options all commits are listed, displaying 4 lines of information: SHA, author name and email, date, and message. If the commit log does not fit vertically on the screen it is opened in a command line pager program such as `less`, which allows navigation up and down the log. `less` can be closed by pressing `q`:
 
 ```
 $ git log
@@ -163,7 +168,7 @@ Limit the amount of recent commits shown to a specific number. This can be repre
 
 #### --oneline
 
-Output one line per commit. Only the shortened commit SHA and message are displayed. Useful for checking large quantities of commits when only the commit message is needed.
+Output one line per commit and only show the shortened commit SHA and message. Useful for checking large quantities of commits quickly when only the commit message is needed:
 
 ```
 1ecc1f1 ID-1230: Added login screen
@@ -173,37 +178,21 @@ Output one line per commit. Only the shortened commit SHA and message are displa
 
 ## git pull/push
 
-- `git pull` applies a remote branch's changes to the current local branch.
-- `git push` applies the current local branch's changes to a remote branch.
+`git [pull/push] [remote] [refspec]`
 
-Both of these commands are responsible for synchronising changes between the local and remote repo, allowing code to be contributed to a project and propagated to other users. There are 4 parts to these commands:
+Pull/push commits from/to the remote repository. These commands are used to keep local and remote branches up to date with each other, allowing changes to be shared between users via the remote repository.
 
-```
-git [action] [repository] [refspec]
-```
+The *remote* to interact with must be provided; when cloning a repository this is stored as `origin` and will typically be the remote name unless other remotes are added later. The *[refspec](#refspec)* defines the branch or reference to pull/push from/to.
 
-- **action:** `pull` or `push`.
-- **repository:** a reference to the remote repo. When the local repo is [cloned](#git-clone) this us typically stored as `origin` which works like an alias for the remote repo URL.
-- **refspec:** usually a remote repo branch name, but can also be another reference.
-
-Pushing and pulling may fail if there are merge conflicts, permission issues (Gerrit) or the remote refspec is invalid.
-
-### Refspecs
-
-The table below shows some example refspecs and what running the command would do:
-
-|Example|Explanation|
-|-------|-----------|
-|`master`|Pull/push between the current local and the `master` remote branches.|
-|`development:master`|Pull/push between the local `development` and remote `master` branches.|
-|`:development`|When pushing, this pushes *nothing* to the `development` branch, destroying it permanently.|
-|`HEAD:refs/for/development`|When pushing, push changes into the Gerrit review area for the `development` branch.|
+Pull/pushing may fail if there are merge conflicts, permission issues (Gerrit) or the remote *[refspec](#refspec)* is invalid.
 
 ## git remote
 
-Shows information about the remote repositories being tracked by the local repository. By default shows a list of the remotes.
+`git remote [options]`
 
-If the local repo has been cloned and no further remotes have been added, by default this will unhelpfully show very little:
+Show information about remote repositories being tracked by the local repositories. By default shows a simple list of the remotes.
+
+Without options and no additional remotes, this will unhelpfully show very little:
 
 ```
 $ git remote
@@ -224,32 +213,27 @@ origin https://git.company.com/repos/example.git (push)
 
 ## git reset
 
-Removes a selection of changed files from the staging area. See [git add](#git-add) for more info about staging.
+`git reset [options] [pathspec]`
 
-### Pathspecs
+Remove a selection of changed files from the staging area. This is effectively the opposite of [git add](#git-add).
 
-Without options, `git reset` requires a *pathspec* option to specify which files to remove. This works in the same way as [git add](#git-add), see its pathspec section for examples.
+A *[pathspec](#pathspec)* is only required when options are not present.
 
 ### Options
 
 #### --soft
 
-Reset the branch to the given *refspec*, potentially changing the commits present in the current branch. The contents of the working directory however do not change; any previously committed differences are preserved and added to the staging area.
-
-- `git reset --soft master`: Reset to the same state as the local master branch.
-- `git reset --soft origin/master`: Reset to the same state as the local repo's stored remote master branch. This can be updated using [git fetch](#git-fetch).
+Reset the current [branch](#git-branch) to the *refspec* supplied after `--soft`, potentially changing the [commits](#git-commit) present. The contents of the working directory however are preserved - any previously committed differences are kept in the staging area.
 
 #### --hard
 
-Similar to `--soft` but permanently destroys any changes that would remain staged or unstaged. Do not use lightly.
+Similar to `--soft` but permanently deletes any tracked changes in the working directory. Do not use lightly.
 
 ## git status
 
-Shows the files that have changed in the repository's working directory since the last commit. This includes new files, deleted files and files that have been changed.
+List file changes in the working directory since the last [commit](#git-commit). This includes additions, deletions, and modifications.
 
-Files listed are grouped by change type and are colour coded based on whether they are in the staging area or not - green for staged and red for unstaged. For more info about staging, see [git add](#git-add).
-
-*Colour omitted from examples due to Markdown limitations*
+Changes listed are grouped by change type and coloured based on whether they are in the [staging area](#git-add) (green) or not (red).
 
 ```
 $ git status
@@ -277,9 +261,9 @@ Untracked files:
 
 #### -s, --short
 
-Each change outputs one line only. Shorthand status and staging characters are placed on the start of each line. This view is useful for reducing visual clutter or when there are many changes to view.
+Output one line per change. Lines start with coloured single characters representing the change type and staging area status. In case coloured output is not supported, the staging area status is also represented by the column the character is in: first column for staged, second column for unstaged.
 
-The position of the shorthand character determines its staging status - first column for staged, second column for unstaged. Common letters are A (added), D (deleted), M (modified) and ?? (untracked).
+Common characters are: `A` (addition), `D` (deletion), `M` (modification), and `??` (untracked).
 
 ```
 $ git status --short
@@ -289,3 +273,27 @@ A  "Staged New File.txt"
 ?? New Directory/
 ?? New File.txt
 ```
+
+## pathspec
+
+An expression that selects one or more files from the relative directory structure. Used by [git add](#git-add) and [git reset](#git-reset).
+
+|Example      |Explanation                                                         |
+|-------------|--------------------------------------------------------------------|
+|`file.txt`   |A specific file.                                                    |
+|`a.css b.css`|Multiple space-separated specific files.                            |
+|`Images/`    |All non-hidden non-ignored files in and below a directory.          |
+|`*`          |All non-hidden non-ignored files in and below the current directory.|
+|`*.js`       |All files ending in `.js` in and below the current directory.       |
+
+### refspec
+
+A branch or other storage area in a repository. Used by [git pull/push](#git-pull-push).
+
+|Example                    |Explanation                                                   |
+|---------------------------|--------------------------------------------------------------|
+|`master`                   |Current local branch to `master` remote branch.               |
+|`development:master`       |`development` local branch to `master` remote branch.         |
+|`:development`             |Push nothing to `development` remote branch, deleting it.     |
+|`HEAD:refs/for/development`|Push to `development` remote branch Git code review area.     |
+|`origin/master`            |Reset to the local repository's stored `master` remote branch.|
