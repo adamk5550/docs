@@ -8,13 +8,14 @@
 - [Pushing an Initial Patchset to Gerrit](#pushing-an-initial-patchset-to-gerrit)
 - [Pushing a New Patchset to Gerrit](#pushing-a-new-patchset-to-gerrit)
 
-### Cloning a Remote Repository
+## Cloning a Remote Repository
 
-#### Commands
+### Overview
 
+- Get remote repository URL
 - [git clone](./3%20Commands.md#git-clone)
 
-#### Explanation
+### Explanation
 
 When beginning work on a new project it is necessary to create a local copy of the remote repository
 on your computer. This is done using the [git clone](./3%20Commands.md#git-clone) command.
@@ -25,13 +26,14 @@ will need to find the repository URL from relevant enterprise sources such as Co
 Run [git clone](./3%20Commands.md#git-clone) using these details. Once downloaded your local
 repository subdirectory is ready to go.
 
-### Creating a Feature Branch
+## Creating a Feature Branch
 
-#### Summary
+### Overview
 
+- Get JIRA story ID
 - [git branch](./3%20Commands.md#git-branch) / [git checkout](./3%20Commands.md#git-checkout)
 
-#### Explanation
+### Explanation
 
 When picking up a new Agile story for development, a new local feature branch should be created.
 This gives you space to create your changes separately from other stories and most importantly,
@@ -47,3 +49,81 @@ for you to identify which story the branch is tracking changes for.
 Finally, ensure your feature branch is **never** pushed to the remote repository if using Gerrit.
 Gerrit does not allow code reviews to be pushed if they already exist anywhere in the remote
 repository,
+
+## Resolving Merge Conflicts
+
+### Overview
+
+- [git merge](./3%20Commands.md#git-merge) / [git rebase](./3%20Commands.md#git-rebase)
+- Manually edit conflicted files
+- Continue merge/rebase
+
+### Explanation
+
+When running [git merge](./3%20Commands.md#git-merge) and [git rebase](./3%20Commands.md#git-rebase)
+as part of other processes it is possible that a merge conflict will occur. This is when there are
+new commits in both branches being combined that change code in the same place (changes can still
+occur in the same file without causing a merge conflict). When this happens, Git defers to the user
+to resolve the commit.
+
+Below is a sample rebase conflict, indicating that 2 files have conflicts: `index.html` and `products.html`:
+
+```
+$ git rebase development
+First, rewinding head to replay your work on top of it...
+Applying: ID-1234: Corrected off-by-1 error in calculator
+Using index info to reconstruct a base tree...
+M	index.html
+Falling back to patching base and 3-way merge...
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Auto-merging products.html
+CONFLICT (content): Merge conflict in products.html
+Failed to merge in the changes.
+Patch failed at 0001 ID-1234: Corrected off-by-1 error in calculator
+The copy of the patch that failed is found in:
+   /Users/joe.bloggs/Documents/Repositories/Example/.git/rebase-apply/patch
+
+When you have resolved this problem, run "git rebase --continue".
+If you prefer to skip this patch, run "git rebase --skip" instead.
+To check out the original branch and stop rebasing, run "git rebase --abort".
+```
+
+The actual merge conflicts can be picked out of this busy log by looking for lines beginning with
+`CONFLICT`:
+
+```
+CONFLICT (content): Merge conflict in index.html
+CONFLICT (content): Merge conflict in products.html
+```
+
+Git allows the merge/rebase to be aborted by running the relevant command with the `--abort` option.
+This reverts the current branch to its state before the merge/rebase began.
+
+Git adds both copies of the conflicted code inline to each conflicted file. The conflict can be
+resolved by removing the conflict markers from these files, staging all changes, and running the
+relevant command with the `--continue` option.
+
+Below is an example of an inline conflict:
+
+```javascript
+Action
+  .aggregate()
+<<<<<<< c6ee904d58e042302a8c75cb6d04d0e6597bdc28
+  .match({ id: id })
+=======
+  .match({ _id: ObjectId(ids.action) })
+>>>>>>> ID-1234: Reworked record object data structure
+  .exec(function(err, actions) {
+    return callback(err, actions);
+  });
+```
+
+Git looks for `<<<<<<<` (start, existing commit below), `=======` (middle), and `>>>>>>>`
+(end, commit being merged above) markers at the start of lines to determine if a merge conflict is
+present. Removing these markers is enough to "resolve" the conflict. This allows you to keep one
+version only, combine both or replace both with something new entirely.
+
+**Please note** that merge conflicts are a collaborative process and typically include code from
+multiple developers. Make sure to confirm with the developers that made these commits that it is
+okay to change/remove the conflicted code.
