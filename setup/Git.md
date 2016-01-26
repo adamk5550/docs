@@ -1,4 +1,4 @@
-# Setup 1: Git
+# Setup Git
 
 [git]: http://git-scm.com/
 
