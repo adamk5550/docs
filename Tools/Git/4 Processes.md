@@ -48,7 +48,7 @@ for you to identify which story the branch is tracking changes for.
 
 Finally, ensure your feature branch is **never** pushed to the remote repository if using Gerrit.
 Gerrit does not allow code reviews to be pushed if they already exist anywhere in the remote
-repository,
+repository, feature branches included.
 
 ## Resolving Merge Conflicts
 
@@ -66,7 +66,8 @@ new commits in both branches being combined that change code in the same place (
 occur in the same file without causing a merge conflict). When this happens, Git defers to the user
 to resolve the commit.
 
-Below is a sample rebase conflict, indicating that 2 files have conflicts: `index.html` and `products.html`:
+Below is a sample rebase conflict, indicating that 2 files have conflicts: `index.html` and
+`products.html`:
 
 ```
 $ git rebase development

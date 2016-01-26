@@ -13,7 +13,7 @@ Markdown file format.*
   - [git commit](#git-commit)
   - [git fetch](#git-fetch)
   - [git log](#git-log)
-  - [git pull/push](#git-pull-push)
+  - [git pull/push](#git-pullpush)
   - [git remote](#git-remote)
   - [git reset](#git-reset)
   - [git status](#git-status)
@@ -334,7 +334,7 @@ An expression that selects one or more files from the relative directory structu
 
 ### refspec
 
-A branch or other storage area in a repository. Used by [git pull/push](#git-pull-push).
+A branch or other storage area in a repository. Used by [git pull/push](#git-pullpush).
 
 |Example                    |Explanation                                                   |
 |---------------------------|--------------------------------------------------------------|
