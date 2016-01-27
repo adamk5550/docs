@@ -13,7 +13,9 @@ Markdown file format.*
   - [git commit](#git-commit)
   - [git fetch](#git-fetch)
   - [git log](#git-log)
+  - [git merge](#git-merge)
   - [git pull/push](#git-pullpush)
+  - [git rebase](#git-rebase)
   - [git remote](#git-remote)
   - [git reset](#git-reset)
   - [git status](#git-status)
@@ -207,6 +209,21 @@ large quantities of commits quickly when only the commit message is needed:
 5de4435 ID-1230: Angular.js boilerplate
 ```
 
+## git merge
+
+`git merge [branch]`
+
+Merge a *branch* into the current branch. The commit history of both branches is preserved. If
+the commits in both branches do not line up nicely, an automatic merge will be attempted. This can
+cause [merge conflicts](./4%20Processes.md#resolving-merge-conflicts) which must be resolved
+manually.
+
+Once a merge is completed a merge commit is created to tie the changes together. You are prompted
+to enter a commit message via your command line text editor, although a default message is provided.
+
+Merging should **always** be used when merging onto a public branch (exists in the remote repository
+and used by multiple users).
+
 ## git pull/push
 
 `git [pull/push] [remote] [refspec]`
@@ -221,6 +238,19 @@ and will typically be the remote name unless other remotes are added later. The
 
 Pull/pushing may fail if there are merge conflicts, permission issues (Gerrit) or the remote
 *[refspec](#refspec)* is invalid.
+
+## git rebase
+
+`git rebase [branch]`
+
+Rebase a *branch* into the current branch. The commit history of the current branch is rewritten,
+with each commit being "replayed" in order. If the commits in both branches do not line up nicely,
+an automatic merge will be attempted. This can cause
+[merge conflicts](./4%20Processes.md#resolving-merge-conflicts) which must be resolved manually.
+
+Rebasing is neater than [merging](#git-merge) and does not create a merge commit, but modifies the
+commit history. For this reason **never** use `git rebase` when merging onto a public branch
+(exists in the remote repository and used by multiple users).
 
 ## git remote
 
