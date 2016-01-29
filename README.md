@@ -10,4 +10,4 @@
   - Frameworks
     - [AngularJS](JavaScript/Frameworks/AngularJS.md)
     - [Ionic](JavaScript/Frameworks/Ionic.md)
-    - [React-Native](JavaScript/Frameworks/ReactNative.md)
+    - [React Native](JavaScript/Frameworks/React Native.md)
