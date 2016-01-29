@@ -6,7 +6,7 @@
 
 - [HTML](HTML/README.md)
 - [CSS](CSS/README.md)
-- [JavaScript](JavaScript.md)
+- [JavaScript](JavaScript/README.md)
   - Frameworks
     - [AngularJS](JavaScript/Frameworks/AngularJS.md)
     - [Ionic](JavaScript/Frameworks/Ionic.md)

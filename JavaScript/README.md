@@ -33,6 +33,8 @@
 
 ## Meetups
 
+- [Frontend NE](https://frontendne.co.uk/)
+
 ## Tools
 
 ## Snippets & Patterns

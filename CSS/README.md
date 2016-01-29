@@ -40,7 +40,7 @@
 
 ## Meetups
 
-= [Frontend NE](https://frontendne.co.uk/)
+- [Frontend NE](https://frontendne.co.uk/)
 
 ## Tools
 
