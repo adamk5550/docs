@@ -7,7 +7,7 @@
 * [Setup](#setup)
 * [Presentations](#presentations)
 * [Articles](#articles)
-* [Books](#books)
+* [Coding Standards](#coding-standards)
 * [Videos](#videos)
 * [Workshops & Courses](#workshops--courses)
 * [Meetups](#meetups)
@@ -21,11 +21,16 @@
 
 ## Articles
 
-## Books
+## Coding Standards
+
+- [Code Guide](http://codeguide.co/) by [@mdo](https://twitter.com/mdo)
 
 ## Videos
 
 ## Workshops & Courses
+
+- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
+- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
 
 ## Meetups
 
