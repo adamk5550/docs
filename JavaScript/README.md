@@ -39,6 +39,9 @@
 
 ## Snippets & Patterns
 
+- [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/) by István Ujj-Mészáros
+- [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) by Lokesh Dhakar
+
 ## Frameworks
 
 - [AngularJS](Frameworks/AngularJS.md)
