@@ -1,6 +1,6 @@
-# HTML
+# Jade
 
-*HyperText Markup Language*
+http://jade-lang.com/
 
 ## Contents
 
@@ -23,23 +23,14 @@
 
 ## Coding Standards
 
-- [Code Guide](http://codeguide.co/) by [@mdo](https://twitter.com/mdo)
-
 ## Videos
 
 ## Workshops & Courses
 
-- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
-- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
-
 ## Meetups
-
-- [Frontend NE](https://frontendne.co.uk/)
 
 ## Tools
 
 ## Snippets & Patterns
 
 ## Frameworks
-
-- [Jade](Frameworks/Jade.md)

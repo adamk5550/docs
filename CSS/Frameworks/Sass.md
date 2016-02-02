@@ -1,6 +1,6 @@
-# HTML
+# Sass
 
-*HyperText Markup Language*
+http://sass-lang.com/
 
 ## Contents
 
@@ -21,20 +21,18 @@
 
 ## Articles
 
+- [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project) by John W. Long
+- [Nested selectors: the inception rule](http://thesassway.com/beginner/the-inception-rule) by Mario Ricalde
+
 ## Coding Standards
 
-- [Code Guide](http://codeguide.co/) by [@mdo](https://twitter.com/mdo)
+- [Code Guide](http://codeguide.co/#css-nesting) by [@mdo](https://twitter.com/mdo)
 
 ## Videos
 
 ## Workshops & Courses
 
-- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
-- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
-
 ## Meetups
-
-- [Frontend NE](https://frontendne.co.uk/)
 
 ## Tools
 
@@ -42,4 +40,4 @@
 
 ## Frameworks
 
-- [Jade](Frameworks/Jade.md)
+- [Sass](Frameworks/Sass.md)
