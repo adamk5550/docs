@@ -4,7 +4,7 @@
 
 ## Contents
 
-- [C#](C#/README.md)
+- [C#](C Sharp/README.md)
 - [CSS](CSS/README.md)
 - [HTML](HTML/README.md)
 - [JavaScript](JavaScript/README.md)
