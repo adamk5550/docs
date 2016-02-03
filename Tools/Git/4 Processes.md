@@ -128,3 +128,55 @@ version only, combine both or replace both with something new entirely.
 **Please note** that merge conflicts are a collaborative process and typically include code from
 multiple developers. Make sure to confirm with the developers that made these commits that it is
 okay to change/remove the conflicted code.
+
+## Pushing an Initial Patchset to Gerrit
+
+### Overview
+
+- [git add](./3%20Commands.md#git-add)
+- [git commit](./3%20Commands.md#git-commit)
+- [git fetch](./3%20Commands.md#git-fetch) all branches
+- [git reset](./3%20Commands.md#git-reset) `development`
+- [git rebase](./3%20Commands.md#git-rebase) `development` onto feature branch
+- [git merge](./3%20Commands.md#git-merge) feature branch onto `development`
+
+### Explanation
+
+As part of Newcastle Mobility's development process, feature branch commits must be code reviewed
+in Gerrit before being merged into the `development` branch. Once complete Gerrit automatically
+merges your commit into `development`.
+
+Begin by creating a new commit containing your story's changes:
+
+- `git add` all relevant files to be considered during code review.
+- `git commit` to create a new commit. Ensure the commit message begins with the story ID from JIRA
+and a colon, for example `ID-1234:`. Commit messages should be succinct, unique, informative and
+easy to understand.
+
+In order to prepare the local `development` branch, it needs synchronising with the remote
+repository's `development` branch. This prevents merge conflicts from occuring in Gerrit and forces
+them to be resolved beforehand by the user. This is achieved by
+[checking out](./3%20Commands.md#git-checkout) `development`,
+[fetching](./3%20Commands.md#git-fetch) the latest remote `development` branch and applying it
+locally with a [hard reset](./3%20Commands.md#git-reset):
+
+- `git checkout development`
+- `git fetch origin`
+- `git reset --hard origin/development`
+
+To prevent the repository's tree from getting messy with each [merge](./3%20Commands.md#git-merge), [rebase](./3%20Commands.md#git-rebase) is used in the opposite direction before merging. This
+creates a two-step merge process which can feel counter-intuitive. Note that any
+[merge conflicts](#resolving-merge-conflicts) will appear after rebasing and will need resolving
+manually before continuing:
+
+- `git rebase feature-branch:development`
+- `git merge development:feature-branch`
+
+Your local `development` branch is now ready to be [pushed](./3%20Commands.md#git-pullpush) to the
+Gerrit review area for the remote `development` branch:
+
+- `git push origin HEAD:refs/for/development`
+
+If this succeeds, the commit can be found in Gerrit as a new review, ready to have code reviewers
+assigned. Pushing can fail if the commit already exists in the remote repository (feature branch was
+pushed) or you do not have permission to push to Gerrit.
