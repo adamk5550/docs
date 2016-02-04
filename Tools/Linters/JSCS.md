@@ -1,49 +1,59 @@
-# JSCS - JavaScript Code Style
+# JSCS: JavaScript Code Style
 
-> JSCS — JavaScript Code Style is a code style linter which checks your code against your chosen preset coding standard. See [mdevils/node-jscs](https://github.com/mdevils/node-jscs) for more informations about JSCS.
+- Website: http://jscs.info/
+- GitHub repo: https://github.com/jscs-dev/node-jscs
+- Atom package: https://atom.io/packages/linter-jscs
 
-We recommend that you use this with Atom however it is available on a range of other tools. I will be looking into using JSCS with Gulp which will allow everyone to use the tool.
+## Contents
 
+- [Introduction](#introduction)
+- [Atom Installation](#atom-installation)
+  - [ES5 Specific](#es5-specific)
+
+## Introduction
+
+JSCS is a code style linter that checks your code against your chosen preset coding standard.
+
+It is recommend that you use this with Atom, though it is available on a range of other tools. Newcastle Mobility will be looking into using JSCS with Gulp which will allow everyone to use the tool.
 
 The following installation and setup is for Atom and the Airbnb ES5 coding standards.
 
-## Installation
+## Atom Installation
 
-* `$ apm install linter-jscs`
+[Atom](https://atom.io/) must be installed first:
 
-## Setup
-* In Atom open up the Settings/Preferences and find the linter-Jscs package
-* In the linter-Jscs package settings ensure the 'preset' is set to airbnb
+`apm install linter-jscs`
 
-At this point your linter will be setup however it will be using the Airbnb ES6 coding standards, therefore we need to tweak the setup a little bit.
+## Atom Setup
 
-* In your Atom Settings/Preferences there will be a 'Open Config Folder'
-* Go to Atom > Packages > linter-jscs > .jscsrc
-* Remove requireTrailingComma and replace with disallowTrailingComma as shown below.
+- Open/restart Atom.
+- Open the *Settings/Preferences* tab (OS X shortcut: `Cmd` + `,`).
+- Navigate to *Packages* and find the `linter-jscs` package.
+- In the `linter-jscs` package settings ensure the *Preset* dropdown is set to `airbnb`.
+
+### ES5 Specific
+
+At this point your linter will be setup to use the [Airbnb ES6 coding standards](https://github.com/airbnb/javascript). If you are working with the [ES5 standards](https://github.com/airbnb/javascript/tree/master/es5) the setup needs tweaking a little bit:
+
+- Click the *Open Config Folder* button in Atom *Settings/Preferences*.
+- Using the *Tree View* (OSX shortcut: `Cmd` + `\`) browse to `packages/linter-jscs/.jscsrc`.
+- Remove the `requireTrailingComma` JSON key if present and add `disallowTrailingComma` as shown below:
 
 ```json
 {
     "preset": "airbnb",
     "esnext": true,
-
     "disallowTrailingComma": true
 }
 ```
 
-Ensure you save this file.
+- Ensure you save this file.
+- Browse to `packages/linter-jscs/node_modules/jscs/presets/airbnb.json`.
+- Remove the `requireTrailingComma` JSON key and add `disallowTrailingComma` as shown below:
 
-* In the Config folder go to Atom > Packages > linter-jscs > node_modules > jscs > presets > airbnb.json
-
-* Find and replace
-```json
-"requireTrailingComma": { "ignoreSingleLine": true },
-```
-with
 ```json
 "disallowTrailingComma": true,
 ```
 
-Ensure you save this file, exit Atom and re-open and your linter should be working.
-
-
-See https://github.com/AtomLinter/linter-jscs for more details
+- Ensure you save this file.
+- Exit Atom and re-open and your linter should be working.
