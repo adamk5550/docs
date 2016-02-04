@@ -8,7 +8,7 @@ Various pieces of documentation on setup, process and tool/language use.
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Newcastle Mobility
+Copyright (c) 2015-2016 Newcastle Mobility
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
