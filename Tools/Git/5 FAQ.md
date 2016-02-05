@@ -84,4 +84,50 @@ occur which will need resolving manually before the squash completes.
 
 ### How do I revert a commit?
 
+It is possible to quickly revert a commit providing it:
+
+- Has not been pushed to the remote repository yet.
+- Is at the HEAD (latest commit) of its branch.
+- Does not exist in any other branch yet.
+
+If that's the case, check out the branch it is in and run the following command to
+[reset](3 Commands.md#git-reset) to before the commit and lose all of its changes in the process:
+
+`git reset --hard HEAD~1`
+
+If you would like to revert the commit but instead keep the changes in the staging area, replace
+`--hard` with `--soft`.
+
 ### How do I change branch if I have unstaged changes?
+
+#### Untracked Only
+
+If the changes are untracked (use [git status](3 Commands.md#git-status) to find out), changing
+branches will not disturb the files in question.
+
+#### Discard Changes
+
+If you do not wish to keep the unstaged changes, [git reset](3 Commands.md#git-reset) can be used to
+revert to the last commit by following the `--hard` option with `HEAD`. Untracked changes will need
+deleting manually.
+
+#### Keep Changes Using stash
+
+Untracked changes can temporarily be stashed by running the `git stash` command. This stores the
+changes within the local repository for later use and will allow another branch to be checked out.
+
+Once complete, return to the **same** branch and run `git stash pop` to un-stash the unstaged
+changes.
+
+#### Keep Changes by Creating a Commit
+
+Another method involves creating a temporary commit and soft [resetting](3 Commands.md#git-reset) it
+once complete. This method is not suitable if you are planning on interacting with the current
+branch from another branch ([merge](3 Commands.md#git-merge), [rebase](3 Commands.md#git-rebase)).
+
+Use [git add](3 Commands.md#git-add) and [git commit](3 Commands.md#git-commit) as normal to create
+it.
+
+Once complete, [checkout](3 Commands.md#git-checkout) the same branch and use
+`git reset --soft HEAD~1` to unpack your temporary commit into the staging area. Changes can be
+unstaged if required with [git reset](3 Commands.md#git-reset).
