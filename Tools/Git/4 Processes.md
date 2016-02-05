@@ -6,7 +6,7 @@
 - [Creating a Feature Branch](#creating-a-feature-branch)
 - [Resolving Merge Conflicts](#resolving-merge-conflicts)
 - [Pushing an Initial Patchset to Gerrit](#pushing-an-initial-patchset-to-gerrit)
-- [Pushing a New Patchset to Gerrit](#pushing-a-new-patchset-to-gerrit)
+- [Pushing Another Patchset to Gerrit](#pushing-another-patchset-to-gerrit)
 
 ## Cloning a Remote Repository
 
@@ -139,6 +139,7 @@ okay to change/remove the conflicted code.
 - [git reset](./3%20Commands.md#git-reset) `development`
 - [git rebase](./3%20Commands.md#git-rebase) `development` onto feature branch
 - [git merge](./3%20Commands.md#git-merge) feature branch onto `development`
+- [git push](./3%20Commands.md#git-push) as Gerrit review
 
 ### Explanation
 
@@ -146,12 +147,16 @@ As part of Newcastle Mobility's development process, feature branch commits must
 in Gerrit before being merged into the `development` branch. Once complete Gerrit automatically
 merges your commit into `development`.
 
+#### Creating a Commit
+
 Begin by creating a new commit containing your story's changes:
 
 - `git add` all relevant files to be considered during code review.
 - `git commit` to create a new commit. Ensure the commit message begins with the story ID from JIRA
 and a colon, for example `ID-1234:`. Commit messages should be succinct, unique, informative and
 easy to understand.
+
+#### Pushing the Commit
 
 In order to prepare the local `development` branch, it needs synchronising with the remote
 repository's `development` branch. This prevents merge conflicts from occuring in Gerrit and forces
@@ -164,7 +169,8 @@ locally with a [hard reset](./3%20Commands.md#git-reset):
 - `git fetch origin`
 - `git reset --hard origin/development`
 
-To prevent the repository's tree from getting messy with each [merge](./3%20Commands.md#git-merge), [rebase](./3%20Commands.md#git-rebase) is used in the opposite direction before merging. This
+To prevent the repository's tree from getting messy with each [merge](./3%20Commands.md#git-merge),
+[rebase](./3%20Commands.md#git-rebase) is used in the opposite direction before merging. This
 creates a two-step merge process which can feel counter-intuitive. Note that any
 [merge conflicts](#resolving-merge-conflicts) will appear after rebasing and will need resolving
 manually before continuing:
@@ -180,3 +186,51 @@ Gerrit review area for the remote `development` branch:
 If this succeeds, the commit can be found in Gerrit as a new review, ready to have code reviewers
 assigned. Pushing can fail if the commit already exists in the remote repository (feature branch was
 pushed) or you do not have permission to push to Gerrit.
+
+## Pushing Another Patchset to Gerrit
+
+### Overview
+
+- [git add](./3%20Commands.md#git-add)
+- [git commit](./3%20Commands.md#git-commit) amendment including change ID
+- [git fetch](./3%20Commands.md#git-fetch) all branches
+- [git reset](./3%20Commands.md#git-reset) `development`
+- [git rebase](./3%20Commands.md#git-rebase) `development` onto feature branch
+- [git merge](./3%20Commands.md#git-merge) feature branch onto `development`
+- [git push](./3%20Commands.md#git-push) as Gerrit review
+
+### Explanation
+
+Following on from the steps above, it is possible for a feature branch to fail code review and
+require an additional patchset to be pushed. This is not a new commit, it is an amendment to the
+same commit that gets re-pushed. Commits typically fail code review if:
+
+- There are coding standards issues with styling or pattern usage.
+- The commit passed review but could not be automatically merged by Gerrit.
+
+#### Amending a Commit
+
+Find your commit for code review in Gerrit and press the copy button found after the *Change-id*
+field. This will copy a change ID string that needs amending to your last Git commit, for example:
+
+`Change-Id: Ib2e7dc8e09c2510e44f3dc2ce45ea7535c3f1d05`
+
+- `git add` all relevant files to be considered during code review of the new patchset.
+- `git commit --amend` to add staged changes to the last commit. Avoid using `-m` to change the
+commit message.
+- In your command line text editor, edit the commit message so that it is a single-line message,
+an empty line, and the change ID string:
+
+```
+ID-1234: Corrected off-by-1 error in calculator
+
+Change-Id: Ib2e7dc8e09c2510e44f3dc2ce45ea7535c3f1d05
+```
+
+Once saved and exited your commit message will be updated and staged changes will now be included.
+
+#### Pushing the Commit
+
+From this point onwards the process is identical to
+[Pushing Another Patchset to Gerrit](#pushing-another-patchset-to-gerrit),
+[click here to continue](#pushing-the-commit).
