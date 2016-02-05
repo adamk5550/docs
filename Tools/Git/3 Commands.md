@@ -122,7 +122,7 @@ instead. Either way, the subdirectory can be freely renamed without affecting it
 Package changed files in the [staging area](#git-add) as a new commit.
 
 As a commit contains your name and email address, these variables must be pre-configured in Git -
-this is covered in [First Time Setup](./2%20First%20Time%20Setup.md#configuration). Git also uses
+this is covered in [First Time Setup](./2 First Time Setup.md#configuration). Git also uses
 your system's default command line text editor for commit message entry - this can be changed by
 running `git config --global core.editor vi`, replacing `vi` with your desired editor.
 
@@ -215,7 +215,7 @@ large quantities of commits quickly when only the commit message is needed:
 
 Merge a *branch* into the current branch. The commit history of both branches is preserved. If
 the commits in both branches do not line up nicely, an automatic merge will be attempted. This can
-cause [merge conflicts](./4%20Processes.md#resolving-merge-conflicts) which must be resolved
+cause [merge conflicts](./4 Processes.md#resolving-merge-conflicts) which must be resolved
 manually.
 
 Once a merge is completed a merge commit is created to tie the changes together. You are prompted
@@ -246,7 +246,7 @@ Pull/pushing may fail if there are merge conflicts, permission issues (Gerrit) o
 Rebase a *branch* into the current branch. The commit history of the current branch is rewritten,
 with each commit being "replayed" in order. If the commits in both branches do not line up nicely,
 an automatic merge will be attempted. This can cause
-[merge conflicts](./4%20Processes.md#resolving-merge-conflicts) which must be resolved manually.
+[merge conflicts](./4 Processes.md#resolving-merge-conflicts) which must be resolved manually.
 
 Rebasing is neater than [merging](#git-merge) and does not create a merge commit, but modifies the
 commit history. For this reason **never** use `git rebase` when merging onto a public branch

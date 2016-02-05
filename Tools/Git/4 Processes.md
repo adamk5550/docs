@@ -13,17 +13,17 @@
 ### Overview
 
 - Get remote repository URL
-- [git clone](./3%20Commands.md#git-clone)
+- [git clone](./3 Commands.md#git-clone)
 
 ### Explanation
 
 When beginning work on a new project it is necessary to create a local copy of the remote repository
-on your computer. This is done using the [git clone](./3%20Commands.md#git-clone) command.
+on your computer. This is done using the [git clone](./3 Commands.md#git-clone) command.
 
 Using command line Git (*Terminal* or *Git Bash*) navigate to your `Repositories/` directory. You
 will need to find the repository URL from relevant enterprise sources such as Confluence.
 
-Run [git clone](./3%20Commands.md#git-clone) using these details. Once downloaded your local
+Run [git clone](./3 Commands.md#git-clone) using these details. Once downloaded your local
 repository subdirectory is ready to go.
 
 ## Creating a Feature Branch
@@ -31,7 +31,7 @@ repository subdirectory is ready to go.
 ### Overview
 
 - Get JIRA story ID
-- [git branch](./3%20Commands.md#git-branch) / [git checkout](./3%20Commands.md#git-checkout)
+- [git branch](./3 Commands.md#git-branch) / [git checkout](./3 Commands.md#git-checkout)
 
 ### Explanation
 
@@ -40,8 +40,8 @@ This gives you space to create your changes separately from other stories and mo
 the `master` and `development` branches; these branches should never be developed in.
 
 Ensure there are no uncommitted changes in your local repository before beginning. Run
-[git branch](./3%20Commands.md#git-branch) with a branch name, or
-[git checkout](./3%20Commands.md#git-checkout) with the `-b` argument to create a new branch.
+[git branch](./3 Commands.md#git-branch) with a branch name, or
+[git checkout](./3 Commands.md#git-checkout) with the `-b` argument to create a new branch.
 
 Feature branch names should be the full JIRA story ID, for example `ID-1234`. This makes it easier
 for you to identify which story the branch is tracking changes for.
@@ -54,13 +54,13 @@ repository, feature branches included.
 
 ### Overview
 
-- [git merge](./3%20Commands.md#git-merge) / [git rebase](./3%20Commands.md#git-rebase)
+- [git merge](./3 Commands.md#git-merge) / [git rebase](./3 Commands.md#git-rebase)
 - Manually edit conflicted files
 - Continue merge/rebase
 
 ### Explanation
 
-When running [git merge](./3%20Commands.md#git-merge) and [git rebase](./3%20Commands.md#git-rebase)
+When running [git merge](./3 Commands.md#git-merge) and [git rebase](./3 Commands.md#git-rebase)
 as part of other processes it is possible that a merge conflict will occur. This is when there are
 new commits in both branches being combined that change code in the same place (changes can still
 occur in the same file without causing a merge conflict). When this happens, Git defers to the user
@@ -133,13 +133,13 @@ okay to change/remove the conflicted code.
 
 ### Overview
 
-- [git add](./3%20Commands.md#git-add)
-- [git commit](./3%20Commands.md#git-commit)
-- [git fetch](./3%20Commands.md#git-fetch) all branches
-- [git reset](./3%20Commands.md#git-reset) `development`
-- [git rebase](./3%20Commands.md#git-rebase) `development` onto feature branch
-- [git merge](./3%20Commands.md#git-merge) feature branch onto `development`
-- [git push](./3%20Commands.md#git-push) as Gerrit review
+- [git add](./3 Commands.md#git-add)
+- [git commit](./3 Commands.md#git-commit)
+- [git fetch](./3 Commands.md#git-fetch) all branches
+- [git reset](./3 Commands.md#git-reset) `development`
+- [git rebase](./3 Commands.md#git-rebase) `development` onto feature branch
+- [git merge](./3 Commands.md#git-merge) feature branch onto `development`
+- [git push](./3 Commands.md#git-push) as Gerrit review
 
 ### Explanation
 
@@ -161,16 +161,16 @@ easy to understand.
 In order to prepare the local `development` branch, it needs synchronising with the remote
 repository's `development` branch. This prevents merge conflicts from occuring in Gerrit and forces
 them to be resolved beforehand by the user. This is achieved by
-[checking out](./3%20Commands.md#git-checkout) `development`,
-[fetching](./3%20Commands.md#git-fetch) the latest remote `development` branch and applying it
-locally with a [hard reset](./3%20Commands.md#git-reset):
+[checking out](./3 Commands.md#git-checkout) `development`,
+[fetching](./3 Commands.md#git-fetch) the latest remote `development` branch and applying it
+locally with a [hard reset](./3 Commands.md#git-reset):
 
 - `git checkout development`
 - `git fetch origin`
 - `git reset --hard origin/development`
 
-To prevent the repository's tree from getting messy with each [merge](./3%20Commands.md#git-merge),
-[rebase](./3%20Commands.md#git-rebase) is used in the opposite direction before merging. This
+To prevent the repository's tree from getting messy with each [merge](./3 Commands.md#git-merge),
+[rebase](./3 Commands.md#git-rebase) is used in the opposite direction before merging. This
 creates a two-step merge process which can feel counter-intuitive. Note that any
 [merge conflicts](#resolving-merge-conflicts) will appear after rebasing and will need resolving
 manually before continuing:
@@ -178,7 +178,7 @@ manually before continuing:
 - `git rebase feature-branch:development`
 - `git merge development:feature-branch`
 
-Your local `development` branch is now ready to be [pushed](./3%20Commands.md#git-pullpush) to the
+Your local `development` branch is now ready to be [pushed](./3 Commands.md#git-pullpush) to the
 Gerrit review area for the remote `development` branch:
 
 - `git push origin HEAD:refs/for/development`
@@ -191,13 +191,13 @@ pushed) or you do not have permission to push to Gerrit.
 
 ### Overview
 
-- [git add](./3%20Commands.md#git-add)
-- [git commit](./3%20Commands.md#git-commit) amendment including change ID
-- [git fetch](./3%20Commands.md#git-fetch) all branches
-- [git reset](./3%20Commands.md#git-reset) `development`
-- [git rebase](./3%20Commands.md#git-rebase) `development` onto feature branch
-- [git merge](./3%20Commands.md#git-merge) feature branch onto `development`
-- [git push](./3%20Commands.md#git-push) as Gerrit review
+- [git add](./3 Commands.md#git-add)
+- [git commit](./3 Commands.md#git-commit) amendment including change ID
+- [git fetch](./3 Commands.md#git-fetch) all branches
+- [git reset](./3 Commands.md#git-reset) `development`
+- [git rebase](./3 Commands.md#git-rebase) `development` onto feature branch
+- [git merge](./3 Commands.md#git-merge) feature branch onto `development`
+- [git push](./3 Commands.md#git-push) as Gerrit review
 
 ### Explanation
 

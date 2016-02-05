@@ -6,7 +6,7 @@
 ## Contents
 
 - [What do I do with my local feature branch once finished?](#what-do-i-do-with-my-local-feature-branch-once-finished)
-- [How do I push to Gerrit if I have multiple commits?](#how-do-i=push-to-gerrit-if-i-have-multiple-commits)
+- [How do I push to Gerrit if I have multiple commits?](#how-do-i-push-to-gerrit-if-i-have-multiple-commits)
 - [How do I revert a commit?](#how-do-i-revert-a-commit)
 - [How do I change branch if I have unstaged changes?](#how-do-i-change-branch-if-i-have-unstaged-changes)
 
