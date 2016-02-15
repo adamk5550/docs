@@ -45,5 +45,7 @@
 ## Frameworks
 
 - [AngularJS](Frameworks/AngularJS.md)
+- [Angular 2](Frameworks/Angular2.md)
 - [Ionic](Frameworks/Ionic.md)
+- [Ionic 2](Frameworks/Ionic 2.md)
 - [React Native](Frameworks/React Native.md)

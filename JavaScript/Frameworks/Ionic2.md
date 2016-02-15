@@ -1,6 +1,6 @@
-# Angular 2
+# Ionic 2
 
-https://angular.io/
+http://ionicframework.com/docs/v2/
 
 ## Contents
 
@@ -20,6 +20,10 @@ https://angular.io/
 ## Presentations
 
 ## Articles
+
+First look explained - http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/
+Understanding Ionic 2 classes - http://mcgivery.com/understanding-ionic-2-class/
+
 
 ## Coding Standards
 
