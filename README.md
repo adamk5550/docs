@@ -11,5 +11,7 @@
   - [Jade](HTML/Frameworks/Jade.md)
 - [JavaScript](JavaScript/README.md)
   - [AngularJS](JavaScript/Frameworks/AngularJS.md)
+  - [Angular 2](JavaScript/Frameworks/Angular2.md)
   - [Ionic](JavaScript/Frameworks/Ionic.md)
+  - [Ionic 2](JavaScript/Frameworks/Ionic2.md)
   - [React Native](JavaScript/Frameworks/React Native.md)
