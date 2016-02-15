@@ -1,6 +1,6 @@
-# React Native
+# Sass
 
-https://facebook.github.io/react-native/
+http://sass-lang.com/
 
 ## Contents
 
@@ -21,7 +21,12 @@ https://facebook.github.io/react-native/
 
 ## Articles
 
+- [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project) by John W. Long
+- [Nested selectors: the inception rule](http://thesassway.com/beginner/the-inception-rule) by Mario Ricalde
+
 ## Coding Standards
+
+- [Code Guide](http://codeguide.co/#css-nesting) by [@mdo](https://twitter.com/mdo)
 
 ## Videos
 
@@ -34,3 +39,5 @@ https://facebook.github.io/react-native/
 ## Snippets & Patterns
 
 ## Frameworks
+
+- [Sass](Frameworks/Sass.md)

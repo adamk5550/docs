@@ -41,3 +41,5 @@
 ## Snippets & Patterns
 
 ## Frameworks
+
+- [Jade](Frameworks/Jade.md)

@@ -1,6 +1,6 @@
-# React Native
+# Jade
 
-https://facebook.github.io/react-native/
+http://jade-lang.com/
 
 ## Contents
 

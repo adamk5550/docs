@@ -1,6 +1,4 @@
-# React Native
-
-https://facebook.github.io/react-native/
+# C&#35;
 
 ## Contents
 
