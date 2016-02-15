@@ -49,3 +49,5 @@
 - [Ionic](Frameworks/Ionic.md)
 - [Ionic 2](Frameworks/Ionic 2.md)
 - [React Native](Frameworks/React Native.md)
+- [React](Frameworks/React.md)
+- [D3](Frameworks/D3.md)
