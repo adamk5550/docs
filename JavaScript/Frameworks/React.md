@@ -22,6 +22,7 @@ https://facebook.github.io/react/
 ## Articles
 
 [How to React?](https://github.com/petehunt/react-howto)
+
 [JavaScript Fatigue :anguished:](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
 
 ## Coding Standards
