@@ -35,6 +35,7 @@ http://ionicframework.com/docs/v2/
 ## Tools
 
 ## Snippets & Patterns
+- [Example Ionic 2 Application](https://github.com/driftyco/ionic-conference-app#app-preview)
 
 ## Frameworks
 
