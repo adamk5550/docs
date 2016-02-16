@@ -30,6 +30,7 @@ http://jade-lang.com/
 ## Meetups
 
 ## Tools
+[HTML to Jade Convertor](http://html2jade.org/)
 
 ## Snippets & Patterns
 
