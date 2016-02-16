@@ -20,7 +20,7 @@ https://facebook.github.io/react-native/
 ## Presentations
 
 ## Articles
-[Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
 
 ## Coding Standards
 

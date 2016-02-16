@@ -20,6 +20,7 @@ https://angular.io/
 ## Presentations
 
 ## Articles
+- [List of Angular2 Resources](https://github.com/timjacobi/angular2-education)
 
 ## Coding Standards
 
