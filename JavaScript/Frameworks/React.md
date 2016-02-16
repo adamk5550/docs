@@ -21,6 +21,8 @@ https://facebook.github.io/react/
 
 ## Articles
 
+[How to React?](https://github.com/petehunt/react-howto)
+
 ## Coding Standards
 
 ## Videos
