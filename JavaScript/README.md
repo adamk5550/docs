@@ -39,8 +39,10 @@
 
 ## Snippets & Patterns
 
-- [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/) by István Ujj-Mészáros
-- [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) by Lokesh Dhakar
+- [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/) by
+[István Ujj-Mészáros](https://github.com/istvan-ujjmeszaros)
+- [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) by
+[Lokesh Dhakar](http://lokeshdhakar.com/)
 
 ## Frameworks
 
