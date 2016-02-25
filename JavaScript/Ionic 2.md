@@ -37,6 +37,8 @@ by [Josh Morony](http://www.joshmorony.com/author/joshuamorony/)
 ## Tools
 
 ## Snippets & Patterns
-- [Example Ionic 2 Application](https://github.com/driftyco/ionic-conference-app#app-preview)
+
+- [Ionic 2 Conference Application](https://github.com/driftyco/ionic-conference-app) by
+[Ionic](https://github.com/driftyco)
 
 ## Frameworks
