@@ -20,8 +20,10 @@ https://facebook.github.io/react/
 ## Presentations
 
 ## Articles
-- [How to React?](https://github.com/petehunt/react-howto)
-- [JavaScript Fatigue :anguished:](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
+
+- [eact-howto](https://github.com/petehunt/react-howto) by [Pete Hunt](https://github.com/petehunt)
+- [Getting Out of JavaScript Fatigue - React Edition](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
+by [Reto Schläpfer](http://www.code-experience.com/)
 
 ## Coding Standards
 

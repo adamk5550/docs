@@ -20,7 +20,9 @@ https://angular.io/
 ## Presentations
 
 ## Articles
-- [List of Angular2 Resources](https://github.com/timjacobi/angular2-education)
+
+- [List of Angular2 Resources](https://github.com/timjacobi/angular2-education) by
+[Tim Jacobi](https://twitter.com/tim_jacobi)
 
 ## Coding Standards
 
@@ -35,4 +37,3 @@ https://angular.io/
 ## Snippets & Patterns
 
 ## Frameworks
-
