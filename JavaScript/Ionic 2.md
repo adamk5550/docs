@@ -1,6 +1,6 @@
 # Ionic 2
 
-http://ionicframework.com/docs/v2/
+http://ionic.io/2
 
 ## Contents
 
@@ -20,9 +20,11 @@ http://ionicframework.com/docs/v2/
 ## Presentations
 
 ## Articles
-- [First look at Ionic 2 explained](http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/)
-- [Understanding Ionic 2 classes](http://mcgivery.com/understanding-ionic-2-class/)
 
+- [Ionic 2 First Look Series: Your First Ionic 2 App Explained](http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/)
+by [Josh Morony](http://www.joshmorony.com/author/joshuamorony/)
+- [Understanding Ionic 2: Class](http://mcgivery.com/understanding-ionic-2-class/) by
+[Andrew McGivery](http://mcgivery.com/)
 
 ## Coding Standards
 
@@ -37,4 +39,3 @@ http://ionicframework.com/docs/v2/
 ## Snippets & Patterns
 
 ## Frameworks
-

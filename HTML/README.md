@@ -23,7 +23,7 @@
 
 ## Coding Standards
 
-- [Code Guide](http://codeguide.co/) by [@mdo](https://twitter.com/mdo)
+- [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/)
 
 ## Videos
 
@@ -42,4 +42,4 @@
 
 ## Frameworks
 
-- [Jade](Frameworks/Jade.md)
+- [Jade](Jade.md)

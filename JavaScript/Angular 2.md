@@ -1,6 +1,6 @@
-# React Native
+# Angular 2
 
-https://facebook.github.io/react-native/
+https://angular.io/
 
 ## Contents
 
@@ -20,7 +20,9 @@ https://facebook.github.io/react-native/
 ## Presentations
 
 ## Articles
-- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+
+- [List of Angular2 Resources](https://github.com/timjacobi/angular2-education) by
+[Tim Jacobi](https://twitter.com/tim_jacobi)
 
 ## Coding Standards
 

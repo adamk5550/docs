@@ -1,6 +1,6 @@
-# React
+# React Native
 
-https://facebook.github.io/react/
+https://facebook.github.io/react-native/
 
 ## Contents
 
@@ -20,8 +20,9 @@ https://facebook.github.io/react/
 ## Presentations
 
 ## Articles
-- [How to React?](https://github.com/petehunt/react-howto)
-- [JavaScript Fatigue :anguished:](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
+
+- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
+by [Ken Wheeler](http://kenwheeler.github.io/)
 
 ## Coding Standards
 

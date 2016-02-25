@@ -39,15 +39,17 @@
 
 ## Snippets & Patterns
 
-- [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/) by István Ujj-Mészáros
-- [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) by Lokesh Dhakar
+- [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/) by
+[István Ujj-Mészáros](https://github.com/istvan-ujjmeszaros)
+- [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) by
+[Lokesh Dhakar](http://lokeshdhakar.com/)
 
 ## Frameworks
 
-- [AngularJS](Frameworks/AngularJS.md)
-- [Angular 2](Frameworks/Angular2.md)
-- [Ionic](Frameworks/Ionic.md)
-- [Ionic 2](Frameworks/Ionic 2.md)
-- [React Native](Frameworks/React Native.md)
-- [React](Frameworks/React.md)
-- [D3](Frameworks/D3.md)
+- [AngularJS](AngularJS.md)
+- [Angular 2](Angular 2.md)
+- [D3](D3.md)
+- [Ionic](Ionic.md)
+- [Ionic 2](Ionic 2.md)
+- [React](React.md)
+- [React Native](React Native.md)
