@@ -16,6 +16,7 @@ https://angular.io/
 * [Frameworks](#frameworks)
 
 ## Setup
+- [Official Angular2 - 5 Min Quickstart](https://angular.io/docs/js/latest/quickstart.html)
 
 ## Presentations
 
@@ -27,6 +28,7 @@ https://angular.io/
 ## Coding Standards
 
 ## Videos
+- [Egghead.io Videos](https://egghead.io/technologies/angular2)
 
 ## Workshops & Courses
 
