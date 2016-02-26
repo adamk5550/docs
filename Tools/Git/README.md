@@ -9,4 +9,4 @@ http://git-scm.com/
 3. [Commands](3 Commands.md)
 4. [Processes](4 Processes.md)
 5. [Frequently Asked Questions](5 FAQ.md)
-6. [Misc](6 Misc.md)
+6. [Miscellaneous](6 Misc.md)
