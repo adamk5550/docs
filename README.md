@@ -8,7 +8,7 @@
   - [CSS](Languages/CSS/CSS.md)
     - [Sass](Languages/CSS/Sass/Sass.md)
   - [HTML](Languages/HTML/HTML.md)
-    - [Jade](Languages/HTML/Jade/Jade.md)
+    - [pug](Languages/HTML/pug/pug.md)
   - [JavaScript](Languages/JavaScript/JavaScript.md)
     - [AngularJS](Languages/JavaScript/AngularJS/AngularJS.md)
     - [Angular 2](Languages/JavaScript/Angular 2/Angular 2.md)
