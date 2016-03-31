@@ -5,7 +5,6 @@
 ## Contents
 
 - Languages
-  - [C#](Languages/C Sharp/README.md)
   - [CSS](Languages/CSS/README.md)
     - [Sass](Languages/CSS/Sass/README.md)
   - [HTML](Languages/HTML/README.md)
