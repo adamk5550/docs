@@ -58,6 +58,8 @@ Cascading Style Sheets
 
 ## Tools
 
+- [HSL Color Picker](http://hslpicker.com/) by [Brandon Mathis](http://brandonmathis.com/)
+
 ## Frameworks, Libraries & Engines
 
 - [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and
