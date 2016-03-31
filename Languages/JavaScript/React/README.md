@@ -1,40 +1,38 @@
 # React
 
-https://facebook.github.io/react/
-
 ## Contents
 
-* [Setup](#setup)
-* [Presentations](#presentations)
-* [Articles](#articles)
-* [Coding Standards](#coding-standards)
-* [Videos](#videos)
-* [Workshops & Courses](#workshops--courses)
-* [Meetups](#meetups)
-* [Tools](#tools)
-* [Snippets & Patterns](#snippets--patterns)
-* [Frameworks](#frameworks)
+- [Setup](#setup)
+- [Documentation](#documentation)
+- [Standards](#standards)
+- [Courses & Learning](#courses--learning)
+- [Presentations](#presentations)
+- [Articles](#articles)
+- [Events](#events)
+- [Examples & Snippets](#examples--snippets)
+- [Tools](#tools)
+- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-## Setup
+# Setup
 
-## Presentations
+# Documentation
 
-## Articles
+# Standards
+
+# Courses & Learning
+
+# Presentations
+
+# Articles
 
 - [eact-howto](https://github.com/petehunt/react-howto) by [Pete Hunt](https://github.com/petehunt)
 - [Getting Out of JavaScript Fatigue - React Edition](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
 by [Reto Schläpfer](http://www.code-experience.com/)
 
-## Coding Standards
+# Events
 
-## Videos
+# Examples & Snippets
 
-## Workshops & Courses
+# Tools
 
-## Meetups
-
-## Tools
-
-## Snippets & Patterns
-
-## Frameworks
+# Frameworks, Libraries & Engines

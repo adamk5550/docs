@@ -1,25 +1,37 @@
 # CSS
 
-*Cascading StyleSheets*
+*Cascading Style Sheets*
 
 ## Contents
 
-* [Setup](#setup)
-* [Presentations](#presentations)
-* [Articles](#articles)
-* [Coding Standards](#coding-standards)
-* [Videos](#videos)
-* [Workshops & Courses](#workshops--courses)
-* [Meetups](#meetups)
-* [Tools](#tools)
-* [Snippets & Patterns](#snippets--patterns)
-* [Frameworks](#frameworks)
+- [Setup](#setup)
+- [Documentation](#documentation)
+- [Standards](#standards)
+- [Courses & Learning](#courses--learning)
+- [Presentations](#presentations)
+- [Articles](#articles)
+- [Events](#events)
+- [Examples & Snippets](#examples--snippets)
+- [Tools](#tools)
+- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-## Setup
+# Setup
 
-## Presentations
+# Documentation
 
-## Articles
+# Standards
+
+- [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/)
+
+# Courses & Learning
+
+- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
+- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
+- [Flexbox Froggy](http://flexboxfroggy.com/) by [Thomas Park](http://thomaspark.co/)
+
+# Presentations
+
+# Articles
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by
 [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
@@ -29,31 +41,19 @@
 by [Justin Avery](https://surfthedream.com.au/) via
 [Responsive Design Knowledge Hub](https://responsivedesign.is/)
 
-## Coding Standards
-
-- [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/)
-
-## Videos
-
-## Workshops & Courses
-
-- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
-- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
-- [Flexbox Froggy](http://flexboxfroggy.com/) by [Thomas Park](http://thomaspark.co/)
-
-## Meetups
+# Events
 
 - [Frontend NE](https://frontendne.co.uk/)
 
-## Tools
+# Examples & Snippets
 
-## Snippets & Patterns
-
-- [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and
-[@fat](https://twitter.com/fat)
 - [Create Fullscreen HTML5 Page Background Video](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video)
 by [Dudley Storey](http://thenewcode.com/)
 
-## Frameworks
+# Tools
 
-- [Sass](Sass.md)
+# Frameworks, Libraries & Engines
+
+- [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and
+[@fat](https://twitter.com/fat)
+- [Sass](Sass/README.md)

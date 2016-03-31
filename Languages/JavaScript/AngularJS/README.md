@@ -1,36 +1,34 @@
 # AngularJS
 
-https://angularjs.org/
-
 ## Contents
 
-* [Setup](#setup)
-* [Presentations](#presentations)
-* [Articles](#articles)
-* [Coding Standards](#coding-standards)
-* [Videos](#videos)
-* [Workshops & Courses](#workshops--courses)
-* [Meetups](#meetups)
-* [Tools](#tools)
-* [Snippets & Patterns](#snippets--patterns)
-* [Frameworks](#frameworks)
+- [Setup](#setup)
+- [Documentation](#documentation)
+- [Standards](#standards)
+- [Courses & Learning](#courses--learning)
+- [Presentations](#presentations)
+- [Articles](#articles)
+- [Events](#events)
+- [Examples & Snippets](#examples--snippets)
+- [Tools](#tools)
+- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-## Setup
+# Setup
 
-## Presentations
+# Documentation
 
-## Articles
+# Standards
 
-## Coding Standards
+# Courses & Learning
 
-## Videos
+# Presentations
 
-## Workshops & Courses
+# Articles
 
-## Meetups
+# Events
 
-## Tools
+# Examples & Snippets
 
-## Snippets & Patterns
+# Tools
 
-## Frameworks
+# Frameworks, Libraries & Engines

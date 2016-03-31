@@ -1,43 +1,41 @@
 # Sass
 
-http://sass-lang.com/
+*Syntactically Awesome Style Sheets*
 
 ## Contents
 
-* [Setup](#setup)
-* [Presentations](#presentations)
-* [Articles](#articles)
-* [Coding Standards](#coding-standards)
-* [Videos](#videos)
-* [Workshops & Courses](#workshops--courses)
-* [Meetups](#meetups)
-* [Tools](#tools)
-* [Snippets & Patterns](#snippets--patterns)
-* [Frameworks](#frameworks)
+- [Setup](#setup)
+- [Documentation](#documentation)
+- [Standards](#standards)
+- [Courses & Learning](#courses--learning)
+- [Presentations](#presentations)
+- [Articles](#articles)
+- [Events](#events)
+- [Examples & Snippets](#examples--snippets)
+- [Tools](#tools)
+- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-## Setup
+# Setup
 
-## Presentations
+# Documentation
 
-## Articles
+# Standards
+
+- [Code Guide](http://codeguide.co/#css-nesting) by [@mdo](https://twitter.com/mdo)
+
+# Courses & Learning
+
+# Presentations
+
+# Articles
 
 - [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project) by John W. Long
 - [Nested selectors: the inception rule](http://thesassway.com/beginner/the-inception-rule) by Mario Ricalde
 
-## Coding Standards
+# Events
 
-- [Code Guide](http://codeguide.co/#css-nesting) by [@mdo](https://twitter.com/mdo)
+# Examples & Snippets
 
-## Videos
+# Tools
 
-## Workshops & Courses
-
-## Meetups
-
-## Tools
-
-## Snippets & Patterns
-
-## Frameworks
-
-- [Sass](Frameworks/Sass.md)
+# Frameworks, Libraries & Engines

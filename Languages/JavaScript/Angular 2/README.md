@@ -1,44 +1,42 @@
 # Angular 2
 
-https://angular.io/
-
 ## Contents
 
-* [Setup](#setup)
-* [Presentations](#presentations)
-* [Articles](#articles)
-* [Coding Standards](#coding-standards)
-* [Videos](#videos)
-* [Workshops & Courses](#workshops--courses)
-* [Meetups](#meetups)
-* [Tools](#tools)
-* [Snippets & Patterns](#snippets--patterns)
-* [Frameworks](#frameworks)
+- [Setup](#setup)
+- [Documentation](#documentation)
+- [Standards](#standards)
+- [Courses & Learning](#courses--learning)
+- [Presentations](#presentations)
+- [Articles](#articles)
+- [Events](#events)
+- [Examples & Snippets](#examples--snippets)
+- [Tools](#tools)
+- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-## Setup
+# Setup
 
 - [5 Min Quickstart](https://angular.io/docs/js/latest/quickstart.html) by
 [Angular](https://angular.io/)
 
-## Presentations
+# Documentation
 
-## Articles
+# Standards
+
+# Courses & Learning
+
+# Presentations
+
+- [Angular Lessons](https://egghead.io/technologies/angular2) by [@eggheadio](https://egghead.io/)
+
+# Articles
 
 - [List of Angular2 Resources](https://github.com/timjacobi/angular2-education) by
 [Tim Jacobi](https://twitter.com/tim_jacobi)
 
-## Coding Standards
+# Events
 
-## Videos
+# Examples & Snippets
 
-- [Angular Lessons](https://egghead.io/technologies/angular2) by [@eggheadio](https://egghead.io/)
+# Tools
 
-## Workshops & Courses
-
-## Meetups
-
-## Tools
-
-## Snippets & Patterns
-
-## Frameworks
+# Frameworks, Libraries & Engines

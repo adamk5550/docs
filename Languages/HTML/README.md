@@ -2,44 +2,42 @@
 
 *HyperText Markup Language*
 
-## Contents
+- [Setup](#setup)
+- [Documentation](#documentation)
+- [Standards](#standards)
+- [Courses & Learning](#courses--learning)
+- [Presentations](#presentations)
+- [Articles](#articles)
+- [Events](#events)
+- [Examples & Snippets](#examples--snippets)
+- [Tools](#tools)
+- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-* [Setup](#setup)
-* [Presentations](#presentations)
-* [Articles](#articles)
-* [Coding Standards](#coding-standards)
-* [Videos](#videos)
-* [Workshops & Courses](#workshops--courses)
-* [Meetups](#meetups)
-* [Tools](#tools)
-* [Snippets & Patterns](#snippets--patterns)
-* [Frameworks](#frameworks)
+# Setup
 
-## Setup
+# Documentation
 
-## Presentations
-
-## Articles
-
-## Coding Standards
+# Standards
 
 - [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/)
 
-## Videos
-
-## Workshops & Courses
+# Courses & Learning
 
 - [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
 - [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
 
-## Meetups
+# Presentations
+
+# Articles
+
+# Events
 
 - [Frontend NE](https://frontendne.co.uk/)
 
-## Tools
+# Examples & Snippets
 
-## Snippets & Patterns
+# Tools
 
-## Frameworks
+# Frameworks, Libraries & Engines
 
-- [Jade](Jade.md)
+- [Jade](Jade/README.md)
