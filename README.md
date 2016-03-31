@@ -5,22 +5,22 @@
 ## Contents
 
 - Languages
-  - [CSS](Languages/CSS/README.md)
-    - [Sass](Languages/CSS/Sass/README.md)
-  - [HTML](Languages/HTML/README.md)
-    - [Jade](Languages/HTML/Jade/README.md)
-  - [JavaScript](Languages/JavaScript/README.md)
-    - [AngularJS](Languages/JavaScript/AngularJS/README.md)
-    - [Angular 2](Languages/JavaScript/Angular 2/README.md)
-    - [D3](Languages/JavaScript/D3/README.md)
-    - [Ionic](Languages/JavaScript/Ionic/README.md)
-    - [Ionic 2](Languages/JavaScript/Ionic 2/README.md)
-    - [React](Languages/JavaScript/React/README.md)
-    - [React Native](Languages/JavaScript/React Native/README.md)
+  - [CSS](Languages/CSS/CSS.md)
+    - [Sass](Languages/CSS/Sass/Sass.md)
+  - [HTML](Languages/HTML/HTML.md)
+    - [Jade](Languages/HTML/Jade/Jade.md)
+  - [JavaScript](Languages/JavaScript/JavaScript.md)
+    - [AngularJS](Languages/JavaScript/AngularJS/AngularJS.md)
+    - [Angular 2](Languages/JavaScript/Angular 2/Angular 2.md)
+    - [D3](Languages/JavaScript/D3/D3.md)
+    - [Ionic](Languages/JavaScript/Ionic/Ionic.md)
+    - [Ionic 2](Languages/JavaScript/Ionic 2/Ionic 2.md)
+    - [React](Languages/JavaScript/React/React.md)
+    - [React Native](Languages/JavaScript/React Native/React Native.md)
 - [Setup](Setup/README.md)
   - [Xcode](Setup/Xcode.md)
 - Tools
-  - [Git](Tools/Git/README.md)
+  - [Git](Tools/Git/Git.md)
   - Linters
     - [JSCS](Tools/Linters/JSCS.md)
 

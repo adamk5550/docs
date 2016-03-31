@@ -46,10 +46,10 @@
 
 # Frameworks, Libraries & Engines
 
-- [AngularJS](AngularJS/README.md)
-- [Angular 2](Angular 2/README.md)
-- [D3](D3/README.md)
-- [Ionic](Ionic/README.md)
-- [Ionic 2](Ionic 2/README.md)
-- [React](React/README.md)
-- [React Native](React Native/README.md)
+- [AngularJS](AngularJS/AngularJS.md)
+- [Angular 2](Angular 2/Angular 2.md)
+- [D3](D3/D3.md)
+- [Ionic](Ionic/Ionic.md)
+- [Ionic 2](Ionic 2/Ionic 2.md)
+- [React](React/React.md)
+- [React Native](React Native/React Native.md)

@@ -57,4 +57,4 @@
 
 - [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and
   [@fat](https://twitter.com/fat)
-- [Sass](Sass/README.md)
+- [Sass](Sass/Sass.md)
