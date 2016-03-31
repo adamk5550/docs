@@ -1,7 +1,11 @@
 # Git: Frequently Asked Questions
 
-*Answers to questions that are not covered on [other](1 Introduction.md)
-[Git](2 First Time Setup.md) [documentation](3 Commands.md) [pages](4 Processes.md).*
+*Part of a series of articles on Git by
+[Newcastle Mobility](https://github.com/newcastle-mobility).*  
+<- [Processes](4 Processes.md) | [Miscellaneous](6 Misc.md) ->
+
+Answers to questions that are not covered on [other](1 Introduction.md)
+[Git](2 First Time Setup.md) [documentation](3 Commands.md) [pages](4 Processes.md).
 
 ## Contents
 

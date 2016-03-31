@@ -1,5 +1,9 @@
 # Git: Processes
 
+*Part of a series of articles on Git by
+[Newcastle Mobility](https://github.com/newcastle-mobility).*  
+<- [Commands](3 Commands.md) | [Frequently Asked Questions](5 FAQ.md) ->
+
 ## Contents
 
 - [Cloning a Remote Repository](#cloning-a-remote-repository)
