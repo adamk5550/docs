@@ -18,7 +18,6 @@
     - [React](Languages/JavaScript/React/README.md)
     - [React Native](Languages/JavaScript/React Native/README.md)
 - [Setup](Setup/README.md)
-  - [Git](Setup/Git.md)
   - [Xcode](Setup/Xcode.md)
 - Tools
   - [Git](Tools/Git/README.md)

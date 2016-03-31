@@ -14,5 +14,4 @@ Where relevant, the instructions will also include:
 
 Complete the steps outlined in the following documents:
 
-1. [Git](Git.md)
-2. [Xcode](Xcode.md)
+- [Xcode](Xcode.md)
