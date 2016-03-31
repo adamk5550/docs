@@ -38,6 +38,8 @@ http://ionicframework.com/
 
 ## Articles
 
+- [Preload images in Ionic using $ImageCacheFactory](http://mcgivery.com/preload-images-ionic/) by
+  [Andrew McGivery](http://mcgivery.com/)
 - [Ionic Adventures](https://github.com/juarezpaf/ionic-adventures) by
   [Juarez Filho](https://github.com/juarezpaf)
 - [Service vs Factory - Once and for all](http://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html)

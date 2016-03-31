@@ -43,6 +43,8 @@ Cascading Style Sheets
 - [CSS: Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) by Andy
   Clarke
 - [Don’t use IDs in CSS selectors?](http://oli.jp/2011/ids/) by [Oli Studholme](http://oli.jp/)
+- [International box-sizing Awareness Day](https://css-tricks.com/international-box-sizing-awareness-day/)
+  by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
 - [Why you don’t need device specific breakpoints](https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints)
   by [Justin Avery](https://surfthedream.com.au/) via
   [Responsive Design Knowledge Hub](https://responsivedesign.is/)

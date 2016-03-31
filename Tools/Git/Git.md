@@ -34,6 +34,10 @@ https://git-scm.com/
 
 ## Articles
 
+- [Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging) by
+  [Git](https://git-scm.com/)
+- [Mind the End of Your Line](http://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/) by
+  [Timothy Clem](http://adaptivepatchwork.com/about/)
 - [Newcastle Mobility:](https://github.com/newcastle-mobility)
   - [An Introduction](Mobility/1 Introduction.md)
   - [Processes](Mobility/4 Processes.md)

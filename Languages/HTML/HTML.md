@@ -35,6 +35,9 @@ HyperText Markup Language
 
 ## Articles
 
+- [Mailto Links](https://css-tricks.com/snippets/html/mailto-links/) by
+  [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
+
 ## Events
 
 - [Frontend NE](https://frontendne.co.uk/)

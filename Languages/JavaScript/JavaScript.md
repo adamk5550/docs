@@ -62,3 +62,5 @@
 - [Ionic 2](Ionic 2/Ionic 2.md)
 - [React](React/React.md)
 - [React Native](React Native/React Native.md)
+
+- [Video.js: The Player Framework](http://videojs.com/) by [Video.js](https://github.com/videojs)
