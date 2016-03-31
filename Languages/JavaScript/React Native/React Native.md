@@ -16,25 +16,25 @@ https://facebook.github.io/react-native/
 - [Tools](#tools)
 - [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-# Setup
+## Setup
 
-# Documentation
+## Documentation
 
-# Standards
+## Standards
 
-# Courses & Learning
+## Courses & Learning
 
-# Presentations
+## Presentations
 
-# Articles
+## Articles
 
 - [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
   by [Ken Wheeler](http://kenwheeler.github.io/)
 
-# Events
+## Events
 
-# Examples & Snippets
+## Examples & Snippets
 
-# Tools
+## Tools
 
-# Frameworks, Libraries & Engines
+## Frameworks, Libraries & Engines

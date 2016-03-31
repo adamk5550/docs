@@ -15,28 +15,28 @@ Cascading Style Sheets
 - [Tools](#tools)
 - [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-# Setup
+## Setup
 
-# Documentation
+## Documentation
 
 - [CSS](http://devdocs.io/css/) at [DevDocs](http://devdocs.io/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) at
   [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [CSS Reference](http://www.w3schools.com/cssref/) by [W3Schools](http://www.w3schools.com/)
 
-# Standards
+## Standards
 
 - [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/)
 
-# Courses & Learning
+## Courses & Learning
 
 - [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
 - [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
 - [Flexbox Froggy](http://flexboxfroggy.com/) by [Thomas Park](http://thomaspark.co/)
 
-# Presentations
+## Presentations
 
-# Articles
+## Articles
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by
   [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
@@ -47,18 +47,18 @@ Cascading Style Sheets
   by [Justin Avery](https://surfthedream.com.au/) via
   [Responsive Design Knowledge Hub](https://responsivedesign.is/)
 
-# Events
+## Events
 
 - [Frontend NE](https://frontendne.co.uk/)
 
-# Examples & Snippets
+## Examples & Snippets
 
 - [Create Fullscreen HTML5 Page Background Video](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video)
   by [Dudley Storey](http://thenewcode.com/)
 
-# Tools
+## Tools
 
-# Frameworks, Libraries & Engines
+## Frameworks, Libraries & Engines
 
 - [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and
   [@fat](https://twitter.com/fat)

@@ -13,36 +13,36 @@ HyperText Markup Language
 - [Tools](#tools)
 - [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-# Setup
+## Setup
 
-# Documentation
+## Documentation
 
 - [HTML](http://devdocs.io/html/) at [DevDocs](http://devdocs.io/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) at
   [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [HTML Element Reference](http://www.w3schools.com/tags/) by [W3Schools](http://www.w3schools.com/)
 
-# Standards
+## Standards
 
 - [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/)
 
-# Courses & Learning
+## Courses & Learning
 
 - [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
 - [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
 
-# Presentations
+## Presentations
 
-# Articles
+## Articles
 
-# Events
+## Events
 
 - [Frontend NE](https://frontendne.co.uk/)
 
-# Examples & Snippets
+## Examples & Snippets
 
-# Tools
+## Tools
 
-# Frameworks, Libraries & Engines
+## Frameworks, Libraries & Engines
 
 - [pug](pug/pug.md)

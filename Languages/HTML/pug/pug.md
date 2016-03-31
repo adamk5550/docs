@@ -16,25 +16,25 @@ http://jade-lang.com/
 - [Tools](#tools)
 - [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-# Setup
+## Setup
 
-# Documentation
+## Documentation
 
-# Standards
+## Standards
 
-# Courses & Learning
+## Courses & Learning
 
-# Presentations
+## Presentations
 
-# Articles
+## Articles
 
-# Events
+## Events
 
-# Examples & Snippets
+## Examples & Snippets
 
-# Tools
+## Tools
 
 - [HTML2Jade - HTML to Jade Online Realtime Converter](http://html2jade.org/) by
   [chenka](mailto:salanyot@gmail.com)
 
-# Frameworks, Libraries & Engines
+## Frameworks, Libraries & Engines

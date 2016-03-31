@@ -16,29 +16,29 @@ http://sass-lang.com/
 - [Tools](#tools)
 - [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-# Setup
+## Setup
 
-# Documentation
+## Documentation
 
-# Standards
+## Standards
 
 - [Code Guide](http://codeguide.co/#css-nesting) by [@mdo](https://twitter.com/mdo)
 
-# Courses & Learning
+## Courses & Learning
 
-# Presentations
+## Presentations
 
-# Articles
+## Articles
 
 - [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
   by John W. Long
 - [Nested selectors: the inception rule](http://thesassway.com/beginner/the-inception-rule) by Mario
   Ricalde
 
-# Events
+## Events
 
-# Examples & Snippets
+## Examples & Snippets
 
-# Tools
+## Tools
 
-# Frameworks, Libraries & Engines
+## Frameworks, Libraries & Engines

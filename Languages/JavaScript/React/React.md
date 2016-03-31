@@ -16,26 +16,26 @@ https://facebook.github.io/react/
 - [Tools](#tools)
 - [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-# Setup
+## Setup
 
-# Documentation
+## Documentation
 
-# Standards
+## Standards
 
-# Courses & Learning
+## Courses & Learning
 
-# Presentations
+## Presentations
 
-# Articles
+## Articles
 
 - [eact-howto](https://github.com/petehunt/react-howto) by [Pete Hunt](https://github.com/petehunt)
 - [Getting Out of JavaScript Fatigue - React Edition](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
   by [Reto Schläpfer](http://www.code-experience.com/)
 
-# Events
+## Events
 
-# Examples & Snippets
+## Examples & Snippets
 
-# Tools
+## Tools
 
-# Frameworks, Libraries & Engines
+## Frameworks, Libraries & Engines

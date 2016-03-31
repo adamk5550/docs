@@ -16,30 +16,30 @@ https://angular.io/
 - [Tools](#tools)
 - [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
 
-# Setup
+## Setup
 
 - [5 Min Quickstart](https://angular.io/docs/js/latest/quickstart.html) by
   [Angular](https://angular.io/)
 
-# Documentation
+## Documentation
 
-# Standards
+## Standards
 
-# Courses & Learning
+## Courses & Learning
 
-# Presentations
+## Presentations
 
 - [Angular Lessons](https://egghead.io/technologies/angular2) by [@eggheadio](https://egghead.io/)
 
-# Articles
+## Articles
 
 - [List of Angular2 Resources](https://github.com/timjacobi/angular2-education) by
   [Tim Jacobi](https://twitter.com/tim_jacobi)
 
-# Events
+## Events
 
-# Examples & Snippets
+## Examples & Snippets
 
-# Tools
+## Tools
 
-# Frameworks, Libraries & Engines
+## Frameworks, Libraries & Engines
