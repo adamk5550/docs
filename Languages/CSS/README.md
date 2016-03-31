@@ -34,12 +34,13 @@
 # Articles
 
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by
-[Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
-- [CSS: Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) by Andy Clarke
+  [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
+- [CSS: Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) by Andy
+  Clarke
 - [Don’t use IDs in CSS selectors?](http://oli.jp/2011/ids/) by [Oli Studholme](http://oli.jp/)
 - [Why you don’t need device specific breakpoints](https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints)
-by [Justin Avery](https://surfthedream.com.au/) via
-[Responsive Design Knowledge Hub](https://responsivedesign.is/)
+  by [Justin Avery](https://surfthedream.com.au/) via
+  [Responsive Design Knowledge Hub](https://responsivedesign.is/)
 
 # Events
 
@@ -48,12 +49,12 @@ by [Justin Avery](https://surfthedream.com.au/) via
 # Examples & Snippets
 
 - [Create Fullscreen HTML5 Page Background Video](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video)
-by [Dudley Storey](http://thenewcode.com/)
+  by [Dudley Storey](http://thenewcode.com/)
 
 # Tools
 
 # Frameworks, Libraries & Engines
 
 - [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and
-[@fat](https://twitter.com/fat)
+  [@fat](https://twitter.com/fat)
 - [Sass](Sass/README.md)

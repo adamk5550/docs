@@ -29,8 +29,10 @@
 
 # Articles
 
-- [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project) by John W. Long
-- [Nested selectors: the inception rule](http://thesassway.com/beginner/the-inception-rule) by Mario Ricalde
+- [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
+  by John W. Long
+- [Nested selectors: the inception rule](http://thesassway.com/beginner/the-inception-rule) by Mario
+  Ricalde
 
 # Events
 

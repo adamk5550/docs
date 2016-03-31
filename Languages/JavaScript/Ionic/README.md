@@ -18,7 +18,7 @@ http://ionicframework.com/
 # Setup
 
 - [Installing Ionic and its Dependencies](http://ionicframework.com/docs/guide/installation.html) by
-[Ionic](http://ionicframework.com/)
+  [Ionic](http://ionicframework.com/)
 
 # Documentation
 
@@ -28,19 +28,19 @@ http://ionicframework.com/
 
 - [App Camp](http://appcamp.io/)
 - [Ionic Tutorials and Courses](https://thinkster.io/topics/ionic) by
-[Thinkster](https://thinkster.io/)
+  [Thinkster](https://thinkster.io/)
 
 # Presentations
 
 - [Ionic + Angular: Superpowers for Mobile App Development](http://adamdbradley.github.io/ionic-present/)
-by [Adam Bradley](https://github.com/adamdbradley)
+  by [Adam Bradley](https://github.com/adamdbradley)
 
 # Articles
 
 - [Ionic Adventures](https://github.com/juarezpaf/ionic-adventures) by
-[Juarez Filho](https://github.com/juarezpaf)
+  [Juarez Filho](https://github.com/juarezpaf)
 - [Service vs Factory - Once and for all](http://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html)
-by [Pascal Precht](https://twitter.com/PascalPrecht)
+  by [Pascal Precht](https://twitter.com/PascalPrecht)
 
 # Events
 
@@ -48,7 +48,7 @@ by [Pascal Precht](https://twitter.com/PascalPrecht)
 
 - [Ionic on Codepen](http://codepen.io/ionic/)
 - [240+ Ionic Framework Resources](http://mcgivery.com/100-ionic-framework-resources/) by
-[Andrew McGivery](http://mcgivery.com/)
+  [Andrew McGivery](http://mcgivery.com/)
 
 # Tools
 

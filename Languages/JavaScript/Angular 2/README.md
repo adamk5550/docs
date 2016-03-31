@@ -16,7 +16,7 @@
 # Setup
 
 - [5 Min Quickstart](https://angular.io/docs/js/latest/quickstart.html) by
-[Angular](https://angular.io/)
+  [Angular](https://angular.io/)
 
 # Documentation
 
@@ -31,7 +31,7 @@
 # Articles
 
 - [List of Angular2 Resources](https://github.com/timjacobi/angular2-education) by
-[Tim Jacobi](https://twitter.com/tim_jacobi)
+  [Tim Jacobi](https://twitter.com/tim_jacobi)
 
 # Events
 

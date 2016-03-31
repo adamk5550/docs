@@ -26,7 +26,7 @@
 # Articles
 
 - [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
-by [Ken Wheeler](http://kenwheeler.github.io/)
+  by [Ken Wheeler](http://kenwheeler.github.io/)
 
 # Events
 

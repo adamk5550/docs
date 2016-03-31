@@ -17,31 +17,44 @@
 
 ## Introduction
 
-The 6th edition of ECMAScript, "Harmony" was agreed upon in June 2015. JavaScript uses ECMAScript as its language specification, so this new standard means sweeping changes to the way we use and write JavaScript.
+The 6th edition of ECMAScript, "Harmony" was agreed upon in June 2015. JavaScript uses ECMAScript as
+its language specification, so this new standard means sweeping changes to the way we use and write
+JavaScript.
 
-Now that Newcastle Mobility's Hybrid capability is established, it's the perfect time to move with the times and transition from ES5 to ES6.
+Now that Newcastle Mobility's Hybrid capability is established, it's the perfect time to move with
+the times and transition from ES5 to ES6.
 
-This is particularly important as the big web libraries: AngularJS, ReactJS and Node.js are all moving in this direction, with big releases expected in 2016.
+This is particularly important as the big web libraries: AngularJS, ReactJS and Node.js are all
+moving in this direction, with big releases expected in 2016.
 
-This guide is designed to show you exactly how coding with ES6 is different to ES5 and highlight how your coding habits will change as a result.
+This guide is designed to show you exactly how coding with ES6 is different to ES5 and highlight how
+your coding habits will change as a result.
 
-As before, Newcastle Mobility will be following the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), but no longer specifically following the ES5 variation.
+As before, Newcastle Mobility will be following the
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), but no longer specifically
+following the ES5 variation.
 
 ## ES6 Patterns Replacing ES5 Patterns
 
-In this section you'll find all of the ES5 design patterns you're currently using that have changed in ES6.
+In this section you'll find all of the ES5 design patterns you're currently using that have changed
+in ES6.
 
 **Note:** Failure to adapt to these changes will see your code fail code review!
 
 ### Variable Scope
 
-In ES5 using `var` before variables is encouraged as it makes the variable *function scoped* rather than *global scoped*.
+In ES5 using `var` before variables is encouraged as it makes the variable *function scoped* rather
+than *global scoped*.
 
-ES6 introduces two new variable types, `let` and `const`. Both of these are *block scoped*. This means that when declared inside a block, the variable will cease to exist when the block terminates.
+ES6 introduces two new variable types, `let` and `const`. Both of these are *block scoped*. This
+means that when declared inside a block, the variable will cease to exist when the block terminates.
 
-`const` is to be used for any variable declaration that is not expected to change, such as an IP address. Although it will not complain when you try, the value of a `const` cannot be changed.
+`const` is to be used for any variable declaration that is not expected to change, such as an IP
+address. Although it will not complain when you try, the value of a `const` cannot be changed.
 
-**Usage:** Use `const` for variables that won't change, otherwise use `let`. Only use `var` when a variable absolutely needs to be *function scoped*. Group `const` and `let` declarations for readability.
+**Usage:** Use `const` for variables that won't change, otherwise use `let`. Only use `var` when a
+variable absolutely needs to be *function scoped*. Group `const` and `let` declarations for
+readability.
 
 ```javascript
 // ES5 - Before
@@ -57,11 +70,13 @@ price = 0.45;
 
 ### Object Property Shorthands
 
-In ES5 you have to be explicit when naming object properties when creating a new object. This includes properties created from variables of the same name, and function properties.
+In ES5 you have to be explicit when naming object properties when creating a new object. This
+includes properties created from variables of the same name, and function properties.
 
 ES6 introduces some readable shortcuts for both of these property declarations:
 
-* If a property and variable share the same name, omit the property name. Group these at the top of the object.
+* If a property and variable share the same name, omit the property name. Group these at the top of
+the object.
 * When defining a function property, name the function and omit the property name.
 
 ```javascript
@@ -86,9 +101,13 @@ const person = {
 
 ### Template Strings
 
-Concatenating (joining together) strings in ES5 can be a chore, usually involving lots of `+` operators. Occasionally you'll come across some code where someone has got sick of this and instead assembled an array and used `Array.join()` on it, or worse, used `Array.concat()`. It can get messy.
+Concatenating (joining together) strings in ES5 can be a chore, usually involving lots of `+`
+operators. Occasionally you'll come across some code where someone has got sick of this and instead
+assembled an array and used `Array.join()` on it, or worse, used `Array.concat()`. It can get messy.
 
-Thankfully ES6 has came to our rescue and provided a much simpler (and shorter) way of constructing strings; template strings use interpolation to achieve the same goal in a much more elegant way, and are surrounded by backticks `` ` `` instead of apostrophes.
+Thankfully ES6 has came to our rescue and provided a much simpler (and shorter) way of constructing
+strings; template strings use interpolation to achieve the same goal in a much more elegant way, and
+are surrounded by backticks `` ` `` instead of apostrophes.
 
 ```javascript
 const name = 'Fluffy';
@@ -101,13 +120,18 @@ var sentence = 'My cat is called ' + name + '. ' + name + ' likes ' + food + '!'
 const sentence = `My cat is called ${name}. ${name} likes ${food}!`;
 ```
 
-It should be noted that anything inside of the braces in a template string is evaluated as normal JavaScript, so anything such as object/array references and operators can be used.
+It should be noted that anything inside of the braces in a template string is evaluated as normal
+JavaScript, so anything such as object/array references and operators can be used.
 
 ### Arrow Functions
 
-The usual way of defining anonymous functions in ES5 is changing dramatically in favour of ES6's more succinct format. Arrow functions do away with the word `function` appearing frequently, but also have the added benefit of executing the function in the context of `this`, which can be useful depending on what you're doing.
+The usual way of defining anonymous functions in ES5 is changing dramatically in favour of ES6's
+more succinct format. Arrow functions do away with the word `function` appearing frequently, but
+also have the added benefit of executing the function in the context of `this`, which can be useful
+depending on what you're doing.
 
-Arrow functions start by defining the function arguments in the usual round brackets, followed by an arrow (or rocket) `=>` and the usual function block:
+Arrow functions start by defining the function arguments in the usual round brackets, followed by an
+arrow (or rocket) `=>` and the usual function block:
 
 ```javascript
 const breeds = ['siamese', 'persian', 'bengal', 'manx'];
@@ -127,15 +151,20 @@ breeds.forEach(breed => { console.log(breed); });
 
 ## New Patterns for ES6
 
-In this section you'll find new design patterns that have been introduced with ES6. They allow new ways of solving problems and should be considered going forward.
+In this section you'll find new design patterns that have been introduced with ES6. They allow new
+ways of solving problems and should be considered going forward.
 
 ### Array Spreads
 
 *As of Node.js 5.3.0 the `--harmony` option is required to use this feature.*
 
-With ES6 it is now possible to create a function that can easily handle an unknown quantity of arguments. This can occasionally be useful when you want a function to be flexible and cater to differing scenarios.
+With ES6 it is now possible to create a function that can easily handle an unknown quantity of
+arguments. This can occasionally be useful when you want a function to be flexible and cater to
+differing scenarios.
 
-There are ways of achieving this in ES5 but they're not pretty: the `arguments` object can be converted into an array of values, or an array can be directly passed to the function. Array spreads `...` are much more elegant:
+There are ways of achieving this in ES5 but they're not pretty: the `arguments` object can be
+converted into an array of values, or an array can be directly passed to the function. Array spreads
+`...` are much more elegant:
 
 ```javascript
 // ES5 - arguments object
@@ -175,7 +204,8 @@ sumNumbers(5, 15);
 sumNumbers(1, 3, 5);
 ```
 
-Array spreads can also be used for concatenating multiple arrays together in more complex ways than `Array.concat()` allows (although this should always be used where practical):
+Array spreads can also be used for concatenating multiple arrays together in more complex ways than
+`Array.concat()` allows (although this should always be used where practical):
 
 ```javascript
 const small = [1, 2, 3];
@@ -186,7 +216,8 @@ const all = [...small, 4, ...large];
 [ 1, 2, 3, 4, 5, 6, 7 ]
 ```
 
-Array spreads are now also the standard way of making a copy of an array, remembering that arrays are normally *pass by reference*:
+Array spreads are now also the standard way of making a copy of an array, remembering that arrays
+are normally *pass by reference*:
 
 ```javascript
 const arrayCopy = [...originalArray];
@@ -196,9 +227,13 @@ const arrayCopy = [...originalArray];
 
 *As of Node.js 5.3.0 the `--harmony_destructuring` option is required to use this feature.*
 
-ES6 provides a new way of extracting variables from objects and arrays called destructuring. This is much more elegant than writing a variable assignment line per variable, and considerably more readable.
+ES6 provides a new way of extracting variables from objects and arrays called destructuring. This is
+much more elegant than writing a variable assignment line per variable, and considerably more
+readable.
 
-For objects this works by specifying the properties to turn into variables (the key becomes the variable name). For arrays new variable names are specified and the array values are assigned in order.
+For objects this works by specifying the properties to turn into variables (the key becomes the
+  variable name). For arrays new variable names are specified and the array values are assigned in
+  order.
 
 Note that the variable scope is still defined.
 
@@ -219,7 +254,9 @@ const { name, colour } = object;
 
 ### Default Arguments
 
-ES6 brings with it support for default arguments for functions. This allows a function to have a defined value that is used only when the function call does not specify another value. This is a long awaited feature as it means we can stop using silly workarounds to use this functionality:
+ES6 brings with it support for default arguments for functions. This allows a function to have a
+defined value that is used only when the function call does not specify another value. This is a
+long awaited feature as it means we can stop using silly workarounds to use this functionality:
 
 ```javascript
 // ES5 - Before

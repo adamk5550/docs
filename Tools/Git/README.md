@@ -27,7 +27,7 @@
 
 - [Learn Git - Code School](https://www.codeschool.com/learn/git)
 - [Try Git](https://try.github.io/) by [GitHub](https://github.com/) and
-[Code School](https://www.codeschool.com/)
+  [Code School](https://www.codeschool.com/)
 
 # Presentations
 
