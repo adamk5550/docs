@@ -2,7 +2,7 @@
 
 *Part of a series of articles on Git by
 [Newcastle Mobility](https://github.com/newcastle-mobility).*  
-<- [Processes](4 Processes.md) | [Miscellaneous](6 Misc.md) ->
+:arrow_backward: [Processes](4 Processes.md) | [Miscellaneous](6 Misc.md) :arrow_forward:
 
 Answers to questions that are not covered on [other](1 Introduction.md)
 [Git](2 First Time Setup.md) [documentation](3 Commands.md) [pages](4 Processes.md).

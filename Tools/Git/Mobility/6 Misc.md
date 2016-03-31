@@ -2,7 +2,7 @@
 
 *Part of a series of articles on Git by
 [Newcastle Mobility](https://github.com/newcastle-mobility).*  
-<- [Frequently Asked Questions](5 FAQ.md)
+:arrow_backward: [Frequently Asked Questions](5 FAQ.md)
 
 Very specific, less useful documentation about Git. Essentially a scrapbook of everything else.
 

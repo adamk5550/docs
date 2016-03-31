@@ -2,7 +2,7 @@
 
 *Part of a series of articles on Git by
 [Newcastle Mobility](https://github.com/newcastle-mobility).*  
-<- [Commands](3 Commands.md) | [Frequently Asked Questions](5 FAQ.md) ->
+:arrow_backward: [Commands](3 Commands.md) | [Frequently Asked Questions](5 FAQ.md) :arrow_forward:
 
 ## Contents
 
