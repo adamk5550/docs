@@ -1,5 +1,7 @@
 # Ionic 2
 
+http://ionic.io/2
+
 ## Contents
 
 - [Setup](#setup)
@@ -16,6 +18,9 @@
 # Setup
 
 # Documentation
+
+- [Ionic 2 Documentation](http://ionicframework.com/docs/v2/) by
+  [Ionic](https://github.com/driftyco)
 
 # Standards
 

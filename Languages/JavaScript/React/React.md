@@ -1,5 +1,8 @@
 # React
 
+A JavaScript library for building user interfaces  
+https://facebook.github.io/react/
+
 ## Contents
 
 - [Setup](#setup)

@@ -1,6 +1,7 @@
 # Git
 
-*--distributed-is-the-new-centralized*
+--distributed-is-the-new-centralized  
+https://git-scm.com/
 
 ## Contents
 

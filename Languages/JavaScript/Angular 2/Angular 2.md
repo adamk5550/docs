@@ -1,5 +1,8 @@
 # Angular 2
 
+One framework. Mobile and desktop.  
+https://angular.io/
+
 ## Contents
 
 - [Setup](#setup)

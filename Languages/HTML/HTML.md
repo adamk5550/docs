@@ -1,6 +1,6 @@
 # HTML
 
-*HyperText Markup Language*
+HyperText Markup Language
 
 - [Setup](#setup)
 - [Documentation](#documentation)
@@ -16,6 +16,11 @@
 # Setup
 
 # Documentation
+
+- [HTML](http://devdocs.io/html/) at [DevDocs](http://devdocs.io/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) at
+  [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [HTML Element Reference](http://www.w3schools.com/tags/) by [W3Schools](http://www.w3schools.com/)
 
 # Standards
 

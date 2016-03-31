@@ -1,6 +1,7 @@
 # Sass
 
-*Syntactically Awesome Style Sheets*
+Syntactically Awesome Style Sheets  
+http://sass-lang.com/
 
 ## Contents
 

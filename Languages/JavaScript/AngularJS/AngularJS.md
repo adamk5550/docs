@@ -1,5 +1,8 @@
 # AngularJS
 
+Superheroic JavaScript [MVW](https://plus.google.com/+AngularJS/posts/aZNVhj355G2) Framework  
+https://angularjs.org/
+
 ## Contents
 
 - [Setup](#setup)

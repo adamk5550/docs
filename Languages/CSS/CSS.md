@@ -1,6 +1,6 @@
 # CSS
 
-*Cascading Style Sheets*
+Cascading Style Sheets
 
 ## Contents
 
@@ -18,6 +18,11 @@
 # Setup
 
 # Documentation
+
+- [CSS](http://devdocs.io/css/) at [DevDocs](http://devdocs.io/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) at
+  [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [CSS Reference](http://www.w3schools.com/cssref/) by [W3Schools](http://www.w3schools.com/)
 
 # Standards
 

@@ -17,6 +17,12 @@
 
 # Documentation
 
+- [JavaScript](http://devdocs.io/javascript/) at [DevDocs](http://devdocs.io/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) at
+  [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [JavaScript and HTML DOM Reference](http://www.w3schools.com/jsref/) by
+  [W3Schools](http://www.w3schools.com/)
+
 # Standards
 
 - [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
@@ -30,6 +36,9 @@
 # Presentations
 
 # Articles
+
+- [ES5 to ES6](Mobility/ES5 to ES6.md) by
+  [Newcastle Mobility](https://github.com/newcastle-mobility)
 
 # Events
 

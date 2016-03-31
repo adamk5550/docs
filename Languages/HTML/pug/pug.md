@@ -1,6 +1,7 @@
 # pug
 
-*Node Template Engine, [formerly jade](https://github.com/pugjs/pug/issues/2184)*
+Node Template Engine, [formerly jade](https://github.com/pugjs/pug/issues/2184)  
+http://jade-lang.com/
 
 ## Contents
 

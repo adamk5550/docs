@@ -1,5 +1,6 @@
 # Ionic
 
+Advanced HTML5 Hybrid Mobile App Framework  
 http://ionicframework.com/
 
 ## Contents
