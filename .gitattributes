@@ -1,0 +1,9 @@
+# Text files that should be normalised
+*.md   text
+*.txt  text
+
+# Image files that should be treated as binaries
+*.gif  binary
+*.jpeg binary
+*.jpg  binary
+*.png  binary
