@@ -18,7 +18,12 @@ http://sass-lang.com/
 
 ## Setup
 
+- [Install Sass](http://sass-lang.com/install) by [Sass](http://sass-lang.com/)
+
 ## Documentation
+
+- [SASS_REFERENCE](http://sass-lang.com/documentation/file.SASS_REFERENCE.html) by
+  [Sass](http://sass-lang.com/)
 
 ## Standards
 
@@ -27,6 +32,9 @@ http://sass-lang.com/
 ## Courses & Learning
 
 ## Presentations
+
+- [Introduction to Sass](https://docs.google.com/presentation/d/1jhTpEFbz1W1KqSsbeEgE9cWS6WSpqUnps-NLQTYApco)
+  by [Adam Kelsall](https://github.com/adamkelsall/)
 
 ## Articles
 
