@@ -23,6 +23,8 @@ https://facebook.github.io/react/
 ## Standards
 
 ## Courses & Learning
+- [Build With React JS](http://buildwithreact.com/)
+- 
 
 ## Presentations
 
@@ -31,6 +33,7 @@ https://facebook.github.io/react/
 - [eact-howto](https://github.com/petehunt/react-howto) by [Pete Hunt](https://github.com/petehunt)
 - [Getting Out of JavaScript Fatigue - React Edition](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
   by [Reto Schläpfer](http://www.code-experience.com/)
+- [Learning React, Getting started and concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) by [Ken Wheeler ](https://pub.scotch.io/@kenwheeler)
 
 ## Events
 
