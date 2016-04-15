@@ -23,8 +23,8 @@ https://facebook.github.io/react/
 ## Standards
 
 ## Courses & Learning
+
 - [Build With React JS](http://buildwithreact.com/)
-- 
 
 ## Presentations
 
