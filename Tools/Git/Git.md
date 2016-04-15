@@ -32,6 +32,9 @@ https://git-scm.com/
 
 ## Presentations
 
+- [Introduction to Git](https://docs.google.com/presentation/d/15YlLc0Fr9ANf_Csc72vweheJ9R6knK6jLIxXCgeE-lI)
+  by [Adam Kelsall](https://github.com/adamkelsall/)
+
 ## Articles
 
 - [Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging) by
