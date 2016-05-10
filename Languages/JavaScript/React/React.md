@@ -20,7 +20,7 @@ https://facebook.github.io/react/
 
 ## Documentation
 
--[React Official Getting Started](https://facebook.github.io/react/docs/getting-started.html) by Facebook
+- [React Official Getting Started](https://facebook.github.io/react/docs/getting-started.html) by Facebook
 
 ## Standards
 
