@@ -24,12 +24,14 @@ https://facebook.github.io/react/
 
 ## Courses & Learning
 
+- [ReactJS Program - React Fundamentals](http://courses.reactjsprogram.com) by [Tyler McGinnis](https://twitter.com/tylermcginnis33)
 - [Build with React JS](http://buildwithreact.com/) by [Paul Shen](http://bypaulshen.com/)
 
 ## Presentations
 
 ## Articles
 
+- [The React Quickstart Guide](http://www.jackcallister.com/2015/01/05/the-react-quick-start-guide.html) by [Jack Callister](https://twitter.com/jarsbe)
 - [eact-howto](https://github.com/petehunt/react-howto) by [Pete Hunt](https://github.com/petehunt)
 - [Getting Out of JavaScript Fatigue - React Edition](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
   by [Reto Schläpfer](http://www.code-experience.com/)
