@@ -20,7 +20,11 @@ https://facebook.github.io/react/
 
 ## Documentation
 
+-[React Official Getting Started](https://facebook.github.io/react/docs/getting-started.html) by Facebook
+
 ## Standards
+
+- [Airbnb React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react) by Airbnb
 
 ## Courses & Learning
 
@@ -42,6 +46,9 @@ https://facebook.github.io/react/
 
 ## Examples & Snippets
 
+- [ReactJS Cheatsheet](http://ricostacruz.com/cheatsheets/react.html) by [Rico sta. Cruz](https://github.com/rstacruz)
+
 ## Tools
+
 
 ## Frameworks, Libraries & Engines
