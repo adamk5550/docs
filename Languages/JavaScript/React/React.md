@@ -31,6 +31,7 @@ https://facebook.github.io/react/
 - [ReactJS Program - React Fundamentals](http://courses.reactjsprogram.com) by [Tyler McGinnis](https://twitter.com/tylermcginnis33)
 - [Build with React JS](http://buildwithreact.com/) by [Paul Shen](http://bypaulshen.com/)
 - [Learn Redux](https://learnredux.com/) by [Wes Bos](http://wesbos.com/)
+- [Getting-started-with-redux](https://egghead.io/courses/getting-started-with-redux)  by [Dan Abramov](https://twitter.com/dan_abramov)
 
 ## Presentations
 
