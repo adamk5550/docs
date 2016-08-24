@@ -18,10 +18,8 @@
 ## Documentation
 
 - [JavaScript](http://devdocs.io/javascript/) at [DevDocs](http://devdocs.io/)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) at
-  [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
-- [JavaScript and HTML DOM Reference](http://www.w3schools.com/jsref/) by
-  [W3Schools](http://www.w3schools.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) at [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [JavaScript and HTML DOM Reference](http://www.w3schools.com/jsref/) by [W3Schools](http://www.w3schools.com/)
 
 ## Standards
 
@@ -29,6 +27,7 @@
   - [ES5 Specific](https://github.com/airbnb/javascript/tree/master/es5)
 
 ## Courses & Learning
+
 - [Free Code Camp](https://www.freecodecamp.com/)
 - [Codecademy JavaScript](https://www.codecademy.com/learn/javascript)
 - [Code School JavaScript](https://www.codeschool.com/paths/javascript)
@@ -37,8 +36,14 @@
 
 ## Articles
 
-- [ES5 to ES6](Mobility/ES5 to ES6.md) by
-  [Newcastle Mobility](https://github.com/newcastle-mobility)
+- [Buggy JavaScript Code: The 10 Most Common Mistakes JavaScript Developers Make](https://www.toptal.com/javascript/10-most-common-javascript-mistakes) by [Ryan J. Peterson](https://github.com/rpeterson) via [toptal](https://www.toptal.com/developers)
+- [ES5 to ES6](Mobility/ES5 to ES6.md) by [Newcastle Mobility](https://github.com/newcastle-mobility)
+- [Exploring JavaScript for-in loops](https://javascriptweblog.wordpress.com/2011/01/04/exploring-javascript-for-in-loops/) by [Angus Croll](http://anguscroll.com/)
+- [JavaScript Promises: There and back again](http://www.html5rocks.com/en/tutorials/es6/promises/) by [Jake Archibald](https://twitter.com/jaffathecake) via [HTML 5 Rocks](http://www.html5rocks.com/)
+- [Setting up ES6](https://leanpub.com/setting-up-es6/read) by [Axel Rauschmayer](http://rauschma.de/) via [Leanpub](https://leanpub.com/)
+- [Taming the asynchronous beast with ES7](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html) by [Nolan Lawson](https://twitter.com/nolanlawson) via [pouchdb](https://pouchdb.com/)
+- [Testing in ES6 with Mocha and Babel 6](http://jamesknelson.com/testing-in-es6-with-mocha-and-babel-6/) by [James K Nelson](https://twitter.com/james_k_nelson)
+- [We have a problem with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html) by [Nolan Lawson](https://twitter.com/nolanlawson) via [pouchdb](https://pouchdb.com/)
 
 ## Events
 
@@ -46,10 +51,8 @@
 
 ## Examples & Snippets
 
-- [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/) by
-  [István Ujj-Mészáros](https://github.com/istvan-ujjmeszaros)
-- [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) by
-  [Lokesh Dhakar](http://lokeshdhakar.com/)
+- [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/) by [István Ujj-Mészáros](https://github.com/istvan-ujjmeszaros)
+- [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) by [Lokesh Dhakar](http://lokeshdhakar.com/)
 
 ## Tools
 
