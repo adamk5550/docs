@@ -1,6 +1,14 @@
-# docs
+# docs :books:
 
-*Newcastle Mobility's repository of documentation, guides, useful links, and code snippets.*
+*docs* is your one-stop-shop for developer-related documentation, standards, training courses,
+articles, and more! Loosely focused on the world of Agile JavaScript development.
+
+## Collaborating
+
+Anyone is welcome to contribute to this repo!  
+Create a new branch with your changes, push it, and open a pull request.
+
+Please try and follow the existing structure, layout, and formatting when making changes.
 
 ## Contents
 
