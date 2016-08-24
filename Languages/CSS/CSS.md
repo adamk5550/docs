@@ -20,8 +20,7 @@ Cascading Style Sheets
 ## Documentation
 
 - [CSS](http://devdocs.io/css/) at [DevDocs](http://devdocs.io/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) at
-  [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) at [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [CSS Reference](http://www.w3schools.com/cssref/) by [W3Schools](http://www.w3schools.com/)
 
 ## Standards
@@ -38,16 +37,11 @@ Cascading Style Sheets
 
 ## Articles
 
-- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by
-  [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
-- [CSS: Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) by Andy
-  Clarke
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
+- [CSS: Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) by [Andy Clarke](https://twitter.com/malarkey?lang=en-gb)
 - [Don’t use IDs in CSS selectors?](http://oli.jp/2011/ids/) by [Oli Studholme](http://oli.jp/)
-- [International box-sizing Awareness Day](https://css-tricks.com/international-box-sizing-awareness-day/)
-  by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
-- [Why you don’t need device specific breakpoints](https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints)
-  by [Justin Avery](https://surfthedream.com.au/) via
-  [Responsive Design Knowledge Hub](https://responsivedesign.is/)
+- [International box-sizing Awareness Day](https://css-tricks.com/international-box-sizing-awareness-day/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
+- [Why you don’t need device specific breakpoints](https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints) by [Justin Avery](https://surfthedream.com.au/) via [Responsive Design Knowledge Hub](https://responsivedesign.is/)
 
 ## Events
 
@@ -55,8 +49,7 @@ Cascading Style Sheets
 
 ## Examples & Snippets
 
-- [Create Fullscreen HTML5 Page Background Video](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video)
-  by [Dudley Storey](http://thenewcode.com/)
+- [Create Fullscreen HTML5 Page Background Video](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) by [Dudley Storey](http://thenewcode.com/)
 
 ## Tools
 
@@ -64,6 +57,5 @@ Cascading Style Sheets
 
 ## Frameworks, Libraries & Engines
 
-- [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and
-  [@fat](https://twitter.com/fat)
+- [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and [@fat](https://twitter.com/fat)
 - [Sass](Sass/Sass.md)

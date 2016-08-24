@@ -28,8 +28,7 @@ https://facebook.github.io/react-native/
 
 ## Articles
 
-- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
-  by [Ken Wheeler](http://kenwheeler.github.io/)
+- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) by [Ken Wheeler](https://pub.scotch.io/@kenwheeler)
 
 ## Events
 

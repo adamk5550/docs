@@ -18,8 +18,7 @@ HyperText Markup Language
 ## Documentation
 
 - [HTML](http://devdocs.io/html/) at [DevDocs](http://devdocs.io/)
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) at
-  [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) at [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 - [HTML Element Reference](http://www.w3schools.com/tags/) by [W3Schools](http://www.w3schools.com/)
 
 ## Standards
@@ -35,8 +34,7 @@ HyperText Markup Language
 
 ## Articles
 
-- [Mailto Links](https://css-tricks.com/snippets/html/mailto-links/) by
-  [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
+- [Mailto Links](https://css-tricks.com/snippets/html/mailto-links/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
 
 ## Events
 

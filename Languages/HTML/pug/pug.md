@@ -34,7 +34,6 @@ http://jade-lang.com/
 
 ## Tools
 
-- [HTML2Jade - HTML to Jade Online Realtime Converter](http://html2jade.org/) by
-  [chenka](mailto:salanyot@gmail.com)
+- [HTML2Jade - HTML to Jade Online Realtime Converter](http://html2jade.org/) by [chenka](mailto:salanyot@gmail.com)
 
 ## Frameworks, Libraries & Engines

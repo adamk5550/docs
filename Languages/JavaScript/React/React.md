@@ -28,21 +28,19 @@ https://facebook.github.io/react/
 
 ## Courses & Learning
 
-- [ReactJS Program - React Fundamentals](http://courses.reactjsprogram.com) by [Tyler McGinnis](https://twitter.com/tylermcginnis33)
 - [Build with React JS](http://buildwithreact.com/) by [Paul Shen](http://bypaulshen.com/)
+- [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) by [Dan Abramov](https://twitter.com/dan_abramov)
 - [Learn Redux](https://learnredux.com/) by [Wes Bos](http://wesbos.com/)
-- [Getting-started-with-redux](https://egghead.io/courses/getting-started-with-redux)  by [Dan Abramov](https://twitter.com/dan_abramov)
+- [ReactJS Program - React Fundamentals](http://courses.reactjsprogram.com/courses/reactjsfundamentals) by [Tyler McGinnis](https://twitter.com/tylermcginnis33)
 
 ## Presentations
 
 ## Articles
 
+- [Getting Out of JavaScript Fatigue - React Edition](http://www.code-experience.com/getting-out-of-javascript-fatigue/) by [Reto Schläpfer](http://www.code-experience.com/the-code-experience/)
+- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) by [Ken Wheeler](https://pub.scotch.io/@kenwheeler)
+- [react-howto](https://github.com/petehunt/react-howto) by [Pete Hunt](https://github.com/petehunt)
 - [The React Quickstart Guide](http://www.jackcallister.com/2015/01/05/the-react-quick-start-guide.html) by [Jack Callister](https://twitter.com/jarsbe)
-- [eact-howto](https://github.com/petehunt/react-howto) by [Pete Hunt](https://github.com/petehunt)
-- [Getting Out of JavaScript Fatigue - React Edition](http://www.code-experience.com/getting-out-of-javascript-fatigue/)
-  by [Reto Schläpfer](http://www.code-experience.com/)
-- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts)
-  by [Ken Wheeler](https://pub.scotch.io/@kenwheeler)
 
 ## Events
 
@@ -51,6 +49,5 @@ https://facebook.github.io/react/
 - [ReactJS Cheatsheet](http://ricostacruz.com/cheatsheets/react.html) by [Rico sta. Cruz](https://github.com/rstacruz)
 
 ## Tools
-
 
 ## Frameworks, Libraries & Engines

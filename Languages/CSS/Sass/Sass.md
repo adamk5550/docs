@@ -22,8 +22,7 @@ http://sass-lang.com/
 
 ## Documentation
 
-- [SASS_REFERENCE](http://sass-lang.com/documentation/file.SASS_REFERENCE.html) by
-  [Sass](http://sass-lang.com/)
+- [SASS_REFERENCE](http://sass-lang.com/documentation/file.SASS_REFERENCE.html) by [Sass](http://sass-lang.com/)
 
 ## Standards
 
@@ -33,15 +32,12 @@ http://sass-lang.com/
 
 ## Presentations
 
-- [Introduction to Sass](https://docs.google.com/presentation/d/1jhTpEFbz1W1KqSsbeEgE9cWS6WSpqUnps-NLQTYApco)
-  by [Adam Kelsall](https://github.com/adamkelsall/)
+- [Introduction to Sass](https://docs.google.com/presentation/d/1jhTpEFbz1W1KqSsbeEgE9cWS6WSpqUnps-NLQTYApco) by [Adam Kelsall](https://github.com/adamkelsall/)
 
 ## Articles
 
-- [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project)
-  by John W. Long
-- [Nested selectors: the inception rule](http://thesassway.com/beginner/the-inception-rule) by Mario
-  Ricalde
+- [How to structure a Sass project](http://thesassway.com/beginner/how-to-structure-a-sass-project) by [John W. Long](http://wiseheartdesign.com/)
+- [Nested selectors: the inception rule](http://thesassway.com/beginner/the-inception-rule) by [Mario Ricalde](https://twitter.com/mario_ricalde)
 
 ## Events
 

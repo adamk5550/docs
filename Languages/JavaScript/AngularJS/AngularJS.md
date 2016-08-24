@@ -32,12 +32,10 @@ https://angularjs.org/
 
 ## Examples & Snippets
 
-- [Expand/Collapse - Accordion (SHOW HIDE) using Angular JS and CSS3 Keyframe animations](http://embed.plnkr.co/tcTZlA/preview)
-  by [jamesxliu](https://github.com/jamesxliu) via [Plunker](http://plnkr.co/)
+- [Expand/Collapse - Accordion (SHOW HIDE) using Angular JS and CSS3 Keyframe animations](http://embed.plnkr.co/tcTZlA/preview) by [jamesxliu](https://github.com/jamesxliu) via [Plunker](http://plnkr.co/)
 
 ## Tools
 
 ## Frameworks, Libraries & Engines
 
-- [UI Bootstrap - Angular directives for Bootstrap](http://angular-ui.github.io/bootstrap/) by
-  [AngularUI](https://github.com/angular-ui)
+- [UI Bootstrap - Angular directives for Bootstrap](http://angular-ui.github.io/bootstrap/) by [AngularUI](https://github.com/angular-ui)

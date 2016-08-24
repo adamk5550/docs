@@ -18,8 +18,7 @@ http://ionicframework.com/
 
 ## Setup
 
-- [Installing Ionic and its Dependencies](http://ionicframework.com/docs/guide/installation.html) by
-  [Ionic](http://ionicframework.com/)
+- [Installing Ionic and its Dependencies](http://ionicframework.com/docs/guide/installation.html) by [Ionic](http://ionicframework.com/)
 
 ## Documentation
 
@@ -28,30 +27,24 @@ http://ionicframework.com/
 ## Courses & Learning
 
 - [App Camp](http://appcamp.io/)
-- [Ionic Tutorials and Courses](https://thinkster.io/topics/ionic) by
-  [Thinkster](https://thinkster.io/)
+- [Ionic Tutorials and Courses](https://thinkster.io/topics/ionic) by [Thinkster](https://thinkster.io/)
 
 ## Presentations
 
-- [Ionic + Angular: Superpowers for Mobile App Development](http://adamdbradley.github.io/ionic-present/)
-  by [Adam Bradley](https://github.com/adamdbradley)
+- [Ionic + Angular: Superpowers for Mobile App Development](http://adamdbradley.github.io/ionic-present/) by [Adam Bradley](https://github.com/adamdbradley)
 
 ## Articles
 
-- [Preload images in Ionic using $ImageCacheFactory](http://mcgivery.com/preload-images-ionic/) by
-  [Andrew McGivery](http://mcgivery.com/)
-- [Ionic Adventures](https://github.com/juarezpaf/ionic-adventures) by
-  [Juarez Filho](https://github.com/juarezpaf)
-- [Service vs Factory - Once and for all](http://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html)
-  by [Pascal Precht](https://twitter.com/PascalPrecht)
+- [Preload images in Ionic using $ImageCacheFactory](http://mcgivery.com/preload-images-ionic/) by [Andrew McGivery](http://mcgivery.com/)
+- [Ionic Adventures](https://github.com/juarezpaf/ionic-adventures) by [Juarez Filho](https://github.com/juarezpaf)
+- [Service vs Factory - Once and for all](http://blog.thoughtram.io/angular/2015/07/07/service-vs-factory-once-and-for-all.html) by [Pascal Precht](https://twitter.com/PascalPrecht)
 
 ## Events
 
 ## Examples & Snippets
 
 - [Ionic on Codepen](http://codepen.io/ionic/)
-- [240+ Ionic Framework Resources](http://mcgivery.com/100-ionic-framework-resources/) by
-  [Andrew McGivery](http://mcgivery.com/)
+- [240+ Ionic Framework Resources](http://mcgivery.com/100-ionic-framework-resources/) by [Andrew McGivery](http://mcgivery.com/)
 
 ## Tools
 

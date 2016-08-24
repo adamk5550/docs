@@ -19,8 +19,7 @@ http://ionic.io/2
 
 ## Documentation
 
-- [Ionic 2 Documentation](http://ionicframework.com/docs/v2/) by
-  [Ionic](https://github.com/driftyco)
+- [Ionic 2 Documentation](http://ionicframework.com/docs/v2/) by [Ionic](https://github.com/driftyco)
 
 ## Standards
 
@@ -30,17 +29,14 @@ http://ionic.io/2
 
 ## Articles
 
-- [Ionic 2 First Look Series: Your First Ionic 2 App Explained](http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/)
-  by [Josh Morony](http://www.joshmorony.com/author/joshuamorony/)
-- [Understanding Ionic 2: Class](http://mcgivery.com/understanding-ionic-2-class/) by
-  [Andrew McGivery](http://mcgivery.com/)
+- [Ionic 2 First Look Series: Your First Ionic 2 App Explained](http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/) by [Josh Morony](http://www.joshmorony.com/author/joshuamorony/)
+- [Understanding Ionic 2: Class](http://mcgivery.com/understanding-ionic-2-class/) by [Andrew McGivery](http://mcgivery.com/)
 
 ## Events
 
 ## Examples & Snippets
 
-- [Ionic 2 Conference Application](https://github.com/driftyco/ionic-conference-app) by
-  [Ionic](https://github.com/driftyco)
+- [Ionic 2 Conference Application](https://github.com/driftyco/ionic-conference-app) by [Ionic](https://github.com/driftyco)
 
 ## Tools
 
