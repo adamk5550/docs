@@ -16,7 +16,7 @@ Please try and follow the existing structure, layout, and formatting when making
   - [CSS](Languages/CSS/CSS.md)
     - [Sass](Languages/CSS/Sass/Sass.md)
   - [HTML](Languages/HTML/HTML.md)
-    - [pug](Languages/HTML/pug/pug.md)
+    - [Pug](Languages/HTML/Pug/Pug.md)
   - [JavaScript](Languages/JavaScript/JavaScript.md)
     - [AngularJS](Languages/JavaScript/AngularJS/AngularJS.md)
     - [Angular 2](Languages/JavaScript/Angular 2/Angular 2.md)

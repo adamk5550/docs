@@ -46,4 +46,4 @@ HyperText Markup Language
 
 ## Frameworks, Libraries & Engines
 
-- [pug](pug/pug.md)
+- [Pug](Pug/Pug.md)

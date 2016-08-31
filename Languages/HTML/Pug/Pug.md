@@ -1,4 +1,4 @@
-# pug
+# Pug
 
 Node Template Engine, [formerly jade](https://github.com/pugjs/pug/issues/2184)  
 https://pugjs.org/
