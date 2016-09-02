@@ -13,22 +13,22 @@ Please try and follow the existing structure, layout, and formatting when making
 ## Contents
 
 - Languages
-  - [CSS](Languages/CSS/CSS.md)
-    - [Sass](Languages/CSS/Sass/Sass.md)
-  - [HTML](Languages/HTML/HTML.md)
-    - [Pug](Languages/HTML/Pug/Pug.md)
-  - [JavaScript](Languages/JavaScript/JavaScript.md)
-    - [AngularJS](Languages/JavaScript/AngularJS/AngularJS.md)
-    - [Angular 2](Languages/JavaScript/Angular 2/Angular 2.md)
-    - [D3](Languages/JavaScript/D3/D3.md)
-    - [Ionic](Languages/JavaScript/Ionic/Ionic.md)
-    - [Ionic 2](Languages/JavaScript/Ionic 2/Ionic 2.md)
-    - [React](Languages/JavaScript/React/React.md)
-    - [React Native](Languages/JavaScript/React Native/React Native.md)
+  - [CSS](Languages/CSS/README.md)
+    - [Sass](Languages/CSS/Sass.md)
+  - [HTML](Languages/HTML/README.md)
+    - [Pug](Languages/HTML/Pug.md)
+  - [JavaScript](Languages/JavaScript/README.md)
+    - [AngularJS](Languages/JavaScript/AngularJS.md)
+    - [Angular 2](Languages/JavaScript/Angular 2.md)
+    - [D3](Languages/JavaScript/D3.md)
+    - [Ionic](Languages/JavaScript/Ionic.md)
+    - [Ionic 2](Languages/JavaScript/Ionic 2.md)
+    - [React](Languages/JavaScript/React.md)
+    - [React Native](Languages/JavaScript/React Native.md)
 - [Setup](Setup/README.md)
   - [Xcode](Setup/Xcode.md)
 - Tools
-  - [Git](Tools/Git/Git.md)
+  - [Git](Tools/Git.md)
   - Linters
     - [JSCS](Tools/Linters/JSCS.md)
 

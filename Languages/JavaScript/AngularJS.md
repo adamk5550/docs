@@ -38,4 +38,6 @@ https://angularjs.org/
 
 ## Frameworks, Libraries & Engines
 
+#### Not Covered Here
+
 - [UI Bootstrap - Angular directives for Bootstrap](http://angular-ui.github.io/bootstrap/) by [AngularUI](https://github.com/angular-ui)
