@@ -18,6 +18,8 @@ https://facebook.github.io/react/
 
 ## Setup
 
+- [React CLI](https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html) by Facebook
+
 ## Documentation
 
 - [React Official Getting Started](https://facebook.github.io/react/docs/getting-started.html) by Facebook
