@@ -24,7 +24,7 @@
 ## Standards
 
 - [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript)
-  - [ES5 Specific](https://github.com/airbnb/javascript/tree/master/es5)
+  - [ES5 (Deprecated)](https://github.com/airbnb/javascript/tree/es5-deprecated/es5)
 
 ## Courses & Learning
 
