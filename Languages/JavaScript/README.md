@@ -28,9 +28,10 @@
 
 ## Courses & Learning
 
-- [Free Code Camp](https://www.freecodecamp.com/)
 - [Codecademy JavaScript](https://www.codecademy.com/learn/javascript)
 - [Code School JavaScript](https://www.codeschool.com/paths/javascript)
+- [Free Code Camp](https://www.freecodecamp.com/)
+- [JavaScript for Cats](http://jsforcats.com/)
 
 ## Presentations
 
@@ -44,6 +45,7 @@
 - [Taming the asynchronous beast with ES7](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html) by [Nolan Lawson](https://twitter.com/nolanlawson) via [pouchdb](https://pouchdb.com/)
 - [Testing in ES6 with Mocha and Babel 6](http://jamesknelson.com/testing-in-es6-with-mocha-and-babel-6/) by [James K Nelson](https://twitter.com/james_k_nelson)
 - [We have a problem with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html) by [Nolan Lawson](https://twitter.com/nolanlawson) via [pouchdb](https://pouchdb.com/)
+- [Which cat is your JavaScript framework?](http://whichcatisyourjavascriptframework.com/) by [The Software House](http://tsh.io/)
 
 ## Events
 
