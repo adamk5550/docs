@@ -1,7 +1,6 @@
 # Git: An Introduction
 
-*Part of a series of articles on Git by
-[Newcastle Mobility](https://github.com/newcastle-mobility).*  
+*Part of a series of articles on Git by [DigitEels](https://github.com/digiteels).*  
 [First Time Setup](2 First Time Setup.md) :arrow_forward:
 
 ## Contents

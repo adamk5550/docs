@@ -1,7 +1,6 @@
 # Git: Frequently Asked Questions
 
-*Part of a series of articles on Git by
-[Newcastle Mobility](https://github.com/newcastle-mobility).*  
+*Part of a series of articles on Git by [DigitEels](https://github.com/digiteels).*  
 :arrow_backward: [Processes](4 Processes.md) | [Miscellaneous](6 Misc.md) :arrow_forward:
 
 Answers to questions that are not covered on [other](1 Introduction.md)
