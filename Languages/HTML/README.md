@@ -34,7 +34,9 @@ HyperText Markup Language
 
 ## Articles
 
+- [HTML5 Migration](http://www.w3schools.com/html/html5_migration.asp) by [W3Schools](http://www.w3schools.com/)
 - [Mailto Links](https://css-tricks.com/snippets/html/mailto-links/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
+- [You can still use div](http://html5doctor.com/you-can-still-use-div/) by [Mike Robinson](https://twitter.com/akamike) via [HTML5 Doctor](http://html5doctor.com/)
 
 ## Events
 
