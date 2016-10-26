@@ -3,13 +3,6 @@
 *docs* is your one-stop-shop for developer-related documentation, standards, training courses,
 articles, and more! Loosely focused on the world of Agile JavaScript development.
 
-## Collaborating
-
-Anyone is welcome to contribute to this repo!  
-Create a new branch with your changes, push it, and open a pull request.
-
-Please try and follow the existing structure, layout, and formatting when making changes.
-
 ## Contents
 
 - Languages
@@ -31,6 +24,25 @@ Please try and follow the existing structure, layout, and formatting when making
   - [Git](Tools/Git.md)
   - Linters
     - [JSCS](Tools/Linters/JSCS.md)
+
+## Emojis
+
+On your travels through *docs* you'll see emojis which hold special meaning. :sparkles: They're
+there to give you an idea of what sort of content to expect when you click on each link. Here's
+what each of them mean:
+
+| Emoji          | Meaning                                       |
+|:--------------:| --------------------------------------------- |
+| :green_book:   | Article, essay or generally wordy             |
+| :bar_chart:    | Presentation or slides                        |
+| :movie_camera: | Video                                         |
+| :memo:         | Interactive learning, exercises or "homework" |
+| :scissors:     | Examples, snippets or sample code             |
+| :credit_card:  | Some or all of the content is not free        |
+
+## Contributing
+
+Anyone is welcome to contribute! See our [contributing guide](CONTRIBUTING.md) for more info.
 
 ## License
 
