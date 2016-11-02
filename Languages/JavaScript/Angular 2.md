@@ -5,39 +5,34 @@ https://angular.io/
 
 ## Contents
 
-- [Setup](#setup)
+- [Getting Started](#getting-started)
 - [Documentation](#documentation)
-- [Standards](#standards)
-- [Courses & Learning](#courses--learning)
-- [Presentations](#presentations)
-- [Articles](#articles)
-- [Events](#events)
-- [Examples & Snippets](#examples--snippets)
-- [Tools](#tools)
-- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
+- [Courses & Learning](#courses-and-learning)
+- [Design Patterns](#design-patterns)
+- [Ways of Working](#ways-of-working)
+- [Lighthearted](#lighthearted)
+- [Tools, Frameworks & Libraries](#tools-frameworks--libraries)
 
-## Setup
+## Getting Started
 
-- [5 Min Quickstart](https://angular.io/docs/js/latest/quickstart.html) by [Angular](https://angular.io/)
+- [5 Min Quickstart](https://angular.io/docs/js/latest/quickstart.html) by [Angular](https://angular.io/) :memo:
 
 ## Documentation
 
-## Standards
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ## Courses & Learning
 
-## Presentations
+- [Angular 2](https://egghead.io/technologies/angular2) via [egghead.io](https://egghead.io/) :movie_camera:
 
-- [Angular Lessons](https://egghead.io/technologies/angular2) by [@eggheadio](https://egghead.io/)
+## Development Patterns
 
-## Articles
+- [angular2-education](https://github.com/timjacobi/angular2-education) by [Tim Jacobi](https://twitter.com/tim_jacobi) :books:
 
-- [List of Angular2 Resources](https://github.com/timjacobi/angular2-education) by [Tim Jacobi](https://twitter.com/tim_jacobi)
+## Lighthearted
 
-## Events
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-## Examples & Snippets
+## Tools, Frameworks & Libraries
 
-## Tools
-
-## Frameworks, Libraries & Engines
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*

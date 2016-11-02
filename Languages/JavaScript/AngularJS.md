@@ -5,39 +5,34 @@ https://angularjs.org/
 
 ## Contents
 
-- [Setup](#setup)
+- [Getting Started](#getting-started)
 - [Documentation](#documentation)
-- [Standards](#standards)
-- [Courses & Learning](#courses--learning)
-- [Presentations](#presentations)
-- [Articles](#articles)
-- [Events](#events)
-- [Examples & Snippets](#examples--snippets)
-- [Tools](#tools)
-- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
+- [Courses & Learning](#courses-and-learning)
+- [Design Patterns](#design-patterns)
+- [Ways of Working](#ways-of-working)
+- [Lighthearted](#lighthearted)
+- [Tools, Frameworks & Libraries](#tools-frameworks--libraries)
 
-## Setup
+## Getting Started
+
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ## Documentation
 
-## Standards
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ## Courses & Learning
 
-## Presentations
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-## Articles
+## Development Patterns
 
-## Events
+- [Expand/Collapse - Accordion (SHOW HIDE) using Angular JS and CSS3 Keyframe animations](http://embed.plnkr.co/tcTZlA/preview) by [jamesxliu](https://github.com/jamesxliu) via [Plunker](http://plnkr.co/):scissors:
 
-## Examples & Snippets
+## Lighthearted
 
-- [Expand/Collapse - Accordion (SHOW HIDE) using Angular JS and CSS3 Keyframe animations](http://embed.plnkr.co/tcTZlA/preview) by [jamesxliu](https://github.com/jamesxliu) via [Plunker](http://plnkr.co/)
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-## Tools
+## Tools, Frameworks & Libraries
 
-## Frameworks, Libraries & Engines
-
-#### Not Covered Here
-
-- [UI Bootstrap - Angular directives for Bootstrap](http://angular-ui.github.io/bootstrap/) by [AngularUI](https://github.com/angular-ui)
+- [UI Bootstrap - Angular directives for Bootstrap](http://angular-ui.github.io/bootstrap/) by [AngularUI](https://github.com/angular-ui) :green_book: :scissors:

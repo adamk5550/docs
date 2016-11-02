@@ -5,44 +5,41 @@ https://pugjs.org/
 
 ## Contents
 
-- [Setup](#setup)
+- [Getting Started](#getting-started)
 - [Documentation](#documentation)
-- [Standards](#standards)
-- [Courses & Learning](#courses--learning)
-- [Presentations](#presentations)
-- [Articles](#articles)
-- [Events](#events)
-- [Examples & Snippets](#examples--snippets)
-- [Tools](#tools)
-- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
+- [Courses & Learning](#courses-and-learning)
+- [Design Patterns](#design-patterns)
+- [Ways of Working](#ways-of-working)
+- [Lighthearted](#lighthearted)
+- [Tools, Frameworks & Libraries](#tools-frameworks--libraries)
 
-## Setup
+## Getting Started
 
-- [Getting Started](https://pugjs.org/api/getting-started.html) by [pug](https://pugjs.org/)
-- [Using template engines with Express](https://expressjs.com/en/guide/using-template-engines.html) by [Express](https://expressjs.com/)
+- [Getting Started](https://pugjs.org/api/getting-started.html) by [pug](https://pugjs.org/) :green_book:
+- [Using template engines with Express](https://expressjs.com/en/guide/using-template-engines.html) by [Express](https://expressjs.com/) :green_book: :memo:
 
 ## Documentation
 
-- [pug](https://pugjs.org/api/getting-started.html) at [pugjs.org](https://pugjs.org/)
-- [pug](https://github.com/pugjs/pug) at [GitHub](https://github.com/)
-
-## Standards
+- [pug](https://pugjs.org/api/getting-started.html) at [pugjs.org](https://pugjs.org/) :green_book:
+- [pug](https://github.com/pugjs/pug) at [GitHub](https://github.com/) :green_book:
 
 ## Courses & Learning
 
-## Presentations
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-## Articles
+## Development Patterns
 
-- [Migrating to Pug 2](https://pugjs.org/api/migration-v2.html) by [pug](https://pugjs.org)
-- [Using Pug Templates with Express](http://funkyjavascript.com/using-pug-templates-with-express/) by [Steve L Smith](http://funkyjavascript.com/author/steve/)
+- [Migrating to Pug 2](https://pugjs.org/api/migration-v2.html) by [pug](https://pugjs.org) :green_book:
+- [Using Pug Templates with Express](http://funkyjavascript.com/using-pug-templates-with-express/) by [Steve L Smith](http://funkyjavascript.com/author/steve/) :green_book: :memo:
 
-## Events
+## Lighthearted
 
-## Examples & Snippets
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-## Tools
+## Tools, Frameworks & Libraries
+
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
+
+### Tools
 
 - [HTML2Pug - Convert HTML to Pug](http://html2pug.com/) by [Yosh (यशोधन)](http://izolate.net/)
-
-## Frameworks, Libraries & Engines

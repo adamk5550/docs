@@ -4,40 +4,35 @@ http://ionic.io/2
 
 ## Contents
 
-- [Setup](#setup)
+- [Getting Started](#getting-started)
 - [Documentation](#documentation)
-- [Standards](#standards)
-- [Courses & Learning](#courses--learning)
-- [Presentations](#presentations)
-- [Articles](#articles)
-- [Events](#events)
-- [Examples & Snippets](#examples--snippets)
-- [Tools](#tools)
-- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
+- [Courses & Learning](#courses-and-learning)
+- [Design Patterns](#design-patterns)
+- [Ways of Working](#ways-of-working)
+- [Lighthearted](#lighthearted)
+- [Tools, Frameworks & Libraries](#tools-frameworks--libraries)
 
-## Setup
+## Getting Started
+
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ## Documentation
 
-- [Ionic 2 Documentation](http://ionicframework.com/docs/v2/) by [Ionic](https://github.com/driftyco)
-
-## Standards
+- [Ionic Documentation](http://ionicframework.com/docs/v2/) by [Ionic](https://github.com/driftyco) :green_book:
 
 ## Courses & Learning
 
-## Presentations
+- [Ionic 2 First Look Series: Your First Ionic 2 App Explained](http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/) by [Josh Morony](http://www.joshmorony.com/author/joshuamorony/) :green_book:
+- [Understanding Ionic 2: Class](http://mcgivery.com/understanding-ionic-2-class/) by [Andrew McGivery](http://mcgivery.com/) :green_book:
 
-## Articles
+## Development Patterns
 
-- [Ionic 2 First Look Series: Your First Ionic 2 App Explained](http://www.joshmorony.com/ionic-2-first-look-series-your-first-ionic-2-app-explained/) by [Josh Morony](http://www.joshmorony.com/author/joshuamorony/)
-- [Understanding Ionic 2: Class](http://mcgivery.com/understanding-ionic-2-class/) by [Andrew McGivery](http://mcgivery.com/)
+- [Ionic 2 Conference Application](https://github.com/driftyco/ionic-conference-app) by [Ionic](https://github.com/driftyco) :memo: :scissors:
 
-## Events
+## Lighthearted
 
-## Examples & Snippets
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-- [Ionic 2 Conference Application](https://github.com/driftyco/ionic-conference-app) by [Ionic](https://github.com/driftyco)
+## Tools, Frameworks & Libraries
 
-## Tools
-
-## Frameworks, Libraries & Engines
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*

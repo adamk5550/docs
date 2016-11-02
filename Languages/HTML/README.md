@@ -2,50 +2,42 @@
 
 HyperText Markup Language
 
-- [Setup](#setup)
+- [Getting Started](#getting-started)
 - [Documentation](#documentation)
-- [Standards](#standards)
-- [Courses & Learning](#courses--learning)
-- [Presentations](#presentations)
-- [Articles](#articles)
-- [Events](#events)
-- [Examples & Snippets](#examples--snippets)
-- [Tools](#tools)
-- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
+- [Courses & Learning](#courses-and-learning)
+- [Design Patterns](#design-patterns)
+- [Ways of Working](#ways-of-working)
+- [Lighthearted](#lighthearted)
+- [Tools, Frameworks & Libraries](#tools-frameworks--libraries)
 
-## Setup
+## Getting Started
+
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ## Documentation
 
-- [HTML](http://devdocs.io/html/) at [DevDocs](http://devdocs.io/)
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) at [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
-- [HTML Element Reference](http://www.w3schools.com/tags/) by [W3Schools](http://www.w3schools.com/)
-
-## Standards
-
-- [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/)
+- [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/) :green_book:
+- [HTML](http://devdocs.io/html/) at [DevDocs](http://devdocs.io/) :green_book:
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) at [Mozilla Developer Network](https://developer.mozilla.org/en-US/) :green_book: :memo:
+- [HTML Element Reference](http://www.w3schools.com/tags/) by [W3Schools](http://www.w3schools.com/) :green_book:
 
 ## Courses & Learning
 
-- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
-- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
+- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web) :memo: :credit_card:
+- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css) :movie_camera: :memo: :credit_card:
 
-## Presentations
+## Development Patterns
 
-## Articles
+- [HTML5 Migration](http://www.w3schools.com/html/html5_migration.asp) by [W3Schools](http://www.w3schools.com/) :green_book: :memo:
+- [Mailto Links](https://css-tricks.com/snippets/html/mailto-links/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/) :green_book: :scissors:
+- [You can still use div](http://html5doctor.com/you-can-still-use-div/) by [Mike Robinson](https://twitter.com/akamike) via [HTML5 Doctor](http://html5doctor.com/) :green_book:
 
-- [HTML5 Migration](http://www.w3schools.com/html/html5_migration.asp) by [W3Schools](http://www.w3schools.com/)
-- [Mailto Links](https://css-tricks.com/snippets/html/mailto-links/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
-- [You can still use div](http://html5doctor.com/you-can-still-use-div/) by [Mike Robinson](https://twitter.com/akamike) via [HTML5 Doctor](http://html5doctor.com/)
+## Lighthearted
 
-## Events
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-- [Frontend NE](https://frontendne.co.uk/)
+## Tools, Frameworks & Libraries
 
-## Examples & Snippets
+### Frameworks
 
-## Tools
-
-## Frameworks, Libraries & Engines
-
-- [Pug](Pug.md)
+- [Pug](Pug.md) :books:

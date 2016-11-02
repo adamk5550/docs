@@ -69,9 +69,13 @@ shown in the table for consistency. :sparkles:
 
 ### Page Sections
 
-Each subheading on each page is a broad category of content. Try your best to put your link under
-the most appropriate *single* section. Avoid adding your link to multiple Markdown files unless
-multiple languages or frameworks are covered equally.
+Each subheading on each page is a broad category of content. Links should be sorted alphabetically.
+Try your best to put your link under the most appropriate *single* section. Avoid adding your link
+to multiple Markdown files unless multiple languages or frameworks are covered equally.
+
+Sections without links should instead contain the following line:
+
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ### Page Template
 

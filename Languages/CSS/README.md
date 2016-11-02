@@ -2,64 +2,55 @@
 
 Cascading Style Sheets
 
-## Contents
-
-- [Setup](#setup)
+- [Getting Started](#getting-started)
 - [Documentation](#documentation)
-- [Standards](#standards)
-- [Courses & Learning](#courses--learning)
-- [Presentations](#presentations)
-- [Articles](#articles)
-- [Events](#events)
-- [Examples & Snippets](#examples--snippets)
-- [Tools](#tools)
-- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
+- [Courses & Learning](#courses-and-learning)
+- [Design Patterns](#design-patterns)
+- [Ways of Working](#ways-of-working)
+- [Lighthearted](#lighthearted)
+- [Tools, Frameworks & Libraries](#tools-frameworks--libraries)
 
-## Setup
+## Getting Started
+
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ## Documentation
 
-- [CSS](http://devdocs.io/css/) at [DevDocs](http://devdocs.io/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) at [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
-- [CSS Reference](http://www.w3schools.com/cssref/) by [W3Schools](http://www.w3schools.com/)
-
-## Standards
-
-- [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/)
+- [CSS](http://devdocs.io/css/) at [DevDocs](http://devdocs.io/) :green_book:
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) at [Mozilla Developer Network](https://developer.mozilla.org/en-US/) :green_book: :memo:
+- [CSS Reference](http://www.w3schools.com/cssref/) by [W3Schools](http://www.w3schools.com/) :green_book:
+- [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/) :green_book:
 
 ## Courses & Learning
 
-- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web)
-- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css)
-- [Flexbox Froggy](http://flexboxfroggy.com/) by [Thomas Park](http://thomaspark.co/)
+- [Codecademy HTML & CSS](https://www.codecademy.com/learn/web) :memo: :credit_card:
+- [Code School HTML/CSS](https://www.codeschool.com/paths/html-css) :movie_camera: :memo: :credit_card:
+- [Flexbox Froggy](http://flexboxfroggy.com/) by [Thomas Park](http://thomaspark.co/) :memo:
 
-## Presentations
+## Development Patterns
 
-## Articles
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/) :green_book: :scissors:
+- [Create Fullscreen HTML5 Page Background Video](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) by [Dudley Storey](http://thenewcode.com/) :scissors:
+- [CSS: Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) by [Andy Clarke](https://twitter.com/malarkey?lang=en-gb) :green_book:
+- [Don’t use IDs in CSS selectors?](http://oli.jp/2011/ids/) by [Oli Studholme](http://oli.jp/) :green_book:
+- [International box-sizing Awareness Day](https://css-tricks.com/international-box-sizing-awareness-day/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/) :green_book: :scissors:
+- [Why there is no CSS4 - explaining CSS Levels](https://www.rachelandrew.co.uk/archives/2016/09/13/why-there-is-no-css4-explaining-css-levels/) by [Rachel Andrew](https://www.rachelandrew.co.uk/) :green_book:
+- [Why you don’t need device specific breakpoints](https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints) by [Justin Avery](https://surfthedream.com.au/) via [Responsive Web Design](https://responsivedesign.is/) :green_book:
 
-- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
-- [CSS: Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) by [Andy Clarke](https://twitter.com/malarkey?lang=en-gb)
-- [Don’t use IDs in CSS selectors?](http://oli.jp/2011/ids/) by [Oli Studholme](http://oli.jp/)
-- [International box-sizing Awareness Day](https://css-tricks.com/international-box-sizing-awareness-day/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/)
-- [Why there is no CSS4 - explaining CSS Levels](https://www.rachelandrew.co.uk/archives/2016/09/13/why-there-is-no-css4-explaining-css-levels/) by [Rachel Andrew](https://www.rachelandrew.co.uk/)
-- [Why you don’t need device specific breakpoints](https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints) by [Justin Avery](https://surfthedream.com.au/) via [Responsive Design Knowledge Hub](https://responsivedesign.is/)
+## Lighthearted
 
-## Events
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-- [Frontend NE](https://frontendne.co.uk/)
+## Tools, Frameworks & Libraries
 
-## Examples & Snippets
-
-- [Create Fullscreen HTML5 Page Background Video](http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video) by [Dudley Storey](http://thenewcode.com/)
-
-## Tools
+### Tools
 
 - [HSL Color Picker](http://hslpicker.com/) by [Brandon Mathis](http://brandonmathis.com/)
 
-## Frameworks, Libraries & Engines
+### Frameworks
 
-- [Sass](Sass.md)
+- [Sass](Sass.md) :books:
 
-#### Not Covered Here
+### Libraries
 
-- [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and [@fat](https://twitter.com/fat)
+- [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and [@fat](https://twitter.com/fat) :green_book: :scissors:

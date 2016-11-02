@@ -5,35 +5,34 @@ https://facebook.github.io/react-native/
 
 ## Contents
 
-- [Setup](#setup)
+- [Getting Started](#getting-started)
 - [Documentation](#documentation)
-- [Standards](#standards)
-- [Courses & Learning](#courses--learning)
-- [Presentations](#presentations)
-- [Articles](#articles)
-- [Events](#events)
-- [Examples & Snippets](#examples--snippets)
-- [Tools](#tools)
-- [Frameworks, Libraries & Engines](#frameworks-libraries--engines)
+- [Courses & Learning](#courses-and-learning)
+- [Design Patterns](#design-patterns)
+- [Ways of Working](#ways-of-working)
+- [Lighthearted](#lighthearted)
+- [Tools, Frameworks & Libraries](#tools-frameworks--libraries)
 
-## Setup
+## Getting Started
+
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ## Documentation
 
-## Standards
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
 ## Courses & Learning
 
-## Presentations
+- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) by [Ken Wheeler](https://pub.scotch.io/@kenwheeler) :green_book: :memo:
 
-## Articles
+## Development Patterns
 
-- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) by [Ken Wheeler](https://pub.scotch.io/@kenwheeler)
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-## Events
+## Lighthearted
 
-## Examples & Snippets
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
 
-## Tools
+## Tools, Frameworks & Libraries
 
-## Frameworks, Libraries & Engines
+*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*

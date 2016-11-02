@@ -33,6 +33,7 @@ what each of them mean:
 
 | Emoji          | Meaning                                       |
 |:--------------:| --------------------------------------------- |
+| :books:        | Similar to *docs*, a collection of links      |
 | :green_book:   | Article, essay or generally wordy             |
 | :bar_chart:    | Presentation or slides                        |
 | :movie_camera: | Video                                         |
