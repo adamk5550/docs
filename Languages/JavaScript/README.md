@@ -42,6 +42,9 @@
 
 ## Lighthearted
 
+- [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f) by [Jose Aguinaga](https://twitter.com/jjperezaguinaga) via [Hacker Noon](https://hackernoon.com/) :green_book:
+- [How it actually feels to write JavaScript in 2016](https://medium.com/@kitze/how-it-actually-feels-to-write-javascript-in-2016-46b5dda17bb5) by [Kitze](http://kitze.io/) via [Medium](https://medium.com/) :green_book:
+- [Tweet](https://twitter.com/bendhalpern/status/578925947245633536) by [Ben Halpern](https://twitter.com/bendhalpern) via [Twitter](https://twitter.com/)
 - [Which cat is your JavaScript framework?](http://whichcatisyourjavascriptframework.com/) by [The Software House](http://tsh.io/)
 
 ## Tools, Frameworks & Libraries
