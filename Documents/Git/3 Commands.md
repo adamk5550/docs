@@ -1,6 +1,6 @@
 # Git: Commands
 
-*Part of a series of articles on Git by [DigitEels](https://github.com/digiteels).*  
+*Part of a series of articles on Git by [Newcastle Digital](https://github.com/newcastle-digital).*  
 :arrow_backward: [First Time Setup](2 First Time Setup.md) | [Processes](4 Processes.md)
 :arrow_forward:
 

@@ -1,6 +1,6 @@
 # Git: An Introduction
 
-*Part of a series of articles on Git by [DigitEels](https://github.com/digiteels).*  
+*Part of a series of articles on Git by [Newcastle Digital](https://github.com/newcastle-digital).*  
 [First Time Setup](2 First Time Setup.md) :arrow_forward:
 
 ## Contents

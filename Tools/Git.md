@@ -15,11 +15,11 @@ https://git-scm.com/
 
 ## Setup
 
-- [First Time Setup](../Documents/Git/2 First Time Setup.md) by [DigitEels](https://github.com/digiteels)
+- [First Time Setup](../Documents/Git/2 First Time Setup.md) by [Newcastle Digital](https://github.com/newcastle-digital)
 
 ## Documentation
 
-- [Commands](../Documents/Git/3 Commands.md) by [DigitEels](https://github.com/digiteels)
+- [Commands](../Documents/Git/3 Commands.md) by [Newcastle Digital](https://github.com/newcastle-digital)
 - [Git - Reference](https://git-scm.com/docs) by [Git](https://git-scm.com/)
 
 ## Courses & Learning
@@ -36,7 +36,7 @@ https://git-scm.com/
 - [Git Basics - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging) by [Git](https://git-scm.com/)
 - [Mind the End of Your Line](http://adaptivepatchwork.com/2012/03/01/mind-the-end-of-your-line/) by [Timothy Clem](http://adaptivepatchwork.com/about/)
 
-#### DigitEels
+#### Newcastle Digital
 
 - [An Introduction](../Documents/Git/1 Introduction.md)
 - [Processes](../Documents/Git/4 Processes.md)

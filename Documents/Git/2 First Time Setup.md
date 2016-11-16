@@ -1,6 +1,6 @@
 # Git: First Time Setup
 
-*Part of a series of articles on Git by [DigitEels](https://github.com/digiteels).*  
+*Part of a series of articles on Git by [Newcastle Digital](https://github.com/newcastle-digital).*  
 :arrow_backward: [An Introduction](1 Introduction.md) | [Commands](3 Commands.md) :arrow_forward:
 
 ## Contents

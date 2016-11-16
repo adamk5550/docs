@@ -26,7 +26,7 @@ if nothing else please make it your mission to read about how we'd like you to g
 When writing your own additions, you may fork this repo, or it's okay to create and push a branch
 to this repo directly. Stale branches may eventually be pruned, but otherwise you're okay.
 
-Once ready, create a new pull request. At least one [digiteels](https://github.com/digiteels)
+Once ready, create a new pull request. At least one [newcastle-digital](https://github.com/newcastle-digital)
 administrator must review your PR before it can be merged into `master`. If it's good we'll get it
 merged! :shipit:
 

@@ -32,7 +32,7 @@
 ## Development Patterns
 
 - [Buggy JavaScript Code: The 10 Most Common Mistakes JavaScript Developers Make](https://www.toptal.com/javascript/10-most-common-javascript-mistakes) by [Ryan J. Peterson](https://github.com/rpeterson) via [toptal](https://www.toptal.com/developers) :green_book:
-- [ES5 to ES6](../../Documents/JavaScript/ES5 to ES6.md) by [DigitEels](https://github.com/digiteels) :green_book:
+- [ES5 to ES6](../../Documents/JavaScript/ES5 to ES6.md) by [Newcastle Digital](https://github.com/newcastle-digital) :green_book:
 - [Exploring JavaScript for-in loops](https://javascriptweblog.wordpress.com/2011/01/04/exploring-javascript-for-in-loops/) by [Angus Croll](http://anguscroll.com/) :green_book:
 - [JavaScript Promises: There and back again](http://www.html5rocks.com/en/tutorials/es6/promises/) by [Jake Archibald](https://twitter.com/jaffathecake) via [HTML 5 Rocks](http://www.html5rocks.com/) :green_book: :scissors:
 - [Setting up ES6](https://leanpub.com/setting-up-es6/read) by [Axel Rauschmayer](http://rauschma.de/) via [Leanpub](https://leanpub.com/) :books: :green_book: :scissors:
