@@ -34,6 +34,7 @@ Cascading Style Sheets
 - [CSS: Specificity Wars](https://stuffandnonsense.co.uk/archives/css_specificity_wars.html) by [Andy Clarke](https://twitter.com/malarkey?lang=en-gb) :green_book:
 - [Don’t use IDs in CSS selectors?](http://oli.jp/2011/ids/) by [Oli Studholme](http://oli.jp/) :green_book:
 - [International box-sizing Awareness Day](https://css-tricks.com/international-box-sizing-awareness-day/) by [Chris Coyier](http://chriscoyier.net/) via [CSS-Tricks](https://css-tricks.com/) :green_book: :scissors:
+- [Web fonts, boy, I don't know](https://meowni.ca/posts/web-fonts/) by [Monica Dinosaurescu](https://twitter.com/notwaldorf) :green_book:
 - [Why there is no CSS4 - explaining CSS Levels](https://www.rachelandrew.co.uk/archives/2016/09/13/why-there-is-no-css4-explaining-css-levels/) by [Rachel Andrew](https://www.rachelandrew.co.uk/) :green_book:
 - [Why you don’t need device specific breakpoints](https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints) by [Justin Avery](https://surfthedream.com.au/) via [Responsive Web Design](https://responsivedesign.is/) :green_book:
 
@@ -45,6 +46,7 @@ Cascading Style Sheets
 
 ### Tools
 
+- [cssarrowplease](http://www.cssarrowplease.com/) by [Simon Højberg](https://twitter.com/shojberg) :scissors:
 - [HSL Color Picker](http://hslpicker.com/) by [Brandon Mathis](http://brandonmathis.com/)
 
 ### Frameworks
