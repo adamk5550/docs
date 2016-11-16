@@ -19,8 +19,6 @@ articles, and more! Loosely focused on the world of Agile JavaScript development
     - [React](Languages/JavaScript/React.md)
     - [React Native](Languages/JavaScript/React Native.md)
     - [Vue.js](Languages/JavaScript/Vue.js.md)
-- [Setup](Setup/README.md)
-  - [Xcode](Setup/Xcode.md)
 - Tools
   - [Git](Tools/Git.md)
   - Linters
