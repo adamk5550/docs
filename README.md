@@ -18,6 +18,7 @@ articles, and more! Loosely focused on the world of Agile JavaScript development
     - [Ionic 2](Languages/JavaScript/Ionic 2.md)
     - [React](Languages/JavaScript/React.md)
     - [React Native](Languages/JavaScript/React Native.md)
+    - [Vue.js](Languages/JavaScript/Vue.js.md)
 - [Setup](Setup/README.md)
   - [Xcode](Setup/Xcode.md)
 - Tools
