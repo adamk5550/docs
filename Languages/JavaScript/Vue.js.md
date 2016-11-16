@@ -36,4 +36,4 @@ https://vuejs.org/
 
 ## Tools, Frameworks & Libraries
 
-*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
+- [vuejs-todo](https://github.com/fliteska/vuejs-todo) by [Ian Derbyshire](https://github.com/ian-derbyshire) :scissors:
