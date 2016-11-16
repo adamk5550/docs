@@ -1,5 +1,7 @@
 # JSCS: JavaScript Code Style
 
+*Note - this guide is written for [Atom Text editor]((https://atom.io/))*
+
 - Website: http://jscs.info/
 - GitHub repo: https://github.com/jscs-dev/node-jscs
 - Atom package: https://atom.io/packages/linter-jscs
@@ -12,17 +14,9 @@
 
 ## Introduction
 
-JSCS is a code style linter that checks your code against your chosen preset coding standard.
+JSCS is a code style linter that checks your code against your chosen preset coding standard. The following installation and setup is for Atom and the Airbnb ES5 coding standards.
 
-It is recommend that you use this with Atom, though it is available on a range of other tools.
-Newcastle Mobility will be looking into using JSCS with Gulp which will allow everyone to use the
-tool.
-
-The following installation and setup is for Atom and the Airbnb ES5 coding standards.
-
-## Atom Installation
-
-[Atom](https://atom.io/) must be installed first:
+## Installation
 
 `apm install linter-jscs`
 
@@ -37,7 +31,7 @@ The following installation and setup is for Atom and the Airbnb ES5 coding stand
 
 At this point your linter will be setup to use the
 [Airbnb ES6 coding standards](https://github.com/airbnb/javascript). If you are working with the
-[ES5 standards](https://github.com/airbnb/javascript/tree/master/es5) the setup needs tweaking a
+[ES5 standards](https://github.com/airbnb/javascript/tree/es5-deprecated/es5) the setup needs tweaking a
 little bit:
 
 - Click the *Open Config Folder* button in Atom *Settings/Preferences*.
