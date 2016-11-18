@@ -61,6 +61,7 @@
 - [React](React.md) :books:
 - [React Native](React Native.md) :books:
 - [Video.js](http://videojs.com/) :green_book: :movie_camera: :scissors:
+- [Vue.js](Vue.js.md) :books:
 
 ### Libraries
 

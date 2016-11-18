@@ -3,26 +3,28 @@
 *docs* is your one-stop-shop for developer-related documentation, standards, training courses,
 articles, and more! Loosely focused on the world of Agile JavaScript development.
 
-## Contents
+## Languages
 
-- Languages
-  - [CSS](Languages/CSS/README.md)
-    - [Sass](Languages/CSS/Sass.md)
-  - [HTML](Languages/HTML/README.md)
-    - [Pug](Languages/HTML/Pug.md)
-  - [JavaScript](Languages/JavaScript/README.md)
-    - [AngularJS](Languages/JavaScript/AngularJS.md)
-    - [Angular 2](Languages/JavaScript/Angular 2.md)
-    - [D3](Languages/JavaScript/D3.md)
-    - [Ionic](Languages/JavaScript/Ionic.md)
-    - [Ionic 2](Languages/JavaScript/Ionic 2.md)
-    - [React](Languages/JavaScript/React.md)
-    - [React Native](Languages/JavaScript/React Native.md)
-    - [Vue.js](Languages/JavaScript/Vue.js.md)
-- Tools
-  - [Git](Tools/Git.md)
-  - Linters
-    - [JSCS](Tools/Linters/JSCS.md)
+- Frontend
+  - [CSS](Languages/Frontend/CSS/README.md)
+    - [Sass](Languages/Frontend/CSS/Sass.md)
+  - [HTML](Languages/Frontend/HTML/README.md)
+    - [Pug](Languages/Frontend/HTML/Pug.md)
+  - [JavaScript](Languages/Frontend/JavaScript/README.md)
+    - [AngularJS](Languages/Frontend/JavaScript/AngularJS.md)
+    - [Angular 2](Languages/Frontend/JavaScript/Angular 2.md)
+    - [D3](Languages/Frontend/JavaScript/D3.md)
+    - [Ionic](Languages/Frontend/JavaScript/Ionic.md)
+    - [Ionic 2](Languages/Frontend/JavaScript/Ionic 2.md)
+    - [React](Languages/Frontend/JavaScript/React.md)
+    - [React Native](Languages/Frontend/JavaScript/React Native.md)
+    - [Vue.js](Languages/Frontend/JavaScript/Vue.js.md)
+
+## Tooling
+
+- [Git](Tooling/Git.md)
+- Linters
+  - [JSCS](Tooling/Linters/JSCS.md)
 
 ## Emojis
 
