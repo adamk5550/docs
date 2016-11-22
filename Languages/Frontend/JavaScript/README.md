@@ -39,6 +39,7 @@
 - [Taming the asynchronous beast with ES7](https://pouchdb.com/2015/03/05/taming-the-async-beast-with-es7.html) by [Nolan Lawson](https://twitter.com/nolanlawson) via [pouchdb](https://pouchdb.com/) :green_book:
 - [Testing in ES6 with Mocha and Babel 6](http://jamesknelson.com/testing-in-es6-with-mocha-and-babel-6/) by [James K Nelson](https://twitter.com/james_k_nelson) :green_book: :memo:
 - [We have a problem with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html) by [Nolan Lawson](https://twitter.com/nolanlawson) via [pouchdb](https://pouchdb.com/) :green_book:
+- [What programming language should you learn first? ʇdıɹɔsɐʌɐɾ :ɹǝʍsuɐ](https://medium.freecodecamp.com/what-programming-language-should-i-learn-first-ʇdıɹɔsɐʌɐɾ-ɹǝʍsuɐ-19a33b0a467d) by [Quincy Larson](https://twitter.com/ossia) via [Medium](https://medium.com/) :green_book:
 
 ## Lighthearted
 
@@ -67,3 +68,4 @@
 
 - [Bootstrap Dual Listbox](http://www.virtuosoft.eu/code/bootstrap-duallistbox/) by [István Ujj-Mészáros](https://github.com/istvan-ujjmeszaros) :green_book: :scissors:
 - [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) by [Lokesh Dhakar](http://lokeshdhakar.com/) :green_book: :scissors:
+- [uvCharts](http://imaginea.github.io/uvCharts/) by [Pramati Technologies](http://www.pramati.com/) :green_book: :scissors:
