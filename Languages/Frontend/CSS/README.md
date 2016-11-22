@@ -42,7 +42,7 @@ Cascading Style Sheets
 
 ## Lighthearted
 
-*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
+- [CSS Eevee](http://codepen.io/davidkpiano/pen/NAZarB) by [David Khourshid](https://twitter.com/davidkpiano) :scissors:
 
 ## Tools, Frameworks & Libraries
 
@@ -50,6 +50,7 @@ Cascading Style Sheets
 
 - [cssarrowplease](http://www.cssarrowplease.com/) by [Simon Højberg](https://twitter.com/shojberg) :scissors:
 - [HSL Color Picker](http://hslpicker.com/) by [Brandon Mathis](http://brandonmathis.com/)
+- [Material Palette](https://www.materialpalette.com/) by [MaterialUp](https://material.uplabs.com/) :scissors:
 
 ### Frameworks
 
@@ -58,3 +59,5 @@ Cascading Style Sheets
 ### Libraries
 
 - [Bootstrap](http://getbootstrap.com/) by [Mark Otto](http://markdotto.com/) and [@fat](https://twitter.com/fat) :green_book: :scissors:
+- [Materialize](http://materializecss.com/) by [Alvin Wang, 
+Alan Chang, Alex Mark & Kevin Louie](http://materializecss.com/about.html) :green_book: :scissors:
