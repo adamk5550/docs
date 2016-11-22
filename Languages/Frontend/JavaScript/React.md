@@ -27,7 +27,7 @@ https://facebook.github.io/react/ :green_book:
 - [Build with React JS](http://buildwithreact.com/) by [Paul Shen](http://bypaulshen.com/) :memo: :scissors:
 - [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) by [Dan Abramov](https://twitter.com/dan_abramov) via [egghead.io](https://egghead.io/) :movie_camera:
 - [Learn Redux](https://learnredux.com/) by [Wes Bos](http://wesbos.com/) :movie_camera:
-- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) by [Ken Wheeler](https://pub.scotch.io/@kenwheeler) :green_book: :memo:
+- [Learning React.js: Getting Started and Concepts](https://scotch.io/tutorials/learning-react-getting-started-and-concepts) by [Ken Wheeler](https://twitter.com/ken_wheeler) via [Scotch](https://scotch.io/) :green_book: :memo:
 - [react-howto](https://github.com/petehunt/react-howto) by [Pete Hunt](https://github.com/petehunt) :green_book:
 - [React Fundamentals](http://courses.reactjsprogram.com/courses/reactjsfundamentals) by [Tyler McGinnis](https://twitter.com/tylermcginnis33) via [React.js Program](http://www.reactjsprogram.com/) :movie_camera: :memo:
 
