@@ -12,7 +12,7 @@ HyperText Markup Language
 
 ## Getting Started
 
-*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
+- [MarkSheet - A free HTML & CSS tutorial](http://marksheet.io) by [Jeremy Thomas](https://github.com/jgthms) :green_book: :memo:
 
 ## Documentation
 

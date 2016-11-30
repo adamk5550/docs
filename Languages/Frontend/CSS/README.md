@@ -12,12 +12,13 @@ Cascading Style Sheets
 
 ## Getting Started
 
-*There's nothing here yet, but there could be; [contribute](../../CONTRIBUTING.md) your own links!*
+- [MarkSheet - A free HTML & CSS tutorial](http://marksheet.io) by [Jeremy Thomas](https://github.com/jgthms) :green_book: :memo:
 
 ## Documentation
 
 - [CSS](http://devdocs.io/css/) at [DevDocs](http://devdocs.io/) :green_book:
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) at [Mozilla Developer Network](https://developer.mozilla.org/en-US/) :green_book: :memo:
+- [cssreference.io](http://cssreference.io/) by [Jeremy Thomas](https://github.com/jgthms) :green_book:
 - [CSS Reference](http://www.w3schools.com/cssref/) by [W3Schools](http://www.w3schools.com/) :green_book:
 - [Code Guide](http://codeguide.co/) by [Mark Otto](http://markdotto.com/) :green_book:
 
