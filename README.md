@@ -29,6 +29,13 @@ articles, and more! Loosely focused on the world of Agile JavaScript development
 - Linters
   - [JSCS](Tooling/Linters/JSCS.md)
 
+## General
+
+- [Community](General/Community.md)
+- [Design](General/Design.md)
+- [News](General/News.md)
+- [Process](General/Process.md)
+
 ## Emojis
 
 On your travels through *docs* you'll see emojis which hold special meaning. :sparkles: They're
