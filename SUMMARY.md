@@ -6,7 +6,7 @@
 
 ### Documents
 
-#### Git
+Git
 
 * [Introduction](Documents/Git/1 Introduction.md)
 * [First Time Setup](Documents/Git/2 First Time Setup.md)
