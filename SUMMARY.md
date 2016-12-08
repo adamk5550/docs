@@ -3,8 +3,8 @@
 * [Welcome](README.md)
 * [Contributing](CONTRIBUTING.MD)
 * [Template](template.md)
-
-* Documents
+* [Documents](Documents)
 * General
 * Languages
 * Tooling
+
