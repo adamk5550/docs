@@ -14,8 +14,3 @@
 * [Misc](Documents/Git/6 Misc.md)
 
 ### Languages
-
-* [We love feedback](part2/feedback_please.md)
-* [Better tools for authors](part2/better_tools.md)
-
-
