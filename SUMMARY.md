@@ -3,5 +3,4 @@
 * [Welcome](README.md)
 * [Contributing](CONTRIBUTING.MD)
 * [Template](template.md)
-* [cats](cats.md)
 
