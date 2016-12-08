@@ -6,5 +6,5 @@
 * [Documents](Documents/JavaScript/JavaScript.md)
 * [General](General)
 * [Languages](Languages)
-* Tooling
+* [Tooling](Tooling)
 
