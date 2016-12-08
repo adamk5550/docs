@@ -5,6 +5,6 @@
 * [Template](template.md)
 * [Documents](Documents/JavaScript/JavaScript.md)
 * [General](General)
-* Languages
+* [Languages](Languages)
 * Tooling
 
