@@ -4,8 +4,6 @@
 * [Contributing](CONTRIBUTING.MD)
 * [Template](template.md)
 
-----
-
 ### Documents
 #### Git
 
